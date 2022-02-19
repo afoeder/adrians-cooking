@@ -1,5 +1,3 @@
-<article>
-
 # Mapo Tofu
 
 ## Yadda yadda intro
@@ -28,5 +26,3 @@ apparently a.k.a. Mung bean starch
 ### Chili oil
 
 Use "crisp chili oil", e.g. LAO Gan Ma brand.
-
-</article>
