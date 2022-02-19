@@ -3,12 +3,15 @@
 
 @import "jekyll-theme-primer";
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap');
 
 html { font-size: 21px }
 
 html, body, .markdown-body {
   font-family: "Crimson Pro", serif;
+  font-weight: 300;
 }
+
+body, .markdown-body { font-size: 1rem; /*reset original 14px s*/ }
 
 header > a.site-title { font-size: 2rem }
