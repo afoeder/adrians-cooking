@@ -6,7 +6,7 @@ layout: site
   {{ content }}
 
   <footer>
-    <form method="get" action="https://api.getbring.com/rest/bringrecipes/deeplink?url={{ page.path | absolute_url }}">
+    <form method="get" action="https://api.getbring.com/rest/bringrecipes/deeplink?url={{ page.url | absolute_url }}">
       <button>Auf die Bring!-Einkaufsliste setzen</button>
     </form>
   </footer>
