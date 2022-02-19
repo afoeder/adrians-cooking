@@ -14,7 +14,7 @@ Both Kenji and `xiaozi` say the proper paste to use is _Pixiandouban_, what this
 
 ### Fermented black beans
 
-They seem to be a side dish, here's a source:
+They seem to be a side dish, here's two sources:
 
 * https://themalamarket.com/products/fermented-black-beans-douchi
 * https://www.insiderasia.de/fermentierte-schwarze-bohnen.html
