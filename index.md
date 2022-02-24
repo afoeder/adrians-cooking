@@ -4,6 +4,11 @@ layout: site
 
 # Table of contents
 
-* [Salzkuchen](Salzkuchen.md) (🇩🇪)
-* [Quarkkuchen/Käsekuchen](Quarkkuchen.md) (🇩🇪)
-* [Mapo Tofu](Mapo-Tofu.md)
+## German cuisine
+
+* [Salzkuchen](recipes/Salzkuchen.md) (🇩🇪)
+* [Quarkkuchen/Käsekuchen](recipes/Quarkkuchen.md) (🇩🇪)
+
+## Asian cuisine
+
+* [Mapo Tofu](recipes/mapo-tofu.md)
