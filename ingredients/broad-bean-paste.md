@@ -18,16 +18,16 @@ My first contact with this was when my attention got drawn to the [Mapo Tofu](..
 
 * 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
 
-<figure role="group" style="display: flex">
+<figure role="group">
   <figcaption>Pixiandouban Broad bean paste</figcaption>
 
-  <figure style="flex: 1">
+  <figure>
     <img src="photos/pixiandouban-broad-bean-paste-front.webp" alt="Front view of the packaging" />
     <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
     <figcaption>Front view of the package</figcaption>
   </figure>
 
-  <figure style="flex: 1">
+  <figure>
     <img src="photos/pixiandouban-broad-bean-paste-back.webp" alt="Ingredients view of the packaging" />
     <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
     <figcaption>Rear view</figcaption>

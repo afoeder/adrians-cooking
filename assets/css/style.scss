@@ -15,3 +15,13 @@ html, body, .markdown-body {
 body, .markdown-body { font-size: 1rem; /*reset original 14px s*/ }
 
 header > a.site-title { font-size: 2rem }
+
+/* Layout multiple images next to each other */
+figure[role=group] { // https://stackoverflow.com/q/41789278/1388892
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1rem;
+
+  > figcaption { width: 100% }
+  > figure { flex: 1 }
+}
