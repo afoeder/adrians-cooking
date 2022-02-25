@@ -23,5 +23,8 @@ figure[role=group] { // https://stackoverflow.com/q/41789278/1388892
   gap: 0 1rem;
 
   > figcaption { width: 100% }
-  > figure { flex: 1 }
+  > figure {
+      flex: 1;
+      margin: 0;
+  }
 }
