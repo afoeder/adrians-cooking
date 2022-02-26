@@ -1,3 +1,7 @@
+---
+layout: ingredient
+---
+
 ### Fermented black beans
 
 ## Alternate names

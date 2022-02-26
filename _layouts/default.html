@@ -1,15 +1,3 @@
 ---
-layout: site
+layout: recipe
 ---
-<article itemscope itemtype="https://schema.org/Recipe">
-
-  {{ content }}
-
-  <footer>
-    <form method="get" action="https://api.getbring.com/rest/bringrecipes/deeplink">
-      <input type="hidden" name="source" value="web">
-      <input type="hidden" name="url" value="{{ page.url | absolute_url }}">
-      <button>Auf die Bring!-Einkaufsliste setzen</button>
-    </form>
-  </footer>
-</article>

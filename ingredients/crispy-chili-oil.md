@@ -1,3 +1,7 @@
+---
+layout: ingredient
+---
+
 # Lao Gan Ma chili oil
 
 This comes in multiple variations

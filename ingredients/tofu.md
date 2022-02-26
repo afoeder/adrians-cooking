@@ -1,3 +1,7 @@
+---
+layout: ingredient
+---
+
 # Tofu
 
 Apparently this comes in various firmnesses (medium, firm etc.) that I didn't fully understand so far.
