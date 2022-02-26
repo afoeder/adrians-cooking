@@ -1,7 +1,7 @@
 # Mapo Tofu
 
 ## Introduction and sources notes
-This is a dish I've get to known in a Stuttgart restaurant which quickly became my favourite. I never made the effort to research what it really is, until I think I've [seen it](https://www.instagram.com/p/CaIw6NdPDxp/) on Kenji's Instagram.
+This is a dish I've got to know in a Stuttgart restaurant which quickly became my favourite. I never made the effort to research what it really is, until I think I've [seen it](https://www.instagram.com/p/CaIw6NdPDxp/) on Kenji's Instagram.
 
 Following Kenji's traces I found a [YouTube video](https://www.youtube.com/watch?v=2AI8YPammTo) by him cooking it; and following further I realized there's a Serious Eats [recipe published](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe). I was satisfied so far but my attention got to a [comment](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe#comment-5523380302) in the comments section where the [author `xiaozi`](https://disqus.com/by/xiaozi/) is claiming some incorrectnesses in chinese authenticity.
 
