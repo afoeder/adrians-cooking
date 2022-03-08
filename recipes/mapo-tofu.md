@@ -13,7 +13,7 @@ I am trying to distill these findings.
     
 * <span itemprop="ingredient">2 tablespoons sichuan peppercorns</span>
 * <span itemprop="ingredient">Vegetable oil</span>
-* <span itemprop="ingredient">1 teaspoon (mung bean or corn-) starch</span>
+* <span itemprop="ingredient">1 teaspoon ([mung bean](../ingredients/mung-bean-starch.md) or corn-) starch</span>
 * <span itemprop="ingredient">2 teaspoons cold water</span>
 * <span itemprop="ingredient">600&thinsp;g silken [tofu](../ingredients/tofu.md)</span>
 * <span itemprop="ingredient">150&thinsp;g ground beed (pork, beef or mixed)</span>
@@ -22,5 +22,5 @@ I am trying to distill these findings.
 * <span itemprop="ingredient">2 tablespoons [Broad bean paste](../ingredients/broad-bean-paste.md)</span>
 * <span itemprop="ingredient">2 tablespoons [Xiaoxing wine](../ingredients/xiaoxing-wine.md)</span>
 * <span itemprop="ingredient">[Fermented black beans](../ingredients/fermented-black-beans.md), rinsed (!)</span>
-* <span itemprop="ingredient">¼ cup [Crispy chili oil](../ingredients/laoganma-chili-oils.md)</span>
+* <span itemprop="ingredient">¼ cup [Crispy chili oil](../ingredients/laoganma-chili-oils.md#crispy-chili-in-oil)</span>
 * <span itemprop="ingredient">¼ chopped scallion greens</span>
