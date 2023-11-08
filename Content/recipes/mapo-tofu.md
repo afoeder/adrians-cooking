@@ -1,3 +1,7 @@
+---
+tags: chinese
+---
+
 # Mapo Tofu
 
 ## Introduction and sources notes

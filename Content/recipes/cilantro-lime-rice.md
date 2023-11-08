@@ -1,3 +1,7 @@
+---
+tags: mexican
+---
+
 # Cilantro lime rice
 
 ## Ingredients

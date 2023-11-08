@@ -1,3 +1,7 @@
+---
+tags: mexican
+---
+
 # Chicken mole negro
 
 ## Ingredients

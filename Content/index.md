@@ -1,8 +1,4 @@
----
-layout: site
----
-
-# Table of contents
+# Adrian's cooking
 
 ## German cuisine
 
