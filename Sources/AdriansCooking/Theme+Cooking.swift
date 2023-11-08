@@ -7,6 +7,7 @@ extension Theme where Site == AdriansCooking {
         Theme(
             htmlFactory: CookingHtmlFactory(),
             resourcePaths: [
+                "CNAME",
                 "Resources/CookingTheme/Styles.css",
                 "Resources/CookingTheme/CrimsonPro-v24-latin-regular.woff2",
                 "Resources/CookingTheme/CrimsonPro-v24-latin-700.woff2",
@@ -19,7 +20,7 @@ extension Theme where Site == AdriansCooking {
 
             HTML(
                 .lang(context.site.language),
-                .head(for: index, on: context.site),
+                .head(for: index, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     
@@ -66,7 +67,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: section, on: context.site),
+                .head(for: section, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: section.id)
                     Main {
@@ -82,7 +83,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: item, on: context.site),
+                .head(for: item, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body(
                     .class("item-page"),
                     .components {
@@ -109,7 +110,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site),
+                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main(page.body)
@@ -122,7 +123,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site),
+                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main {
@@ -146,7 +147,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site),
+                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main {
