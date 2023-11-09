@@ -42,15 +42,15 @@ p, h1, h2, h3, h4, h5, h6 {overflow-wrap: break-word}
 /* 8. Create a root stacking context */
 #root, #__next {isolation: isolate}
 
-body {
-    font-family: "Crimson Pro", serif;
+@media (prefers-color-scheme: dark) {
+    html {
+        color: rgba(255, 255, 255, .85);
+        background-color: #141414;
+    }
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        color: rgb(230, 237, 243);
-        background-color: black;
-    }
+body {
+    font-family: "Crimson Pro", serif;
 }
 
 header {
@@ -68,6 +68,10 @@ header {
         display: flex;
         gap: .5em;
         list-style: none;
+
+        & > li::before {
+            content: "»";
+        }
     }
 }
 
@@ -82,6 +86,7 @@ ul.item-list li article h1 {
     font-weight: normal;
     display: inline-block;
     margin: 0;
+    font-size: 1.2em;
     & a { text-decoration: none }
     & a:hover { text-decoration: underline }
 }
