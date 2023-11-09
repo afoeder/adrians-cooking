@@ -1,4 +1,4 @@
-# Adrian's cooking
+# Adrian’s cooking
 
 ## German cuisine
 

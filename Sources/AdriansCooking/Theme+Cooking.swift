@@ -251,6 +251,7 @@ extension Theme where Site == AdriansCooking {
                     Paragraph {
                         Text("Generated using ")
                         Link("Publish", url: "https://github.com/johnsundell/publish")
+                        Text(" ")
                         Text("// Find this ")
                         Link("on GitHub", url: "https://github.com/afoeder/adrians-cooking  ")
                     }

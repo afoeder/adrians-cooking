@@ -17,7 +17,7 @@ struct AdriansCooking: Website {
     }
 
     var url = URL(string: "https://adrians.cooking")!
-    var name = "Adrian's Cooking"
+    var name = "Adrian’s Cooking"
     var description = "A collection of Adrian's recipes"
     var language: Language { .english }
     var imagePath: Path? { nil }
