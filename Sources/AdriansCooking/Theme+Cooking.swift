@@ -7,7 +7,7 @@ extension Theme where Site == AdriansCooking {
         Theme(
             htmlFactory: CookingHtmlFactory(),
             resourcePaths: [
-                //"CNAME",
+                "CNAME",
                 //"Resources/CookingTheme/Styles.css",
                 //"Resources/CookingTheme/CrimsonPro-v24-latin-regular.woff2",
                 //"Resources/CookingTheme/CrimsonPro-v24-latin-700.woff2",
