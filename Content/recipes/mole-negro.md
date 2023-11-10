@@ -23,7 +23,7 @@ tags: mexican
 * 1 tsp cinnamon
 * ½ tsp nutmeg
 * ½ ground cloves
-* optional 1/2 canned chipotle + 1 tbsp of its (adobo) sauce
+* optional ½ canned chipotle + 1 tbsp of its (adobo) sauce
 * ¼ cup peanut butter
 * 50 g dark chocolate
 

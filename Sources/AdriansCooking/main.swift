@@ -21,10 +21,30 @@ struct AdriansCooking: Website {
     var description = "A collection of Adrian's recipes"
     var language: Language { .english }
     var imagePath: Path? { nil }
+    var favicon: Favicon? { .init(path: "images/favicon.svg", type: "image/svg+xml") }
 }
 
-// This will generate your website using the built-in Foundation theme:
-try AdriansCooking().publish(
+
+/// The following .publish(using:) is a verbatim wayy of this code,
+/*try AdriansCooking().publish(
     withTheme: .cooking,
     deployedUsing: .gitHub("afoeder/adrians-cooking", branch: "pages")
-)
+)*/
+///…in order to allow .generateHTML to be used in the .standAloneFiles mode.
+
+try AdriansCooking().publish(using: [
+    .group([].map(PublishingStep.installPlugin)),
+    .optional(.copyResources()),
+    .addMarkdownFiles(),
+    .sortItems(by: \.date, order: .descending),
+    .group([]),
+    .generateHTML(withTheme: .cooking, fileMode: .standAloneFiles),
+    .unwrap(RSSFeedConfiguration.default) { config in
+        .generateRSSFeed(
+            including: Set(AdriansCooking.SectionID.allCases),
+            config: config
+        )
+    },
+    .generateSiteMap(),
+    .unwrap(.gitHub("afoeder/adrians-cooking", branch: "pages"), PublishingStep.deploy)
+])

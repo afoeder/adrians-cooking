@@ -7,10 +7,10 @@ extension Theme where Site == AdriansCooking {
         Theme(
             htmlFactory: CookingHtmlFactory(),
             resourcePaths: [
-                "CNAME",
-                "Resources/CookingTheme/Styles.css",
-                "Resources/CookingTheme/CrimsonPro-v24-latin-regular.woff2",
-                "Resources/CookingTheme/CrimsonPro-v24-latin-700.woff2",
+                //"CNAME",
+                //"Resources/CookingTheme/Styles.css",
+                //"Resources/CookingTheme/CrimsonPro-v24-latin-regular.woff2",
+                //"Resources/CookingTheme/CrimsonPro-v24-latin-700.woff2",
             ])
 }
 
@@ -20,7 +20,7 @@ extension Theme where Site == AdriansCooking {
 
             HTML(
                 .lang(context.site.language),
-                .head(for: index, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: index, on: context.site),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     
@@ -67,7 +67,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: section, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: section, on: context.site),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: section.id)
                     Main {
@@ -83,7 +83,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: item, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: item, on: context.site),
                 .body(
                     .class("item-page"),
                     .components {
@@ -94,7 +94,7 @@ extension Theme where Site == AdriansCooking {
 
                                 if (item.tags.count > 0) {
                                     Footer {
-                                        Span("Tagged with: ")
+                                        Span("tagged with: ").style("font-style: italic")
                                         ItemTagList(item: item, site: context.site)
                                     }
                                 }
@@ -110,7 +110,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: page, on: context.site),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main(page.body)
@@ -123,7 +123,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: page, on: context.site),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main {
@@ -147,7 +147,7 @@ extension Theme where Site == AdriansCooking {
             
             HTML(
                 .lang(context.site.language),
-                .head(for: page, on: context.site, stylesheetPaths: ["/Styles.css"]),
+                .head(for: page, on: context.site),
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main {
@@ -221,7 +221,7 @@ extension Theme where Site == AdriansCooking {
             var body: Component {
                 List(items) { item in
                     Article {
-                        H1(Link(item.title, url: item.path.absoluteString))
+                        H1(Link(item.title, url: item.path.withHtmlExtension))
                         ItemTagList(item: item, site: site)
                         
                         if (!item.description.isEmpty) {
@@ -239,7 +239,7 @@ extension Theme where Site == AdriansCooking {
 
             var body: Component {
                 List(item.tags) { tag in
-                    Link(tag.string, url: site.path(for: tag).absoluteString)
+                    Link(tag.string, url: site.path(for: tag).withHtmlExtension)
                 }
                 .class("tag-list")
             }
@@ -251,9 +251,11 @@ extension Theme where Site == AdriansCooking {
                     Paragraph {
                         Text("Generated using ")
                         Link("Publish", url: "https://github.com/johnsundell/publish")
-                        Text(" ")
-                        Text("// Find this ")
-                        Link("on GitHub", url: "https://github.com/afoeder/adrians-cooking  ")
+                        Text(" // ")
+                        Text("Find this ")
+                        Link("page on GitHub", url: "https://github.com/afoeder/adrians-cooking")
+                        Text(" // ")
+                        Link("About / Licenses", url: "/about.html")
                     }
                     /*Paragraph {
                         Link("RSS feed", url: "/feed.rss")
@@ -263,5 +265,11 @@ extension Theme where Site == AdriansCooking {
         }
     }
 
+}
 
+internal extension Path {
+    var withHtmlExtension: String {
+        return
+            self.absoluteString.appending(".html")
+    }
 }
