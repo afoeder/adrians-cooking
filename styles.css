@@ -117,7 +117,18 @@ ul.item-list li article ul.tag-list {
     margin-left: .5rem;
 }
 
+/* Layout multiple images next to each other */
+article > figure[role=group] { /* // https://stackoverflow.com/q/41789278/1388892 */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1rem;
 
+    > figcaption { width: 100% }
+    > figure {
+        flex: 1;
+        margin: 0;
+    }
+}
 
 article > footer {
     margin: 2rem 6rem;
