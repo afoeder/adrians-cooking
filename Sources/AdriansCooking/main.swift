@@ -36,6 +36,8 @@ struct AdriansCooking: Website {
 try AdriansCooking().publish(using: [
     .group([].map(PublishingStep.installPlugin)),
     .copyResources(),
+    .optional(.copyResources(at: "Content/ingredients/photos", to: "ingredients", includingFolder: true)),
+    .optional(.copyResources(at: "Content/recipes/photos", to: "recipes", includingFolder: true)),
     .addMarkdownFiles(),
     .sortItems(by: \.date, order: .descending),
     .group([]),
