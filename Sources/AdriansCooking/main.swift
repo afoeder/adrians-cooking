@@ -22,6 +22,7 @@ struct AdriansCooking: Website {
     var language: Language { .english }
     var imagePath: Path? { nil }
     var favicon: Favicon? { .init(path: "images/favicon.svg", type: "image/svg+xml") }
+
 }
 
 
@@ -34,17 +35,19 @@ struct AdriansCooking: Website {
 
 try AdriansCooking().publish(using: [
     .group([].map(PublishingStep.installPlugin)),
-    .optional(.copyResources()),
+    .copyResources(),
     .addMarkdownFiles(),
     .sortItems(by: \.date, order: .descending),
     .group([]),
     .generateHTML(withTheme: .cooking, fileMode: .standAloneFiles),
-    .unwrap(RSSFeedConfiguration.default) { config in
+    ///skip these steps since they don't properly support the ".standAloneFiles" mode, i.e. they don't create links with .html
+    /*
+     .unwrap(RSSFeedConfiguration.default) { config in
         .generateRSSFeed(
             including: Set(AdriansCooking.SectionID.allCases),
             config: config
         )
     },
-    .generateSiteMap(),
+    .generateSiteMap(),*/
     .unwrap(.gitHub("afoeder/adrians-cooking", branch: "pages"), PublishingStep.deploy)
 ])
