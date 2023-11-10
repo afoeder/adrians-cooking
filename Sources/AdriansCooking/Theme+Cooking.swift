@@ -55,7 +55,7 @@ extension Theme where Site == AdriansCooking {
 
                     }
 
-                    SiteFooter()
+                    SiteFooter(location: index, context: context)
                 }
             )
         }
@@ -71,7 +71,7 @@ extension Theme where Site == AdriansCooking {
                         H1(section.title)
                         ItemList(items: section.items, site: context.site)
                     }
-                    SiteFooter()
+                    SiteFooter(location: section, context: context)
                 }
             )
         }
@@ -97,7 +97,7 @@ extension Theme where Site == AdriansCooking {
                                 }
                             }
                         }
-                        SiteFooter()
+                        SiteFooter(location: item, context: context)
                     }
                 )
             )
@@ -111,7 +111,7 @@ extension Theme where Site == AdriansCooking {
                 .body {
                     SiteHeader(context: context, selectedSelectionID: nil)
                     Main(page.body)
-                    SiteFooter()
+                    SiteFooter(location: page, context: context)
                 }
             )
         }
@@ -135,7 +135,7 @@ extension Theme where Site == AdriansCooking {
                         }
                         .class("all-tags")
                     }
-                    SiteFooter()
+                    SiteFooter(location: page, context: context)
                 }
             )
         }
@@ -167,7 +167,7 @@ extension Theme where Site == AdriansCooking {
                             site: context.site
                         )
                     }
-                    SiteFooter()
+                    SiteFooter(location: page, context: context)
                 }
             )
         }
@@ -242,7 +242,10 @@ extension Theme where Site == AdriansCooking {
             }
         }
 
-        private struct SiteFooter: Component {
+        private struct SiteFooter<Site: Website>: Component {
+            var location: Location
+            var context: PublishingContext<Site>
+            
             var body: Component {
                 Footer {
                     Paragraph {
@@ -250,7 +253,12 @@ extension Theme where Site == AdriansCooking {
                         Link("Publish", url: "https://github.com/johnsundell/publish")
                         Text(" // ")
                         Text("Find this ")
-                        Link("page on GitHub", url: "https://github.com/afoeder/adrians-cooking")
+                        Link(
+                            "page on GitHub",
+                            url:
+                                location
+                                    .urlToGithubRepository(
+                                        "https://github.com/afoeder/adrians-cooking/"))
                         Text(" // ")
                         Link("About / Licenses", url: "/about.html")
                     }
@@ -264,9 +272,26 @@ extension Theme where Site == AdriansCooking {
 
 }
 
+internal extension Location {
+    
+    /**
+    Create a link to the underlying Github repository. If the given location is from a Markdown file,
+     i.e. of type AnyItem, deeplink directly to this md file for convenience.
+     */
+    func urlToGithubRepository(_ repository: String) -> String {
+        guard self is Publish.AnyItem else { return repository }
+
+        return
+            repository
+                + "blob/main/Content"
+                + self.path.absoluteString.appending(".md")
+    }
+}
+
 internal extension Path {
     var withHtmlExtension: String {
         return
             self.absoluteString.appending(".html")
     }
+
 }
