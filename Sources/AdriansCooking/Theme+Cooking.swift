@@ -53,6 +53,20 @@ extension Theme where Site == AdriansCooking {
                             
                         }))
 
+                        Node.section(.component(ComponentGroup {
+                            H2("Knowledge Base")
+                            ItemList(
+                                items: context.allItems(
+                                    sortedBy: \.date,
+                                    order: .descending
+                                ).filter { item in
+                                    return item.sectionID.rawValue == AdriansCooking.SectionID.knowledge.rawValue
+                                },
+                                site: context.site
+                            )
+
+                        }))
+
                     }
 
                     SiteFooter(location: index, context: context)

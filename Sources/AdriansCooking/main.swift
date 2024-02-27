@@ -9,6 +9,7 @@ struct AdriansCooking: Website {
         // Add the sections that you want your website to contain here:
         case recipes
         case ingredients
+        case knowledge
 
     }
 
