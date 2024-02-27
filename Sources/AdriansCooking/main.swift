@@ -52,5 +52,6 @@ try AdriansCooking().publish(using: [
         )
     },
     .generateSiteMap(),*/
+    /// note: the following steps deploys to a directory "./.publish/GitDeploy". On errors just remove the whole .publish hidden dir.
     .unwrap(.gitHub("afoeder/adrians-cooking", branch: "pages"), PublishingStep.deploy)
 ])
