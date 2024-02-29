@@ -130,6 +130,11 @@ article > figure[role=group] { /* // https://stackoverflow.com/q/41789278/138889
     }
 }
 
+/* Images that allow fullscreen should get a zoom-in cursor, but only when not already in fullscreen */
+article img[onclick*="this.requestFullscreen()"]:not(:fullscreen) {
+    cursor: zoom-in;
+}
+
 article > footer {
     margin: 2rem 6rem;
     border-top: solid darkgrey 1px;
