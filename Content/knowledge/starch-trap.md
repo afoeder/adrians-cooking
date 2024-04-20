@@ -1,6 +1,6 @@
 #  The starch trap
 
-There is a concept I have first learned from Heston Blumenthal calling it "starch trap". The technique seemingly was first described in <cite>Jeffrey Steingarten, The Man Who Ate Everything (1997)</cite>.
+To make "perfect" mashed potatoes, there is a concept I personally have first learned from Heston Blumenthal calling it "starch trap". The technique seemingly was generally first described in <cite>Jeffrey Steingarten, The Man Who Ate Everything (1997)</cite>.
 
 The science basically is that starch absorbs water when being heated, causing it to swell and turn into a gel. The swelling eventually breaks the "walls" around them, causing the gel to leak and eventually turn everything into a gummy. We want to avoid this, i.e. keep the "walls" intact.
 A super detailed write-up is on a [reddit comment](https://www.reddit.com/r/AskCulinary/comments/hqyea7/comment/fy0z5w9/).
@@ -15,7 +15,10 @@ A super detailed write-up is on a [reddit comment](https://www.reddit.com/r/AskC
 
 ## Other sources
 
-* A [video](https://www.youtube.com/watch?v=PUgM9cOeONs) (Heston)
+* ~~A [video](https://www.youtube.com/watch?v=PUgM9cOeONs) (Heston)~~ taken down, but there's also [one](https://www.youtube.com/watch?v=NYDyobSRmw8) by Adam Ragusea…
+  * …who in turn mentions a [study](https://pubmed.ncbi.nlm.nih.gov/8068199/)[^1] as an academic source
 * A [recipe](https://www.sbs.com.au/food/recipe/heston-blumenthals-perfect-mash/wuspvsi5u) (Heston)
 * A [recipe](https://modernistcuisine.com/mc/a-very-sous-vide-thanksgiving-with-modernist-cuisine/) (Modernist Cuisine)
 * A [recipe](https://www.chefsteps.com/activities/pomme-puree) (ChefSteps, paywalled)
+
+[^1]: Andersson A, Gekas V, Lind I, Oliveira F, Oste R. Effect of preheating on potato texture. Crit Rev Food Sci Nutr. 1994;34(3):229-51. doi: 10.1080/10408399409527662. PMID: 8068199.
