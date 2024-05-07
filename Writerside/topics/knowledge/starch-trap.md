@@ -1,6 +1,6 @@
 #  The starch trap
 
-To make "perfect" mashed potatoes, there is a concept I personally have first learned from Heston Blumenthal calling it "starch trap". The technique seemingly was generally first described in <cite>Jeffrey Steingarten, The Man Who Ate Everything (1997)</cite>.
+To make "perfect" mashed potatoes, there is a concept I personally have first learned from Heston Blumenthal calling it "starch trap". The technique seemingly was generally first described in Jeffrey Steingarten, The Man Who Ate Everything (1997).
 
 The science basically is that starch absorbs water when being heated, causing it to swell and turn into a gel. The swelling eventually breaks the "walls" around them, causing the gel to leak and eventually turn everything into a gummy. We want to avoid this, i.e. keep the "walls" intact.
 A super detailed write-up is on a [reddit comment](https://www.reddit.com/r/AskCulinary/comments/hqyea7/comment/fy0z5w9/).

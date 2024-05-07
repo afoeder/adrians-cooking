@@ -47,7 +47,7 @@ Turn out the mass onto a sheet with parchment paper.
 
 Wet hands with water and form a nice loaf. The ends should be relatively square to not have too tiny ends.
 
-Put it into an oven at 60°&#x202F;C <small>(140°&#x202F;F)</small> for 35-40′.
+Put it into an oven at 60°&#x202F;C (140°&#x202F;F) for 35-40′.
 
 ### The glaze
 
@@ -63,7 +63,7 @@ Bring it to simmer, taste it, let cool.
 
 ### Glazing
 
-Check core temp of loaf to be 60°&#x202F;C<small>(140°&#x202F;F)</small>.
+Check core temp of loaf to be 60°&#x202F;C (140°&#x202F;F).
 
 Turn oven to max.
 
@@ -73,6 +73,6 @@ Apply second coat of glazing, back into oven for 3′.
 
 Add a final layer, repeat.
 
-Let rest until core temp of 65-66°&#x202F;C <small>(150°&#x202F;F)</small>
+Let rest until core temp of 65-66°&#x202F;C (150°&#x202F;F)
 
 Transfer to cutting board, slice.

@@ -1,6 +1,6 @@
 #  Sous vide
 
-This article is a stub or basically a "[bookmark](https://douglasbaldwin.com/sous-vide.html)" to <cite>A Practical Guide to Sous Vide Cooking by Dr. Douglas Baldwin</cite>.
+This article is a stub or basically a "[bookmark](https://douglasbaldwin.com/sous-vide.html)" to A Practical Guide to Sous Vide Cooking by Dr. Douglas Baldwin.
 
 It is definitely an interesting read, however as a cheat sheet, the most important items are written down here, in case the original gets taken down upstream.
 

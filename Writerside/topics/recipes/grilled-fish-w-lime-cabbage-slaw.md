@@ -27,4 +27,4 @@ Inspiration: [Feastingathome.com](https://www.feastingathome.com/grilled-fish-ta
 
 ## Directions
 
-Yeah well put it all together in a way it makes sense or open a PR :stuck_out_tongue_winking_eye:
+Yeah well put it all together in a way it makes sense or open a PR 😜

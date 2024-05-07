@@ -24,7 +24,7 @@ This comes in multiple variations, there's already a great [YouTube video of it 
   </figure>
 </figure>
 
-### Store findings
+### Store findings {id="store-findings-1"}
 
 * 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
 
@@ -46,6 +46,6 @@ This comes in multiple variations, there's already a great [YouTube video of it 
   </figure>
 </figure>
 
-### Store findings
+### Store findings {id="store-findings-2"}
 
 * 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
