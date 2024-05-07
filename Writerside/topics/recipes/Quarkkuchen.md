@@ -36,7 +36,7 @@ tags: german
   * Rand leicht hochziehen
 2. Füllung verrühren
   * auf den Boden gießen
-3. Im Backofen bei 190&thinsp;°C für 60' backen, danach ausschalten und im heißen Backofen ruhen lassen
+3. Im Backofen bei 190&thinsp;°C für 60′ backen, danach ausschalten und im heißen Backofen ruhen lassen
 
 ----
 Quelle: meine Muddsch.

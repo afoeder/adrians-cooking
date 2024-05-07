@@ -8,24 +8,24 @@
 
     <toc-element topic="index.md"/>
     <toc-element toc-title="Recipes">
-        <toc-element topic="mapo-tofu.md"/>
         <toc-element topic="chicken-mole-negro.md"/>
-        <toc-element topic="mole-negro.md"/>
         <toc-element topic="cilantro-lime-rice.md"/>
         <toc-element topic="grilled-fish-w-lime-cabbage-slaw.md"/>
-        <toc-element topic="Quarkkuchen.md"/>
         <toc-element topic="kenjis-streamlined-meatloaf.md"/>
+        <toc-element topic="mapo-tofu.md"/>
+        <toc-element topic="mole-negro.md"/>
+        <toc-element topic="Quarkkuchen.md"/>
         <toc-element topic="Salzkuchen.md"/>
     </toc-element>
 
     <toc-element toc-title="General ingredients">
-        <toc-element topic="mung-bean-starch.md"/>
-        <toc-element topic="fishwell-chili-chongqing.md"/>
         <toc-element topic="broad-bean-paste.md"/>
-        <toc-element topic="tofu.md"/>
-        <toc-element topic="laoganma-chili-oils.md"/>
-        <toc-element topic="xiaoxing-wine.md"/>
         <toc-element topic="fermented-black-beans.md"/>
+        <toc-element topic="fishwell-chili-chongqing.md"/>
+        <toc-element topic="laoganma-chili-oils.md"/>
+        <toc-element topic="mung-bean-starch.md"/>
+        <toc-element topic="tofu.md"/>
+        <toc-element topic="xiaoxing-wine.md"/>
     </toc-element>
 
     <toc-element toc-title="Knowledge base">

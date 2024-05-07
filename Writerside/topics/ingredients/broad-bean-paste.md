@@ -6,6 +6,11 @@ layout: ingredient
 
 My first contact with this was when my attention got drawn to the [Mapo Tofu](mapo-tofu.md). On Kenji López-Alt's [Serious Eats recipe](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe) and a [comment](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe#comment-5523380302) by [author `xiaozi`](https://disqus.com/by/xiaozi/) both Kenji and `xiaozi` say[^1] the proper paste to use is _Pixiandouban_.
 
+* ![Front view of the packaging](./photos/pixiandouban-broad-bean-paste-front.webp)
+* ![Ingredients view of the packaging](./photos/pixiandouban-broad-bean-paste-back.webp)
+
+{columns=2}
+
 ## Alternate names
 
 * 🇺🇸 Chili bean paste
@@ -21,19 +26,3 @@ My first contact with this was when my attention got drawn to the [Mapo Tofu](ma
 ## Store findings
 
 * 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
-
-<figure role="group">
-  <figcaption>Pixiandouban Broad bean paste</figcaption>
-
-  <figure>
-    <img src="photos/pixiandouban-broad-bean-paste-front.webp" alt="Front view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Front view of the package</figcaption>
-  </figure>
-
-  <figure>
-    <img src="photos/pixiandouban-broad-bean-paste-back.webp" alt="Ingredients view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Rear view</figcaption>
-  </figure>
-</figure>

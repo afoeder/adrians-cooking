@@ -8,21 +8,10 @@ This comes in multiple variations, there's already a great [YouTube video of it 
 
 ## Crispy chili in oil
 
-<figure role="group">
-  <figcaption>Lao Gan Ma Crispy Chili in Oil</figcaption>
+* ![Front view of the packaging](./photos/laoganma-crispy-chili-in-oil-front.webp)
+* ![Rear view of the packaging](./photos/laoganma-crispy-chili-in-oil-ingredients.webp)
 
-  <figure>
-    <img src="photos/laoganma-crispy-chili-in-oil-front.webp" alt="Front view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Front view of Crispy Chili in Oil</figcaption>
-  </figure>
-
-  <figure>
-    <img src="photos/laoganma-crispy-chili-in-oil-ingredients.webp" alt="Ingredients view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Ingredients</figcaption>
-  </figure>
-</figure>
+{columns=2}
 
 ### Store findings {id="store-findings-1"}
 
@@ -30,21 +19,10 @@ This comes in multiple variations, there's already a great [YouTube video of it 
 
 ## Black beans in chili oil
 
-<figure role="group">
-  <figcaption>Lao Gan Ma Black beans in chili Oil</figcaption>
+* ![Front view of the packaging](./photos/laoganma-black-beans-in-chili-oil-front.webp)
+* ![Rear view of the packaging](./photos/laoganma-black-beans-in-chili-oil-ingredients.webp)
 
-  <figure>
-    <img src="photos/laoganma-black-beans-in-chili-oil-front.webp" alt="Front view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Front view of Black beans in chili Oil</figcaption>
-  </figure>
-
-  <figure>
-    <img src="photos/laoganma-black-beans-in-chili-oil-ingredients.webp" alt="Ingredients view of the packaging" />
-    <footer><small>CC BY-SA 3.0 Adrian Föder</small></footer>
-    <figcaption>Ingredients</figcaption>
-  </figure>
-</figure>
+{columns=2}
 
 ### Store findings {id="store-findings-2"}
 

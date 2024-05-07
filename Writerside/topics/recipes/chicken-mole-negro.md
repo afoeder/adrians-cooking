@@ -6,12 +6,12 @@ tags: mexican
 
 ## Ingredients
 
-* [mole negro sauce](mole-negro.md)
+* [Mole Negro sauce](mole-negro.md)
 * Rub spices:
   * 1 tsp cumin
   * 1 tsp coriander
   * 1 tsp chili powder
-  * 1/2 tsp cinnamon
+  * ½ tsp cinnamon
   * 2 tbsp olive oil
   * ½ cup broth or stock
 
@@ -21,4 +21,4 @@ tags: mexican
 2. Season skinless, boneless chicken thighs (pollo fino) with rub 
 3. sear in a skillet, dutch oven, or pan, in brown
 4. add warm mole negro sauce until covered
-5. let simmer until cooked through (20'). Remember food safety!
+5. let simmer until cooked through (20′). Remember food safety!

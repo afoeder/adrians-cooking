@@ -30,13 +30,13 @@ tags: mexican
 ## Directions
 
 1. Discard dried chillis' stems and seeds, toast over medium heat
-2. Add broth, simmer covered 10'
-3. Add prunes, another 10' covered, kill heat
+2. Add broth, simmer covered 10′
+3. Add prunes, another 10′ covered, kill heat
 
 …concurrently,
 
 1. Saute onions + garlic in olive oil until deeply golden brown. Let them get really dark.
-2. Stir in spices ~2', toasting them
+2. Stir in spices ~2′, toasting them
 
 Put everything in the blender, go easy on the broth: blend until silky smooth, control with broth.
 

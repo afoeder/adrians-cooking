@@ -63,7 +63,7 @@ Bring it to simmer, taste it, let cool.
 
 ### Glazing
 
-Check core temp of loaf to be 60°&#x202F;C (140°&#x202F;F).
+Check core temp of loaf to be 60&#x202F;°C (140&#x202F;°F).
 
 Turn oven to max.
 
@@ -73,6 +73,6 @@ Apply second coat of glazing, back into oven for 3′.
 
 Add a final layer, repeat.
 
-Let rest until core temp of 65-66°&#x202F;C (150°&#x202F;F)
+Let rest until core temp of 65-66&#x202F;°C (150&#x202F;°F)
 
 Transfer to cutting board, slice.
