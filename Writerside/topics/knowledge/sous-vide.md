@@ -4,6 +4,7 @@ This article is a stub or basically a "[bookmark](https://douglasbaldwin.com/sou
 
 It is definitely an interesting read, however as a cheat sheet, the most important items are written down here, in case the original gets taken down upstream.
 
+## Technical data
 
 ### Table 2.1
 
