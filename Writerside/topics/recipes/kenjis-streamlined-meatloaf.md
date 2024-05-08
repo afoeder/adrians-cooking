@@ -6,7 +6,7 @@ tags: american
 
 ## Introduction and source notes
 
-I've found this recipe on [YouTube](https://youtu.be/qws7VGet1A4). These are my notes following along.
+I’ve found this recipe on [YouTube](https://youtu.be/qws7VGet1A4). These are my notes following along.
 
 ## Directions
 
@@ -18,10 +18,10 @@ Put in a bowl and mix by hand into a paste:
 
 * 100&#x202F;g Bread,
 * 1 egg
-* ½ cup buttermelk
+* ½ cup buttermilk
 * pinch of salt
 * ground pepper
-* 2 tbsp powdered gelatene
+* 2 tbsp powdered gelatin
 
 Make a mirepoix with butter of chopped…:
 
@@ -41,20 +41,20 @@ Add the paste in a bowl with
 * the mirepoix
 * ~120&#x202F;g grated (mozzarella) cheese
 
-and knead it until it's homogenous. Don't overmix.
+…and knead it until it is homogenous. Do not overmix.
 
 Turn out the mass onto a sheet with parchment paper.
 
 Wet hands with water and form a nice loaf. The ends should be relatively square to not have too tiny ends.
 
-Put it into an oven at 60&#x202F;°C (140&#x202F;°F) for 35-40′.
+Put it into an oven at 60&#x202F;°C (140&#x202F;°F) for 35–40′.
 
 ### The glaze
 
 Add in the mirepoix pan
 
 * ~½—¾ cup of ketchup
-* equal amount brown sugar
+* equal amount of brown sugar
 * splash of cider vinegar
 * splash of worcestershire sauce
 * dash of soy sauce
@@ -63,13 +63,13 @@ Bring it to simmer, taste it, let cool.
 
 ### Glazing
 
-Check core temp of loaf to be 60&#x202F;°C (140&#x202F;°F).
+Check the core temp of loaf to be 60&#x202F;°C (140&#x202F;°F).
 
-Turn oven to max.
+Turn the oven to max.
 
 Brush glazing onto loaf, back into oven for 3′.
 
-Apply second coat of glazing, back into oven for 3′.
+Apply a second coat of glazing, back into the oven for 3′.
 
 Add a final layer, repeat.
 

@@ -1,8 +1,8 @@
 #  Sous vide
 
-This article is a stub or basically a "[bookmark](https://douglasbaldwin.com/sous-vide.html)" to A Practical Guide to Sous Vide Cooking by Dr. Douglas Baldwin.
+This article is a stub or basically a [“bookmark”](https://douglasbaldwin.com/sous-vide.html) to _A Practical Guide to Sous Vide Cooking_ by Dr. Douglas Baldwin.
 
-It is definitely an interesting read, however as a cheat sheet, the most important items are written down here, in case the original gets taken down upstream.
+It is definitely an interesting read, however, as a cheat sheet, the most important items are written down here, in case the original gets taken down upstream.
 
 ## Technical data
 
@@ -10,7 +10,7 @@ It is definitely an interesting read, however as a cheat sheet, the most importa
 
 Temperatures corresponding to rare, medium-rare and medium in meat and fish.
 
-|      | Rare          | Medium-Rare  | Medium       |
+|      |     Rare      | Medium-Rare  |    Medium    |
 |------|:-------------:|:------------:|:------------:|
 | Meat | 50&#x202F;°C  | 55&#x202F;°C | 60&#x202F;°C |
 | Fish | 42&#x202F;°C  | 50&#x202F;°C | 60&#x202F;°C |
@@ -19,7 +19,7 @@ Temperatures corresponding to rare, medium-rare and medium in meat and fish.
 
 ### Table 2.2: Heating times for thawed meat
 
-Approximate heating times for thawed meat to 1&#x202F;°F (0.5&#x202F;°C) less than the water bath's temperature. You can decrease the time by about 13&#x202F;% if you only want to heat the meat to within 2&#x202F;°F (1&#x202F;°C) of the water bath's temperature. *Do not use these times to compute pasteurization times: use the pasteurization tables [below].*
+Approximate heating times for thawed meat to 1&#x202F;°F (0.5&#x202F;°C) less than the water bath’s temperature. You can decrease the time by about 13&#x202F;% if you only want to heat the meat to within 2&#x202F;°F (1&#x202F;°C) of the water bath’s temperature. *Do not use these times to compute pasteurization times: use the pasteurization tables [below].*
 
 | Thickness | Slab-like | Cylinder-like | Sphere-like |
 |-----------|-----------|---------------|-------------|
@@ -51,7 +51,7 @@ Approximate heating times for thawed meat to 1&#x202F;°F (0.5&#x202F;°C) less 
 
 ### Table 2.3: Heating times for frozen meat
 
-Approximate heating times for frozen meat to 1&#x202F;°F (0.5&#x202F;°C) less than the water bath's temperature. You can decrease the time by about 13&#x202F;% if you only want to heat the meat to within 2&#x202F;°F (1&#x202F;°C) of the water bath's temperature. *Do not use these times to compute pasteurization times: use the pasteurization tables [below].*
+Approximate heating times for frozen meat to 1&#x202F;°F (0.5&#x202F;°C) less than the water bath’s temperature. You can decrease the time by about 13&#x202F;% if you only want to heat the meat to within 2&#x202F;°F (1&#x202F;°C) of the water bath’s temperature. *Do not use these times to compute pasteurization times: use the pasteurization tables [below].*
 
 | Thickness | Slab-like | Cylinder-like | Sphere-like |
 |-----------|-----------|---------------|-------------|

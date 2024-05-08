@@ -4,7 +4,7 @@ layout: ingredient
 
 # Tofu
 
-Note that tofu comes in various firmnesses (medium, firm, silken, … etc.).
+Note that tofu comes in various firmness (medium, firm, silken, … etc.).
 
 ![Picture of a package Unicurd silken tofu](./photos/unicurd-silken-tofu.webp)
 

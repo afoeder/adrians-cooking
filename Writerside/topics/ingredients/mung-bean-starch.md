@@ -1,7 +1,7 @@
 # Mung bean starch
 
-* ![Front view of a bottle of Mung bean starch](./photos/mung-bean-starch-front.webp)
-* ![Rear view of a bottle of Mung bean starch](./photos/mung-bean-starch-back.webp)
+* ![Front side of a bottle of Mung bean starch](./photos/mung-bean-starch-front.webp)
+* ![Back side of a bottle of Mung bean starch](./photos/mung-bean-starch-back.webp)
 
 {columns="2"}
 

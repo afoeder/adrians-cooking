@@ -4,8 +4,8 @@ layout: ingredient
 
 # Fermented black beans
 
-* ![Front view of the packaging](./photos/fermented-black-beans-front.webp)
-* ![Rear view of the packaging](./photos/fermented-black-beans-back.webp)
+* ![Front side of the packaging](./photos/fermented-black-beans-front.webp)
+* ![Back side of the packaging](./photos/fermented-black-beans-back.webp)
 
 {columns=2}
 

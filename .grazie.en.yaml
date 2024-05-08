@@ -1,0 +1,26 @@
+# A subset of "vale" linter syntax is supported:
+# "existence", "substitution", "sequence", "capitalization", "occurrence", "conditional" rule types.
+# See https://vale.sh/docs/topics/styles/#extension-points for more details.
+
+extends: substitution
+message: "Use a narrow no-break space between the value and SI unit"
+level: warning
+swap:
+  '(?<=\d)\s?(?=(?:k?g|m?l|%|°F|°C)\b)': '&#x202F;'
+---
+extends: substitution
+message: "Use the respective prime symbol %s."
+swap:
+  (?<=\d)': '′'
+  (?<=\d)": '″'
+---
+extends: substitution
+message: "Use the unicode counterpart '%s' instead of '%s' for this vulgar fraction"
+level: warning
+swap:
+  '1/2': '½'
+  '1/8': '⅛'
+  '1/4': '¼'
+  '2/3': '⅔'
+  '3/4': '¾'
+  '1/10': '⅒'

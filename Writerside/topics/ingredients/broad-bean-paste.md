@@ -4,7 +4,7 @@ layout: ingredient
 
 # Broad bean paste
 
-My first contact with this was when my attention got drawn to the [Mapo Tofu](mapo-tofu.md). On Kenji López-Alt's [Serious Eats recipe](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe) and a [comment](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe#comment-5523380302) by [author `xiaozi`](https://disqus.com/by/xiaozi/) both Kenji and `xiaozi` say[^1] the proper paste to use is _Pixiandouban_.
+My first contact with this was when my attention got drawn to the [Mapo Tofu](mapo-tofu.md). On Kenji López-Alt’s [Serious Eats recipe](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe) and a [comment](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe#comment-5523380302) by [author `xiaozi`](https://disqus.com/by/xiaozi/) both Kenji and `xiaozi` say[^1] the proper paste to use is _Pixiandouban_.
 
 * ![Front view of the packaging](./photos/pixiandouban-broad-bean-paste-front.webp)
 * ![Ingredients view of the packaging](./photos/pixiandouban-broad-bean-paste-back.webp)
