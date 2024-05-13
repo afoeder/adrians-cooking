@@ -6,6 +6,8 @@
         <custom-favicons>favicon.svg</custom-favicons>
         <header-logo>favicon.svg</header-logo>
         <noindex-content>true</noindex-content>
+        <enable-browser-edits>true</enable-browser-edits>
+        <browser-edits-url>https://github.com/afoeder/adrians-cooking/tree/main/Writerside/</browser-edits-url>
     </variables>
 
     <footer>
