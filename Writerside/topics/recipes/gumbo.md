@@ -1,6 +1,8 @@
 ---
 tags:
   - american
+labels:
+  - ultimate
 ---
 
 # Gumbo
@@ -13,9 +15,9 @@ tags:
 * 2 cloves garlic
 * 2 Andouille sausages
 * 400g chicken meat
-* 1 l broth
+* 1&#x202F;l broth
 * 2 bay leaves
-* 150g ocra
+* 150&#x202F;g ocra
 * Ground paprika
 * freshly ground black pepper
 * cayenne pepper
