@@ -8,6 +8,7 @@
         <noindex-content>true</noindex-content>
         <enable-browser-edits>true</enable-browser-edits>
         <browser-edits-url>https://github.com/afoeder/adrians-cooking/tree/main/Writerside/</browser-edits-url>
+        <include-in-head>included-in-head.html</include-in-head>
     </variables>
 
     <footer>
