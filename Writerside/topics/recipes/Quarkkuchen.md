@@ -4,7 +4,7 @@ tags: german
 
 # Quarkkuchen / "Käsekuchen"
 
-![Fresszettel mit dem überlieferten Rezept](photos/quarkkuchen-rezept.jpeg)
+![Fresszettel mit dem überlieferten Rezept](./photos/quarkkuchen-rezept.jpeg)
 
 ## Zutaten
 
