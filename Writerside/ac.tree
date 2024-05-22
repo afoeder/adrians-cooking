@@ -8,6 +8,8 @@
 
     <toc-element topic="index.md"/>
     <toc-element toc-title="Recipes">
+        <toc-element topic="Rösti.md"/>
+        <toc-element topic="Mexican-Black-Beans.md"/>
         <toc-element topic="chicken-mole-negro.md"/>
         <toc-element topic="cilantro-lime-rice.md"/>
         <toc-element topic="grilled-fish-w-lime-cabbage-slaw.md"/>
