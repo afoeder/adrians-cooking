@@ -1,7 +1,7 @@
 # Rösti
 
 Rösti is a Swiss dish made of potatoes. I like it as a feast day breakfast along
-with bacon, egg, [Mexican Black Beans](mexican-black-beans.md), etc.
+with bacon, egg, [Mexican Black Beans](Mexican-black-beans.md), etc.
 
 ![A nicely browned Rösti decorated with a rosemary twig](./photos/roesti-served.webp)
 
