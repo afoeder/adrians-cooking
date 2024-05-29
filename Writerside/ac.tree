@@ -33,6 +33,7 @@
     </toc-element>
 
     <toc-element toc-title="Knowledge base">
+        <toc-element topic="Instant-Pot.md"/>
         <toc-element topic="sous-vide.md"/>
         <toc-element topic="starch-trap.md"/>
     </toc-element>
