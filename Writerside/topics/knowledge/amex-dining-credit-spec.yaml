@@ -1,0 +1,346 @@
+openapi: 3.0.0
+info:
+  title: AMEX dining offers API
+  description: This is a reverse-engineered description of the AMEX fine dining offers taken from e.g. https://www.americanexpress.com/de-de/benefits/diningbenefit/
+  version: 0.1.0
+
+servers:
+  - url: https://dining-offers-prod.amex.r53.tuimedia.com/api
+
+paths:
+
+  /country/{countryCode}/merchants:
+    get:
+      summary: Gets all supported merchants of all cities.
+      parameters:
+        - name: countryCode
+          in: path
+          description: The ISO country code of which country to get the cities from.
+          required: true
+          schema:
+            type: string
+            pattern: '^\w{2}$'
+      responses:
+        '200':
+          description: The list of merchants.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    name:
+                      type: string
+                    address:
+                      type: string
+                    postcode:
+                      type: string
+                    businessData:
+                      type: object
+                      properties:
+                        website:
+                          type: string
+                        phone:
+                          type: string
+                        isNew:
+                          type: boolean
+                        isHalal:
+                          type: boolean
+                        isInHotel:
+                          type: boolean
+                        additionalComments:
+                          type: string
+                        resyEnabled:
+                          type: boolean
+                        resyApiKey:
+                          type: string
+                        resyVenueId:
+                          type: string
+                      required:
+                        - website
+                        - phone
+                        - isNew
+                        - isHalal
+                        - isInHotel
+                        - additionalComments
+                        - resyEnabled
+                        - resyApiKey
+                        - resyVenueId
+                    onlineOnly:
+                      type: boolean
+                    translations:
+                      type: object
+                      properties:
+                        en:
+                          type: object
+                          properties:
+                            name:
+                              type: string
+                            address:
+                              type: string
+                            postcode:
+                              type: string
+                          required:
+                            - name
+                            - address
+                            - postcode
+                      required:
+                        - en
+                    city:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        title:
+                          type: string
+                        translations:
+                          type: object
+                          properties:
+                            en:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            zh_tw:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                          required:
+                            - en
+                      required:
+                        - id
+                        - title
+                        - translations
+                    cuisine:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        title:
+                          type: string
+                        translations:
+                          type: object
+                          properties:
+                            en:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            fr_ca:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            es_mx:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            zh_hk:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            zh_tw:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            en_gb:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            de_de:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            de_at:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            it_it:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                            fr_fr:
+                              type: object
+                              properties:
+                                title:
+                                  type: string
+                              required:
+                                - title
+                          required:
+                            - en
+                      required:
+                        - id
+                        - title
+                        - translations
+                    isMerchantGroup:
+                      type: boolean
+                    merchants:
+                      type: array
+                      items: {}
+                    showMerchant:
+                      type: boolean
+                    allMerchantsNew:
+                      type: boolean
+                    googleMapsUrl:
+                      type: string
+                    takeoutAvailable: {}
+                    openingSoon:
+                      type: boolean
+                    isInMerchantGroup:
+                      type: boolean
+                    isHalal:
+                      type: boolean
+                  required:
+                    - id
+                    - name
+                    - address
+                    - postcode
+                    - businessData
+                    - onlineOnly
+                    - translations
+                    - city
+                    - cuisine
+                    - isMerchantGroup
+                    - merchants
+                    - showMerchant
+                    - allMerchantsNew
+                    - googleMapsUrl
+                    - takeoutAvailable
+                    - openingSoon
+                    - isInMerchantGroup
+                    - isHalal
+                  example:
+                    id: cacf0498-4916-4c4b-9eb0-d4ddef7ed7d5
+                    name: '1811'
+                    address: Schlüterstraße 55
+                    postcode: '10629'
+                    businessData:
+                      website: https://1811.berlin/reservierung
+                      phone: "+49 30 8813440"
+                      isNew: true
+                      isHalal: false
+                      isInHotel: false
+                      additionalComments: ''
+                      resyEnabled: false
+                      resyApiKey: ''
+                      resyVenueId: ''
+                    onlineOnly: false
+                    translations:
+                      en:
+                        name: '1811'
+                        address: Schlüterstraße 55
+                        postcode: '10629'
+                    city:
+                      id: 411034a0-48c2-4da7-9ff7-6ce641f9bafc
+                      title: Berlin
+                      translations:
+                        en:
+                          title: Berlin
+                        zh_tw:
+                          title: 柏林
+                    cuisine:
+                      id: fd3d5ee0-8c51-44e2-9b80-b649f578cd37
+                      title: European
+                      translations:
+                        en:
+                          title: European
+                        fr_ca:
+                          title: Cuisine européenne
+                        es_mx:
+                          title: Europea
+                        zh_hk:
+                          title: 歐洲菜
+                        zh_tw:
+                          title: 歐式料理
+                        en_gb:
+                          title: European
+                        de_de:
+                          title: Europäisch
+                        de_at:
+                          title: Europäisch
+                        it_it:
+                          title: Europea
+                        fr_fr:
+                          title: Européenne
+                    isMerchantGroup: false
+                    merchants: []
+                    showMerchant: true
+                    allMerchantsNew: true
+                    googleMapsUrl: https://www.google.com/maps/search/1811,+Schl%C3%BCterstra%C3%9Fe+55,+Berlin/@52.5044354,13.3177009
+                    takeoutAvailable:
+                    openingSoon: false
+                    isInMerchantGroup: false
+                    isHalal: false
+
+  /country/{countryCode}/cities:
+    get:
+      summary: Gets all supported cities.
+      parameters:
+        - name: countryCode
+          in: path
+          description: The ISO country code of which country to get the cities from.
+          required: true
+          schema:
+            type: string
+            pattern: '^\w{2}$'
+      responses:
+        '200':
+          description: The list of cities.
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: string
+                    title:
+                      type: string
+                    translations:
+                      type: object
+                    lat:
+                      type: number
+                      format: float
+                      nullable: true
+                    lng:
+                      type: number
+                      format: float
+                      nullable: true
+
+                  example:
+                    id: "abcde-1fcfg-ccdd4242"
+                    title: "Testhausen"
