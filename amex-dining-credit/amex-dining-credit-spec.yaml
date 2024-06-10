@@ -19,7 +19,7 @@ paths:
           required: true
           schema:
             type: string
-            pattern: '^\w{2}$'
+            pattern: '^\[A-Z]{2}$'
       responses:
         '200':
           description: The list of merchants.
@@ -315,7 +315,7 @@ paths:
           required: true
           schema:
             type: string
-            pattern: '^\w{2}$'
+            pattern: '^\[A-Z]{2}$'
       responses:
         '200':
           description: The list of cities.

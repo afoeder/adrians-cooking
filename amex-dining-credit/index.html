@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>AMEX Dining credit locations</title>
+</head>
+<body>
+
+<div id="map" style="width: 80%;height: 80vh; margin: 0 auto"></div>
+<script>
+    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
+        key: "AIzaSyCsQbB1qCK4L0OkFjsSu2gsySgP9hm6sIM",
+        v: "weekly",
+        // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
+        // Add other bootstrap parameters as needed, using camel case.
+    });
+</script>
+<script>
+!function() {
+    let map;
+
+    async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+
+        map = new Map(document.getElementById("map"), {
+            center: { lat: 51.163375, lng: 10.447683 },
+            zoom: 6,
+            mapId: "DEMO_MAP_ID"
+        });
+    }
+
+    initMap();
+
+    async function fillMarkers(country = "DE") {
+        const {Place} = await google.maps.importLibrary("places");
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        let merchantsJson;
+        let cachedMerchantsData = localStorage.getItem("amex-dining-merchants-"+country);
+        if (!cachedMerchantsData) {
+            console.debug("No merchants info found in LocalStorage for "+country+", fetching from remote");
+            const amexApiMerchants =
+                await (
+                    await fetch(
+                        `https://dining-offers-prod.amex.r53.tuimedia.com/api/country/${country}/merchants`))
+                        .json();
+            merchantsJson = await Promise.all(
+                    amexApiMerchants.map(async (item) => {
+                        const request = {
+                            //@see https://developers.google.com/maps/documentation/javascript/place-search#example
+                            textQuery: `${item.name}, ${item.address}, ${item.postcode} ${item.city.title}`,
+                            fields: ["displayName", "location", "businessStatus"],
+                            includedType: "restaurant",
+                            maxResultCount: 1,
+                            region: country,
+                            useStrictTypeFiltering: false,
+                        };
+                        const { places } = await Place.searchByText(request);
+                        let place = null;
+                        if (places.length === 1) {
+                            place = { location: places[0].location, name: places[0].displayName }
+                        } else {
+                            console.warn(`Places result for ${request.textQuery} is !== 1, places found:`, places)
+                        }
+
+                        return {
+                            "name": item.name,
+                            "place": place,
+                            "amexApiRaw": item
+                        }
+                    }));
+            localStorage.setItem("amex-dining-merchants-"+country, JSON.stringify(merchantsJson));
+        } else {
+            merchantsJson = JSON.parse(cachedMerchantsData);
+        }
+        console.info("merchants for "+country+":", merchantsJson);
+        merchantsJson.forEach(item => {
+            if (!item.place) {
+                return;
+            }
+            new AdvancedMarkerElement({
+                map,
+                position: item.place.location,
+                title: item.place.name,
+            });
+        });
+    }
+
+    fillMarkers("DE");
+
+}();
+</script>
+
+</body>
+</html>
