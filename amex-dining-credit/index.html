@@ -6,6 +6,7 @@
     <title>AMEX Dining credit locations</title>
     <style>
         body { font-family: "SF Pro", sans-serif; }
+        a { text-decoration: none }
     </style>
 </head>
 
@@ -14,10 +15,35 @@
     <h1>AMEX Dining Credit restaurants</h1>
 
     <nav>
-        <ul id="country-chooser" style="display: flex; gap: .5rem; list-style-type: none; padding: 0;">
-            <li><a href="#DE" data-lat="51.163375" data-lng="10.447683">DE</a></li>
-            <li><a href="#GB" data-lat="54.00366" data-lng="-2.547855">GB</a></li>
-        </ul>
+        <select id="country-chooser">
+            <option>— Choose country —</option>
+            <optgroup label="Asia &amp; Oceanic">
+                <option value="AU" data-lat="-23.033333" data-lng="132.166667">Australia</option>
+                <option value="HK" data-lat="22.281944" data-lng="114.158056">Hong Kong</option>
+                <option value="JP" data-lat="34.64314" data-lng="134.99722">Japan</option>
+                <option value="NZ" data-lat="-41.272833" data-lng="173.299361">New Zealand</option>
+                <option value="SG" data-lat="1.291667" data-lng="103.85">Singapore</option>
+                <option value="TW" data-lat="23.973861" data-lng="120.982">Taiwan</option>
+                <option value="TH" data-lat="15" data-lng="100">Thailand</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option value="AT" data-lat="47.6966322" data-lng="13.3457076">Austria</option>
+                <option value="BE" data-lat="50.846667" data-lng="4.3525">Belgium &amp; Luxembourg</option>
+                <option value="FI" data-lat="62.5" data-lng="25.5">Finland</option>
+                <option value="FR" data-lat="46.316667" data-lng="2.533333">France</option>
+                <option value="DE" data-lat="51.163375" data-lng="10.447683">Germany</option>
+                <option value="IT" data-lat="43" data-lng="12">Italy</option>
+                <option value="NL" data-lat="51.916667" data-lng="5.566667">Netherlands</option>
+                <option value="ES" data-lat="39.926667" data-lng="-1.801667">Spain</option>
+                <option value="SE" data-lat="61.316667" data-lng="14.833333">Sweden</option>
+                <option value="GB" data-lat="54.00366" data-lng="-2.547855">United Kingdom</option>
+            </optgroup>
+            <optgroup label="North &amp; South America">
+                <option value="CA" data-lat="56" data-lng="-109">Canada</option>
+                <option value="MX" data-lat="23.316667" data-lng="-102.366667">Mexico</option>
+                <option value="US" data-lat="40" data-lng="-100">United States</option>
+            </optgroup>
+        </select>
     </nav>
 </header>
 
@@ -94,6 +120,7 @@
 
         merchantsJson.forEach(item => {
             if (!item.assumedLocation) {
+                console.warn("Could not find a location for", item);
                 return;
             }
             new AdvancedMarkerElement({
@@ -104,17 +131,24 @@
         });
     }
 
-document.getElementById("country-chooser").addEventListener("click", (event) => {
-    const link = event.target;
-    if (!link.matches("a")) return;
+document.getElementById("country-chooser").addEventListener("change", (event) => {
+    const select = event.target;
+    if (!select.matches("select")) return;
 
-    const language = link.getAttribute("href").match(/(?<=#)[A-Z]{2}/).at(0);
-    fillMarkers(language);
-    map.panTo({lat: parseFloat(link.dataset.lat), lng: parseFloat(link.dataset.lng)});
+    fillMarkers(select.value);
+
+    const selectedOption = select.options[select.selectedIndex];
+    map.panTo({lat: parseFloat(selectedOption.dataset.lat), lng: parseFloat(selectedOption.dataset.lng)});
 });
 
 }();
 </script>
+
+<footer style="margin-top: 1rem">
+    Source:
+        <a href="https://www.americanexpress.com/en-gb/benefits/diningbenefit/">🇬🇧</a>
+        <a href="https://www.americanexpress.com/de-de/benefits/diningbenefit/">🇩🇪</a>
+</footer>
 
 </body>
 </html>
