@@ -12,7 +12,7 @@
 
 <body>
 <header style="display: flex; gap: 2rem; align-items: baseline">
-    <h1>AMEX Dining Credit restaurants</h1>
+    <h1>AMEX Dining Credit restaurants <small style="font-size: x-small">beta</small></h1>
 
     <nav>
         <select id="country-chooser">
@@ -93,7 +93,7 @@
 
         map = new Map(document.getElementById("map"), {
             center: { lat: 51.163375, lng: 10.447683 },
-            zoom: 6,
+            zoom: 2,
             mapId: "DEMO_MAP_ID"
         });
     }
@@ -118,16 +118,17 @@
         }
         console.info("merchants for "+country+":", merchantsJson);
 
-        merchantsJson.forEach(item => {
+        merchantsJson.forEach((item, i) => {
             if (!item.assumedLocation) {
                 console.warn("Could not find a location for", item);
                 return;
             }
-            new AdvancedMarkerElement({
-                map,
-                position: { lat: item.assumedLocation.lat, lng: item.assumedLocation.lon },
-                title: item.name,
-            });
+            const marker =
+                new AdvancedMarkerElement({
+                    map,
+                    position: { lat: item.assumedLocation.lat, lng: item.assumedLocation.lon },
+                    title: item.name,
+                });
         });
     }
 
@@ -138,14 +139,16 @@ document.getElementById("country-chooser").addEventListener("change", (event) =>
     fillMarkers(select.value);
 
     const selectedOption = select.options[select.selectedIndex];
+    //@setZoom https://developers.google.com/maps/documentation/javascript/reference/map
     map.panTo({lat: parseFloat(selectedOption.dataset.lat), lng: parseFloat(selectedOption.dataset.lng)});
+    map.setZoom(6);
 });
 
 }();
 </script>
 
 <footer style="margin-top: 1rem">
-    Source:
+    AMEX home page:
         <a href="https://www.americanexpress.com/en-gb/benefits/diningbenefit/">🇬🇧</a>
         <a href="https://www.americanexpress.com/de-de/benefits/diningbenefit/">🇩🇪</a>
 </footer>
