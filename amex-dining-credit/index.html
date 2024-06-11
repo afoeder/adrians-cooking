@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>AMEX Dining credit locations</title>
+    <style>
+        body { font-family: "SF Pro", sans-serif; }
+    </style>
 </head>
+
 <body>
+<header style="display: flex; gap: 2rem; align-items: baseline">
+    <h1>AMEX Dining Credit restaurants</h1>
+
+    <nav>
+        <ul id="country-chooser" style="display: flex; gap: .5rem; list-style-type: none; padding: 0;">
+            <li><a href="#DE" data-center="{ lat: 51.163375, lng: 10.447683 }">DE</a></li>
+            <li><a href="#GB" data-center="{ lat: 54.00366, lng: -2.547855 }">GB</a></li>
+        </ul>
+    </nav>
+</header>
 
 <div id="map" style="width: 80%;height: 80vh; margin: 0 auto"></div>
+
 <script>
     (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
         key: "AIzaSyCsQbB1qCK4L0OkFjsSu2gsySgP9hm6sIM",
@@ -32,8 +47,34 @@
 
     initMap();
 
-    async function fillMarkers(country = "DE") {
+    async function amexApiItemToPlace(item, country) {
         const {Place} = await google.maps.importLibrary("places");
+
+        const request = {
+            //@see https://developers.google.com/maps/documentation/javascript/place-search#example
+            textQuery: `${item.name}, ${item.address}, ${item.postcode} ${item.city.title}`,
+            fields: ["id", "name", "location"],
+            includedType: "restaurant",
+            maxResultCount: 1,
+            region: country,
+            useStrictTypeFiltering: false,
+        };
+        //const {places} = await Place.searchByText(request);
+        let place = null;
+        if (places.length === 1) {
+            place = {location: places[0].location, name: places[0].displayName}
+        } else {
+            console.warn(`Places result for ${request.textQuery} is !== 1, places found:`, places)
+        }
+
+        return {
+            "name": item.name,
+            "place": place,
+            "amexApiRaw": item
+        }
+    }
+
+    async function fillMarkers(country = "DE") {
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
         let merchantsJson;
@@ -45,31 +86,22 @@
                     await fetch(
                         `https://dining-offers-prod.amex.r53.tuimedia.com/api/country/${country}/merchants`))
                         .json();
-            merchantsJson = await Promise.all(
-                    amexApiMerchants.map(async (item) => {
-                        const request = {
-                            //@see https://developers.google.com/maps/documentation/javascript/place-search#example
-                            textQuery: `${item.name}, ${item.address}, ${item.postcode} ${item.city.title}`,
-                            fields: ["displayName", "location", "businessStatus"],
-                            includedType: "restaurant",
-                            maxResultCount: 1,
-                            region: country,
-                            useStrictTypeFiltering: false,
-                        };
-                        const { places } = await Place.searchByText(request);
-                        let place = null;
-                        if (places.length === 1) {
-                            place = { location: places[0].location, name: places[0].displayName }
-                        } else {
-                            console.warn(`Places result for ${request.textQuery} is !== 1, places found:`, places)
-                        }
-
-                        return {
-                            "name": item.name,
-                            "place": place,
-                            "amexApiRaw": item
-                        }
-                    }));
+            let mapped = amexApiMerchants.map(async (item) => {
+                if (item.isMerchantGroup) {
+                    // @todo: this happens when there is a "merchantGroup";
+                    // we have to make a recursion here (yay), like:
+                    // self.append(item.merchants)
+                    console.log("Merchant group!", item.name, item.merchants);
+                    return item.merchants.map(async (item) => {
+                        return await amexApiItemToPlace(item, country)
+                    });
+                }
+                return await amexApiItemToPlace(item, country);
+            });
+            debugger;
+            merchantsJson = await Promise.all(mapped);
+            console.log(merchantsJson);
+            debugger;
             localStorage.setItem("amex-dining-merchants-"+country, JSON.stringify(merchantsJson));
         } else {
             merchantsJson = JSON.parse(cachedMerchantsData);
@@ -87,7 +119,15 @@
         });
     }
 
-    fillMarkers("DE");
+document.getElementById("country-chooser").addEventListener("click", (event) => {
+    const link = event.target;
+    if (!link.matches("a")) return;
+
+    const language = link.getAttribute("href").match(/(?<=#)[A-Z]{2}/).at(0);
+    fillMarkers(language);
+});
+
+    //fillMarkers("DE");
 
 }();
 </script>
