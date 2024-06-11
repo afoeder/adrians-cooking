@@ -5,7 +5,6 @@
       "address": "100 Wardour Street",
       "zip": "W1F 0TN",
       "city": "London",
-      "googlePlaceTextQuery": "100 Wardour Street, 100 Wardour Street, W1F 0TN London",
       "amexRaw": {
         "id": "74e201d3-f171-49c3-aaec-76585b799cf3",
         "name": "100 Wardour Street",
@@ -94,7 +93,6 @@
       "address": "107 Upper Street",
       "zip": "N1 1QN",
       "city": "London",
-      "googlePlaceTextQuery": "12:51 By Chef James Cochran, 107 Upper Street, N1 1QN London",
       "amexRaw": {
         "id": "1cad103e-76c4-4a91-9398-e2dd3efd3e48",
         "name": "12:51 By Chef James Cochran",
@@ -183,7 +181,6 @@
       "address": "14th Floor, 120 Fenchurch Street",
       "zip": "EC3M 5BA",
       "city": "London",
-      "googlePlaceTextQuery": "14 Hills, 14th Floor, 120 Fenchurch Street, EC3M 5BA London",
       "amexRaw": {
         "id": "019ef2f7-e122-420f-bd5c-0c8b74dc5a12",
         "name": "14 Hills",
@@ -272,7 +269,6 @@
       "address": "No 1 Spinningfields, 1 Hardman Square, Spinningfields",
       "zip": "M3 3EB",
       "city": "Manchester",
-      "googlePlaceTextQuery": "20 Stories, No 1 Spinningfields, 1 Hardman Square, Spinningfields, M3 3EB Manchester",
       "amexRaw": {
         "id": "d6c8c1d4-507c-49b6-a2c6-bdbb712485ec",
         "name": "20 Stories",
@@ -361,7 +357,6 @@
       "address": "21 Berners St",
       "zip": "W1T 3LP",
       "city": "London",
-      "googlePlaceTextQuery": "Akoko, 21 Berners St, W1T 3LP London",
       "amexRaw": {
         "id": "56a4acea-3031-403b-9558-0bbaf63328ee",
         "name": "Akoko",
@@ -426,7 +421,6 @@
       "address": "The Stratford, 20 International Way, Queen Elizabeth Park",
       "zip": "E20 1FD",
       "city": "London",
-      "googlePlaceTextQuery": "Allegra, The Stratford, 20 International Way, Queen Elizabeth Park, E20 1FD London",
       "amexRaw": {
         "id": "ad45db00-44e4-4a9f-9062-66cc750a8cd1",
         "name": "Allegra",
@@ -515,7 +509,6 @@
       "address": "15 Halkin Arcade, Motcomb Street, Belgravia",
       "zip": "SW1X 8JT",
       "city": "London",
-      "googlePlaceTextQuery": "Amaya, 15 Halkin Arcade, Motcomb Street, Belgravia, SW1X 8JT London",
       "amexRaw": {
         "id": "16739786-f003-443c-898e-40c3b0c74e88",
         "name": "Amaya",
@@ -604,7 +597,6 @@
       "address": "10 Berkeley Square",
       "zip": "W1J 6BR",
       "city": "London",
-      "googlePlaceTextQuery": "Amazonico, 10 Berkeley Square, W1J 6BR London",
       "amexRaw": {
         "id": "516a84f9-0f0d-42e3-96f0-b5aa671e7160",
         "name": "Amazonico",
@@ -672,7 +664,6 @@
       "address": "Level 6, Trinity Leeds, 70 Boar Lane",
       "zip": "LS1 6HW",
       "city": "Leeds",
-      "googlePlaceTextQuery": "Angelica, Level 6, Trinity Leeds, 70 Boar Lane, LS1 6HW Leeds",
       "amexRaw": {
         "id": "2b9a4bc2-3bb5-4454-8b9f-a4f1ac223d56",
         "name": "Angelica",
@@ -761,7 +752,6 @@
       "address": "3 South Place",
       "zip": "EC2M 2AF",
       "city": "London",
-      "googlePlaceTextQuery": "Angler Restaurant, 3 South Place, EC2M 2AF London",
       "amexRaw": {
         "id": "fb114eaf-b3d6-4baa-a128-ce2dac901330",
         "name": "Angler Restaurant",
@@ -850,7 +840,6 @@
       "address": "5th Floor, 240 Regent Street",
       "zip": "W1B 3BR",
       "city": "London",
-      "googlePlaceTextQuery": "Aqua Kyoto, 5th Floor, 240 Regent Street, W1B 3BR London",
       "amexRaw": {
         "id": "3fcd22b8-63f9-4156-8669-a24971b8ec96",
         "name": "Aqua Kyoto",
@@ -939,7 +928,6 @@
       "address": "5th Floor, 240 Regent Street",
       "zip": "W1B 3BR",
       "city": "London",
-      "googlePlaceTextQuery": "Aqua Nueva, 5th Floor, 240 Regent Street, W1B 3BR London",
       "amexRaw": {
         "id": "ca5b8ff2-27cd-42c9-84e5-2da80cb9df1d",
         "name": "Aqua Nueva",
@@ -1028,7 +1016,6 @@
       "address": "Level 31 The Shard, 31 St. Thomas Street",
       "zip": "SE1 9RY",
       "city": "London",
-      "googlePlaceTextQuery": "Aqua Shard, Level 31 The Shard, 31 St. Thomas Street, SE1 9RY London",
       "amexRaw": {
         "id": "f35beaa1-12e3-4308-8ae6-f142ea6c8b5b",
         "name": "Aqua Shard",
@@ -1114,7 +1101,6 @@
       "address": "34 Dover St",
       "zip": "W1S 4NG",
       "city": "London",
-      "googlePlaceTextQuery": "Bagatelle Dover Street, 34 Dover St, W1S 4NG London",
       "amexRaw": {
         "id": "f89ea093-a622-4ee9-8679-f81f7dfcbe4d",
         "name": "Bagatelle Dover Street",
@@ -1203,7 +1189,6 @@
       "address": "4-6 Russell Street, Covent Garden",
       "zip": "WC2B 5HZ",
       "city": "London",
-      "googlePlaceTextQuery": "Balthazar Restaurant, 4-6 Russell Street, Covent Garden, WC2B 5HZ London",
       "amexRaw": {
         "id": "d35c7b66-6263-4911-96fc-0e62fdf1431c",
         "name": "Balthazar Restaurant",
@@ -1292,7 +1277,6 @@
       "address": "16 Albemarle Street",
       "zip": "W1S 4HW",
       "city": "London",
-      "googlePlaceTextQuery": "Bar Des Pres, 16 Albemarle Street, W1S 4HW London",
       "amexRaw": {
         "id": "a93b8844-6406-4ff1-9b4e-12c6016eeb9d",
         "name": "Bar Des Pres",
@@ -1381,7 +1365,6 @@
       "address": "10 Adelaide St",
       "zip": "WC2N 4HZ",
       "city": "London",
-      "googlePlaceTextQuery": "Barrafina Adelaide St, 10 Adelaide St, WC2N 4HZ London",
       "amexRaw": {
         "id": "aa9b2a89-7d1e-476f-ac2d-da81e57fdaa6",
         "name": "Barrafina Adelaide St",
@@ -1470,7 +1453,6 @@
       "address": "12a Berkeley Square, Mayfair",
       "zip": "W1G 6BS",
       "city": "London",
-      "googlePlaceTextQuery": "Benares, 12a Berkeley Square, Mayfair, W1G 6BS London",
       "amexRaw": {
         "id": "4cfa5229-dd4d-4d78-9e31-33eb84048e56",
         "name": "Benares",
@@ -1559,7 +1541,6 @@
       "address": "11-15 Swallow Street",
       "zip": "W1B 4DG",
       "city": "London",
-      "googlePlaceTextQuery": "Bentleys Oyster Bar & Grill, 11-15 Swallow Street, W1B 4DG London",
       "amexRaw": {
         "id": "403d1669-f8e7-4024-a3db-50413029b3e8",
         "name": "Bentleys Oyster Bar & Grill",
@@ -1648,7 +1629,6 @@
       "address": "42  North Audley Street",
       "zip": "W1K 6ZP",
       "city": "London",
-      "googlePlaceTextQuery": "Bibi, 42  North Audley Street, W1K 6ZP London",
       "amexRaw": {
         "id": "fe7f4621-dbc0-4967-b537-17681107ee67",
         "name": "Bibi",
@@ -1737,7 +1717,6 @@
       "address": "350 Kings Road",
       "zip": "SW3 5UU",
       "city": "London",
-      "googlePlaceTextQuery": "Bluebird Restaurant, 350 Kings Road, SW3 5UU London",
       "amexRaw": {
         "id": "06729780-b94e-4ade-9aad-6ad649bd75f0",
         "name": "Bluebird Restaurant",
@@ -1826,7 +1805,6 @@
       "address": "1 Upper James Street, Soho",
       "zip": "W1F 9DF",
       "city": "London",
-      "googlePlaceTextQuery": "Bob Bob Ricard, 1 Upper James Street, Soho, W1F 9DF London",
       "amexRaw": {
         "id": "9e6874bd-4f12-4b5d-9147-dd38b3e62514",
         "name": "Bob Bob Ricard",
@@ -1915,7 +1893,6 @@
       "address": "20 Sherwood Street",
       "zip": "W1F 7ED",
       "city": "London",
-      "googlePlaceTextQuery": "Brasserie Zedel, 20 Sherwood Street, W1F 7ED London",
       "amexRaw": {
         "id": "090f9a2b-43d2-4b53-a166-80842c0afb51",
         "name": "Brasserie Zedel",
@@ -2004,7 +1981,6 @@
       "address": "10 Bread Street",
       "zip": "EC4M 9AJ",
       "city": "London",
-      "googlePlaceTextQuery": "Bread Street Kitchen, 10 Bread Street, EC4M 9AJ London",
       "amexRaw": {
         "id": "72afe4b6-5109-44cc-8a66-e1318c195892",
         "name": "Bread Street Kitchen",
@@ -2093,7 +2069,6 @@
       "address": "4 St Andrew Square",
       "zip": "EH2 2BD",
       "city": "Edinburgh",
-      "googlePlaceTextQuery": "Bread Street Kitchen Edinburgh, 4 St Andrew Square, EH2 2BD Edinburgh",
       "amexRaw": {
         "id": "d0c127e2-4cff-4d0b-86b2-1117b3454180",
         "name": "Bread Street Kitchen Edinburgh",
@@ -2179,7 +2154,6 @@
       "address": "11, 13, 14 South Place",
       "zip": "EC2M 7EB",
       "city": "London",
-      "googlePlaceTextQuery": "Bread Street Kitchen The City, 11, 13, 14 South Place, EC2M 7EB London",
       "amexRaw": {
         "id": "37137139-0a3b-4847-9b19-4c78cdc9c133",
         "name": "Bread Street Kitchen The City",
@@ -2265,7 +2239,6 @@
       "address": "1-5 Bloomberg Arcade",
       "zip": "EC4N 8AR",
       "city": "London",
-      "googlePlaceTextQuery": "Brigadiers, 1-5 Bloomberg Arcade, EC4N 8AR London",
       "amexRaw": {
         "id": "bbe50eed-3f98-4b60-965d-e10a391c5d15",
         "name": "Brigadiers",
@@ -2354,7 +2327,6 @@
       "address": "36e Shad Thames",
       "zip": "SE1 2YE",
       "city": "London",
-      "googlePlaceTextQuery": "Butlers Wharf Chop House, 36e Shad Thames, SE1 2YE London",
       "amexRaw": {
         "id": "cff7a306-0be0-4493-b449-c46a0a899256",
         "name": "Butlers Wharf Chop House",
@@ -2419,7 +2391,6 @@
       "address": "4 Whittaker Ave, Richmond",
       "zip": "TW9 1EH",
       "city": "London",
-      "googlePlaceTextQuery": "Scott's Richmond, 4 Whittaker Ave, Richmond, TW9 1EH London",
       "amexRaw": {
         "id": "ffa74420-35ff-4bc6-8767-1cbe1c2eb48d",
         "name": "Scott's Richmond",
@@ -2484,7 +2455,6 @@
       "address": "17 Jubilee Street",
       "zip": "BN1 1GE",
       "city": "Brighton",
-      "googlePlaceTextQuery": "Chilli Pickle, 17 Jubilee Street, BN1 1GE Brighton",
       "amexRaw": {
         "id": "c6524906-1395-4b96-8faa-fbac2c0f2007",
         "name": "Chilli Pickle",
@@ -2573,7 +2543,6 @@
       "address": "1 Chiltern Street",
       "zip": "W1U 7PA",
       "city": "London",
-      "googlePlaceTextQuery": "Chiltern Firehouse, 1 Chiltern Street, W1U 7PA London",
       "amexRaw": {
         "id": "7961b8e2-a1cd-4ce2-b143-1e072cbcfdbb",
         "name": "Chiltern Firehouse",
@@ -2662,7 +2631,6 @@
       "address": "11-13 Frith Street, Soho",
       "zip": "W1D 4RB",
       "city": "London",
-      "googlePlaceTextQuery": "Chotto Matte, 11-13 Frith Street, Soho, W1D 4RB London",
       "amexRaw": {
         "id": "a738e720-49c7-417e-9394-1b933864686e",
         "name": "Chotto Matte",
@@ -2751,7 +2719,6 @@
       "address": "73 St. James's Street",
       "zip": "SW1A 1PH",
       "city": "London",
-      "googlePlaceTextQuery": "Chutney Mary, 73 St. James's Street, SW1A 1PH London",
       "amexRaw": {
         "id": "ef6b7d7d-610a-441a-b2ff-528e12b08539",
         "name": "Chutney Mary",
@@ -2840,7 +2807,6 @@
       "address": "33 King Street, Covent Garden",
       "zip": "WC2E 8JD",
       "city": "London",
-      "googlePlaceTextQuery": "Clos Maggiore, 33 King Street, Covent Garden, WC2E 8JD London",
       "amexRaw": {
         "id": "5159bd84-e23e-4ee3-89b9-92b0061bf64c",
         "name": "Clos Maggiore",
@@ -2929,7 +2895,6 @@
       "address": "50-52 Sloane Square",
       "zip": "SW1W 8AX",
       "city": "London",
-      "googlePlaceTextQuery": "Colbert Restaurant, 50-52 Sloane Square, SW1W 8AX London",
       "amexRaw": {
         "id": "cb43e0e6-e28d-4fb0-b632-5d0274d3ebad",
         "name": "Colbert Restaurant",
@@ -3018,7 +2983,6 @@
       "address": "No 1 Poultry",
       "zip": "EC2R 8EJ",
       "city": "London",
-      "googlePlaceTextQuery": "Coq d'Argent, No 1 Poultry, EC2R 8EJ London",
       "amexRaw": {
         "id": "79f8ce79-2fd2-4b82-88bc-4110e3ceba03",
         "name": "Coq d'Argent",
@@ -3107,7 +3071,6 @@
       "address": "28 Upper Grosvenor Street",
       "zip": "W1K 7EH",
       "city": "London",
-      "googlePlaceTextQuery": "Corrigans Of Mayfair, 28 Upper Grosvenor Street, W1K 7EH London",
       "amexRaw": {
         "id": "e8077f64-2372-46f0-8687-79725a324091",
         "name": "Corrigans Of Mayfair",
@@ -3193,7 +3156,6 @@
       "address": "Newton House 118 Piccadilly",
       "zip": "W1J 7NW",
       "city": "London",
-      "googlePlaceTextQuery": "Coya Mayfair, Newton House 118 Piccadilly, W1J 7NW London",
       "amexRaw": {
         "id": "ea77dda0-9c74-42cd-aac2-016b9b279a1d",
         "name": "Coya Mayfair",
@@ -3261,7 +3223,6 @@
       "address": "Level 5 Trinity Leeds, 70 Boar Lane",
       "zip": "LS1 6HW",
       "city": "Leeds",
-      "googlePlaceTextQuery": "Crafthouse, Level 5 Trinity Leeds, 70 Boar Lane, LS1 6HW Leeds",
       "amexRaw": {
         "id": "52c849ff-4f18-4914-b218-23b18875f8f2",
         "name": "Crafthouse",
@@ -3347,7 +3308,6 @@
       "address": "45 Park Lane",
       "zip": "W1K 1PN",
       "city": "London",
-      "googlePlaceTextQuery": "CUT at 45 Park Lane, 45 Park Lane, W1K 1PN London",
       "amexRaw": {
         "id": "ae7f3d9b-9209-4e42-b564-cb97888e1007",
         "name": "CUT at 45 Park Lane",
@@ -3412,7 +3372,6 @@
       "address": "103 Colmore Row",
       "zip": "B33AG",
       "city": "Birmingham",
-      "googlePlaceTextQuery": "Orelle, 103 Colmore Row, B33AG Birmingham",
       "amexRaw": {
         "id": "26a6a6a9-af7e-4128-895d-3b752c9f3a37",
         "name": "Orelle",
@@ -3477,7 +3436,6 @@
       "address": "70-74 City Rd, Old Street",
       "zip": "EC1Y 2BJ",
       "city": "London",
-      "googlePlaceTextQuery": "Daffodil Mulligan, 70-74 City Rd, Old Street, EC1Y 2BJ London",
       "amexRaw": {
         "id": "95dc1c2e-c0d5-4437-964f-c41214658688",
         "name": "Daffodil Mulligan",
@@ -3563,7 +3521,6 @@
       "address": "112 Draycott Avenue",
       "zip": "SW3 3AE",
       "city": "London",
-      "googlePlaceTextQuery": "Daphnes, 112 Draycott Avenue, SW3 3AE London",
       "amexRaw": {
         "id": "1b1878f0-27b4-49fb-ac60-450190aee36b",
         "name": "Daphnes",
@@ -3652,7 +3609,6 @@
       "address": "110 Bishopsgate",
       "zip": "EC2N 4AY",
       "city": "London",
-      "googlePlaceTextQuery": "Duck & Waffle, 110 Bishopsgate, EC2N 4AY London",
       "amexRaw": {
         "id": "21995ae9-b606-447c-9731-eae2d96283bb",
         "name": "Duck & Waffle",
@@ -3741,7 +3697,6 @@
       "address": "12 Stoney St",
       "zip": "SE1 9AD",
       "city": "London",
-      "googlePlaceTextQuery": "Elliot's - Borough Market, 12 Stoney St, SE1 9AD London",
       "amexRaw": {
         "id": "cf43ec3d-802b-4737-a093-847124b87a4e",
         "name": "Elliot's - Borough Market",
@@ -3827,7 +3782,6 @@
       "address": "9 Murray St Ancoats, Manchester",
       "zip": "M4 6HS",
       "city": "Manchester",
-      "googlePlaceTextQuery": "Erst, 9 Murray St Ancoats, Manchester, M4 6HS Manchester",
       "amexRaw": {
         "id": "38844885-0ff8-49aa-9aa0-1bcf8b783f1b",
         "name": "Erst",
@@ -3913,7 +3867,6 @@
       "address": "52 Haymarket",
       "zip": "SW1Y 4RP",
       "city": "London",
-      "googlePlaceTextQuery": "Fallow Restaurant, 52 Haymarket, SW1Y 4RP London",
       "amexRaw": {
         "id": "76c929cc-5961-4246-99c2-119911d9e500",
         "name": "Fallow Restaurant",
@@ -3999,7 +3952,6 @@
       "address": "50 Marylebone High Street",
       "zip": "W1U 5HN",
       "city": "London",
-      "googlePlaceTextQuery": "Fischers Restaurant, 50 Marylebone High Street, W1U 5HN London",
       "amexRaw": {
         "id": "7962e9d1-dfee-464c-a655-2116f72e55fc",
         "name": "Fischers Restaurant",
@@ -4085,7 +4037,6 @@
       "address": "16B New Street",
       "zip": "EC2M 4TR",
       "city": "London",
-      "googlePlaceTextQuery": "Fish Market, 16B New Street, EC2M 4TR London",
       "amexRaw": {
         "id": "88ccd9ab-0f4c-4639-bb30-fdae6a6ec7d9",
         "name": "Fish Market",
@@ -4174,7 +4125,6 @@
       "address": "Circus West, Battersea Power Station",
       "zip": "SW8 5BN",
       "city": "London",
-      "googlePlaceTextQuery": "Fiume, Circus West, Battersea Power Station, SW8 5BN London",
       "amexRaw": {
         "id": "7c4df566-8cae-4286-82a6-f25deba9573d",
         "name": "Fiume",
@@ -4263,7 +4213,6 @@
       "address": "34-35 Southampton Street",
       "zip": "WC2E 7HG",
       "city": "London",
-      "googlePlaceTextQuery": "Frog By Adam Handling, 34-35 Southampton Street, WC2E 7HG London",
       "amexRaw": {
         "id": "573a8ccb-ab38-40df-a99a-127b0e20c479",
         "name": "Frog By Adam Handling",
@@ -4349,7 +4298,6 @@
       "address": "The O2, Peninsula Square, Greenwich",
       "zip": "SE10 0DX",
       "city": "London",
-      "googlePlaceTextQuery": "Gaucho 02, The O2, Peninsula Square, Greenwich, SE10 0DX London",
       "amexRaw": {
         "id": "21b1e249-500b-4287-a441-6aae91508fd9",
         "name": "Gaucho 02",
@@ -4414,7 +4362,6 @@
       "address": "7 West Nile Street",
       "zip": "G1 2PR",
       "city": "Glasgow",
-      "googlePlaceTextQuery": "Gaucho Glasgow, 7 West Nile Street, G1 2PR Glasgow",
       "amexRaw": {
         "id": "5b14a7ff-b460-470f-8163-506cb12ff07f",
         "name": "Gaucho Glasgow",
@@ -4503,7 +4450,6 @@
       "address": "2-6 Market Street",
       "zip": "NE1 6JF",
       "city": "Newcastle",
-      "googlePlaceTextQuery": "Gaucho Newcastle, 2-6 Market Street, NE1 6JF Newcastle",
       "amexRaw": {
         "id": "f35d8426-d3a8-4d71-9b22-1001bd6feb0f",
         "name": "Gaucho Newcastle",
@@ -4589,7 +4535,6 @@
       "address": "Kings Blvd, Kings Cross",
       "zip": "N1C 4BU",
       "city": "London",
-      "googlePlaceTextQuery": "German Gymnasium, Kings Blvd, Kings Cross, N1C 4BU London",
       "amexRaw": {
         "id": "5ab7196c-6983-45fa-b09b-120534fe15b7",
         "name": "German Gymnasium",
@@ -4678,7 +4623,6 @@
       "address": "100 King Street",
       "zip": "M2 4WU",
       "city": "Manchester",
-      "googlePlaceTextQuery": "Lucky Cat Manchester, 100 King Street, M2 4WU Manchester",
       "amexRaw": {
         "id": "d153627e-756d-44fa-ade0-61630abd3ac9",
         "name": "Lucky Cat Manchester",
@@ -4767,7 +4711,6 @@
       "address": "10-13 Grosvenor Square",
       "zip": "W1K 6JP",
       "city": "London",
-      "googlePlaceTextQuery": "Gordon Ramsay Bar & Grill Mayfair, 10-13 Grosvenor Square, W1K 6JP London",
       "amexRaw": {
         "id": "67803a01-dc68-4dc9-83ee-920d3e5e6220",
         "name": "Gordon Ramsay Bar & Grill Mayfair",
@@ -4832,7 +4775,6 @@
       "address": "11 Park Walk, Chelsea",
       "zip": "SW10 0AJ",
       "city": "London",
-      "googlePlaceTextQuery": "Gordon Ramsay Bar & Grill Park Walk, 11 Park Walk, Chelsea, SW10 0AJ London",
       "amexRaw": {
         "id": "898ce30b-1ccb-4946-8368-434f7bb399b2",
         "name": "Gordon Ramsay Bar & Grill Park Walk",
@@ -4897,7 +4839,6 @@
       "address": "42 Albemarle Street",
       "zip": "W1S 4JH",
       "city": "London",
-      "googlePlaceTextQuery": "Gymkhana, 42 Albemarle Street, W1S 4JH London",
       "amexRaw": {
         "id": "491094d6-23a3-4e89-9eb2-39d7894270b7",
         "name": "Gymkhana",
@@ -4986,7 +4927,6 @@
       "address": "8 Hanway Place, Fitzrovia",
       "zip": "W1T 1HD",
       "city": "London",
-      "googlePlaceTextQuery": "Hakkasan Hanway Place, 8 Hanway Place, Fitzrovia, W1T 1HD London",
       "amexRaw": {
         "id": "a647538e-f061-4723-b657-46fe48eb3910",
         "name": "Hakkasan Hanway Place",
@@ -5075,7 +5015,6 @@
       "address": "17 Bruton Street",
       "zip": "W1J 6QB",
       "city": "London",
-      "googlePlaceTextQuery": "Hakkasan Mayfair, 17 Bruton Street, W1J 6QB London",
       "amexRaw": {
         "id": "ffc3d296-5b96-431b-969c-6198a47513b4",
         "name": "Hakkasan Mayfair",
@@ -5164,7 +5103,6 @@
       "address": "23 W Register St",
       "zip": "EH2 2AA",
       "city": "Edinburgh",
-      "googlePlaceTextQuery": "Hawksmoor Edinburgh, 23 W Register St, EH2 2AA Edinburgh",
       "amexRaw": {
         "id": "0e6344a4-98f1-4d3f-9b96-b17b3108985f",
         "name": "Hawksmoor Edinburgh",
@@ -5229,7 +5167,6 @@
       "address": "5A Air Street",
       "zip": "W1J 0AD",
       "city": "London",
-      "googlePlaceTextQuery": "Hawksmoor Air Street, 5A Air Street, W1J 0AD London",
       "amexRaw": {
         "id": "326028d5-d7cb-47a4-8891-586e147838cc",
         "name": "Hawksmoor Air Street",
@@ -5294,7 +5231,6 @@
       "address": "India Buildings, 8 Brunswick St,",
       "zip": "L2 0PL",
       "city": "Liverpool",
-      "googlePlaceTextQuery": "Hawksmoor Liverpool, India Buildings, 8 Brunswick St,, L2 0PL Liverpool",
       "amexRaw": {
         "id": "63e2d1ea-4172-499a-b720-120eba12504b",
         "name": "Hawksmoor Liverpool",
@@ -5356,7 +5292,6 @@
       "address": "184-186 Deansgate",
       "zip": "M3 3WB",
       "city": "Manchester",
-      "googlePlaceTextQuery": "Hawksmoor Manchester, 184-186 Deansgate, M3 3WB Manchester",
       "amexRaw": {
         "id": "a9e0afe6-28e7-465c-a6e1-52dc28667467",
         "name": "Hawksmoor Manchester",
@@ -5421,7 +5356,6 @@
       "address": "3-9 Heddon St",
       "zip": "W1B 4BE",
       "city": "London",
-      "googlePlaceTextQuery": "Heddon Street Kitchen, 3-9 Heddon St, W1B 4BE London",
       "amexRaw": {
         "id": "25736b1f-25d8-4c66-83b8-1b0f9cbfc63f",
         "name": "Heddon Street Kitchen",
@@ -5510,7 +5444,6 @@
       "address": "16 Carlos Place, Mayfair",
       "zip": "W1K 2AL",
       "city": "London",
-      "googlePlaceTextQuery": "Helene Darroze At The Connaught, 16 Carlos Place, Mayfair, W1K 2AL London",
       "amexRaw": {
         "id": "c857f88d-835e-4b35-aaf0-be32e7bdca83",
         "name": "Helene Darroze At The Connaught",
@@ -5599,7 +5532,6 @@
       "address": "Level 33 The Shard, 31 St. Thomas Street",
       "zip": "SE1 9RY",
       "city": "London",
-      "googlePlaceTextQuery": "Hutong, Level 33 The Shard, 31 St. Thomas Street, SE1 9RY London",
       "amexRaw": {
         "id": "312e9f51-5d92-4d6b-b83c-fe6139cc67c6",
         "name": "Hutong",
@@ -5688,7 +5620,6 @@
       "address": "180 The Strand, Temple",
       "zip": "WC2R 1EA",
       "city": "London",
-      "googlePlaceTextQuery": "Ikoyi, 180 The Strand, Temple, WC2R 1EA London",
       "amexRaw": {
         "id": "0dbd7796-0e18-4fe1-a33c-fb979214e3d2",
         "name": "Ikoyi",
@@ -5753,7 +5684,6 @@
       "address": "Victoria Gate, 3rd Floor Rooftop",
       "zip": "LS2 7AU",
       "city": "Leeds",
-      "googlePlaceTextQuery": "Issho, Victoria Gate, 3rd Floor Rooftop, LS2 7AU Leeds",
       "amexRaw": {
         "id": "bfcaae78-1ab8-4d9d-9407-66766eca87bc",
         "name": "Issho",
@@ -5842,7 +5772,6 @@
       "address": "28-32 St Martin's Court",
       "zip": "WC2N 4AL",
       "city": "London",
-      "googlePlaceTextQuery": "J Sheekey, 28-32 St Martin's Court, WC2N 4AL London",
       "amexRaw": {
         "id": "6404477b-1a27-4247-8210-7bf5018a815a",
         "name": "J Sheekey",
@@ -5931,7 +5860,6 @@
       "address": "27 Romilly Street",
       "zip": "W1D 5AL",
       "city": "London",
-      "googlePlaceTextQuery": "Berenjak Soho, 27 Romilly Street, W1D 5AL London",
       "amexRaw": {
         "id": "702f2f3c-b546-4697-b1a5-898ae0c90c69",
         "name": "Berenjak Soho",
@@ -6017,7 +5945,6 @@
       "address": "1 Wilbraham Place",
       "zip": "SW1X 9AE",
       "city": "London",
-      "googlePlaceTextQuery": "Kahani restaurant, 1 Wilbraham Place, SW1X 9AE London",
       "amexRaw": {
         "id": "77389242-99aa-46d1-9455-e40c3580169f",
         "name": "Kahani restaurant",
@@ -6106,7 +6033,6 @@
       "address": "11a North Hill",
       "zip": "CO1 1DZ",
       "city": "Colchester",
-      "googlePlaceTextQuery": "Kintsu, 11a North Hill, CO1 1DZ Colchester",
       "amexRaw": {
         "id": "fb996ccc-c8f0-4c3b-af3d-dea9e26acc2f",
         "name": "Kintsu",
@@ -6165,7 +6091,6 @@
       "address": "10 Shepherd Market",
       "zip": "W1J 7QF",
       "city": "London",
-      "googlePlaceTextQuery": "Kitty Fishers, 10 Shepherd Market, W1J 7QF London",
       "amexRaw": {
         "id": "99c8bbe7-10dc-46cc-a83c-1421548118c9",
         "name": "Kitty Fishers",
@@ -6254,7 +6179,6 @@
       "address": "6 Clarges St",
       "zip": "W1J 7EN",
       "city": "London",
-      "googlePlaceTextQuery": "L’Atelier Robuchon, 6 Clarges St, W1J 7EN London",
       "amexRaw": {
         "id": "26b89d9d-4f03-46d1-bb19-3cbcf63d0de1",
         "name": "L’Atelier Robuchon",
@@ -6343,7 +6267,6 @@
       "address": "53-54 Brook's Mews, Mayfair",
       "zip": "W1K 4EG",
       "city": "London",
-      "googlePlaceTextQuery": "La Petite Maison, 53-54 Brook's Mews, Mayfair, W1K 4EG London",
       "amexRaw": {
         "id": "c5208a09-ed31-42e6-8c12-429a0184ce0d",
         "name": "La Petite Maison",
@@ -6432,7 +6355,6 @@
       "address": "1A Launceston Place",
       "zip": "W8 5RL",
       "city": "London",
-      "googlePlaceTextQuery": "Launceston Place, 1A Launceston Place, W8 5RL London",
       "amexRaw": {
         "id": "a7819bc3-d7b8-44d8-a65d-3cdfeafe36f2",
         "name": "Launceston Place",
@@ -6521,7 +6443,6 @@
       "address": "36D Shad Thames",
       "zip": "SE1 2YE",
       "city": "London",
-      "googlePlaceTextQuery": "Le Pont De La Tour, 36D Shad Thames, SE1 2YE London",
       "amexRaw": {
         "id": "e3a836e5-25db-432a-b3b3-9cfd13db2b40",
         "name": "Le Pont De La Tour",
@@ -6610,7 +6531,6 @@
       "address": "10 Grosvenor Square",
       "zip": "W1K 6JP",
       "city": "London",
-      "googlePlaceTextQuery": "Lucky Cat, 10 Grosvenor Square, W1K 6JP London",
       "amexRaw": {
         "id": "14fa4d51-442c-41c1-842c-982f6486be2d",
         "name": "Lucky Cat",
@@ -6699,7 +6619,6 @@
       "address": "The Ned, 27 Poultry",
       "zip": "EC2R 8AJ",
       "city": "London",
-      "googlePlaceTextQuery": "Lutyens Grill, The Ned, 27 Poultry, EC2R 8AJ London",
       "amexRaw": {
         "id": "b3d5a0d4-e891-42b4-a277-55fde8b38f42",
         "name": "Lutyens Grill",
@@ -6764,7 +6683,6 @@
       "address": "Tea Building, 56 Shoreditch High Street",
       "zip": "E1 6JJ",
       "city": "London",
-      "googlePlaceTextQuery": "Lyle's, Tea Building, 56 Shoreditch High Street, E1 6JJ London",
       "amexRaw": {
         "id": "5db3d514-7c46-4268-b521-3fb11bf62607",
         "name": "Lyle's",
@@ -6850,7 +6768,6 @@
       "address": "Madison Restaurant, Rooftop Terrace, One New Change, St Paul's",
       "zip": "EC4M 9AF",
       "city": "London",
-      "googlePlaceTextQuery": "Madison, Madison Restaurant, Rooftop Terrace, One New Change, St Paul's, EC4M 9AF London",
       "amexRaw": {
         "id": "8c6390a5-7128-4f09-8abb-dcfab11c2aba",
         "name": "Madison",
@@ -6915,7 +6832,6 @@
       "address": "45 Great Queen Street, Covent Garden",
       "zip": "WC2B 5AA",
       "city": "London",
-      "googlePlaceTextQuery": "Margot Restaurant, 45 Great Queen Street, Covent Garden, WC2B 5AA London",
       "amexRaw": {
         "id": "efb5b9f4-9c7d-4da8-9993-e8c9158dfad6",
         "name": "Margot Restaurant",
@@ -7004,7 +6920,6 @@
       "address": "16A New Street",
       "zip": "EC2M 4TR",
       "city": "London",
-      "googlePlaceTextQuery": "New Street Grill, 16A New Street, EC2M 4TR London",
       "amexRaw": {
         "id": "c964bfa9-294e-40b4-b974-9d337641cce2",
         "name": "New Street Grill",
@@ -7069,7 +6984,6 @@
       "address": "The Metropolitan Hotel, 19 Old Park Lane",
       "zip": "W1K 1LB",
       "city": "London",
-      "googlePlaceTextQuery": "Nobu London, The Metropolitan Hotel, 19 Old Park Lane, W1K 1LB London",
       "amexRaw": {
         "id": "4ec35eaa-d0b1-483c-91c8-196987cd7897",
         "name": "Nobu London",
@@ -7158,7 +7072,6 @@
       "address": "50A Berkeley Street",
       "zip": "W1J 8HA",
       "city": "London",
-      "googlePlaceTextQuery": "Novikov Asian, 50A Berkeley Street, W1J 8HA London",
       "amexRaw": {
         "id": "bff01848-234f-4d9b-bb8b-e35687c5b498",
         "name": "Novikov Asian",
@@ -7247,7 +7160,6 @@
       "address": "50A Berkeley Street",
       "zip": "W1J 8HA",
       "city": "London",
-      "googlePlaceTextQuery": "Novikov Italian, 50A Berkeley Street, W1J 8HA London",
       "amexRaw": {
         "id": "8ad3fdec-0e92-4e26-ac79-1dde2b472612",
         "name": "Novikov Italian",
@@ -7336,7 +7248,6 @@
       "address": "Level 32, The Shard, 31 St. Thomas Street",
       "zip": "SE1 9RY",
       "city": "London",
-      "googlePlaceTextQuery": "Oblix, Level 32, The Shard, 31 St. Thomas Street, SE1 9RY London",
       "amexRaw": {
         "id": "5d252d3f-1ec6-43aa-90a9-a55f72dffb91",
         "name": "Oblix",
@@ -7401,7 +7312,6 @@
       "address": "National Gallery, Trafalgar Square",
       "zip": "WC2N 5DN",
       "city": "London",
-      "googlePlaceTextQuery": "Ochre, National Gallery, Trafalgar Square, WC2N 5DN London",
       "amexRaw": {
         "id": "b2a3ab8d-cf46-4914-a9a8-917dad459f07",
         "name": "Ochre",
@@ -7490,7 +7400,6 @@
       "address": "1255 Finchley Road",
       "zip": "NW11 0AD",
       "city": "London",
-      "googlePlaceTextQuery": "One Ashbourne, 1255 Finchley Road, NW11 0AD London",
       "amexRaw": {
         "id": "f5f7d7b1-6d92-43b8-b7e8-7859acc4b746",
         "name": "One Ashbourne",
@@ -7579,7 +7488,6 @@
       "address": "48-65 Summer Row",
       "zip": "B3 1JJ",
       "city": "Birmingham",
-      "googlePlaceTextQuery": "Opheem, 48-65 Summer Row, B3 1JJ Birmingham",
       "amexRaw": {
         "id": "1993e40d-0aad-4e44-b3cd-1d5cb630787b",
         "name": "Opheem",
@@ -7668,7 +7576,6 @@
       "address": "55 Marylebone High Street",
       "zip": "W1U 5RB",
       "city": "London",
-      "googlePlaceTextQuery": "Orrery, 55 Marylebone High Street, W1U 5RB London",
       "amexRaw": {
         "id": "5c442198-30e3-4fc6-bdca-4b3bc078a20c",
         "name": "Orrery",
@@ -7757,7 +7664,6 @@
       "address": "17 Berkeley Street",
       "zip": "W1J 8ED",
       "city": "London",
-      "googlePlaceTextQuery": "Park Chinois, 17 Berkeley Street, W1J 8ED London",
       "amexRaw": {
         "id": "3e238f02-fdce-4df0-98aa-5d154c3e236d",
         "name": "Park Chinois",
@@ -7846,7 +7752,6 @@
       "address": "35 Old Bailey",
       "zip": "EC4M 7AU",
       "city": "London",
-      "googlePlaceTextQuery": "Paternoster Chop House, 35 Old Bailey, EC4M 7AU London",
       "amexRaw": {
         "id": "5d4b1b18-cc91-44ca-97b9-9733ff1d5b96",
         "name": "Paternoster Chop House",
@@ -7911,7 +7816,6 @@
       "address": "1 Kinnerton Street London",
       "zip": "SW1X 8EA",
       "city": "London",
-      "googlePlaceTextQuery": "Petrus, 1 Kinnerton Street London, SW1X 8EA London",
       "amexRaw": {
         "id": "e97c9f6e-6c31-4727-960f-83a7b5cfadfb",
         "name": "Petrus",
@@ -8000,7 +7904,6 @@
       "address": "4th Floor, Canada Place, Canada Square",
       "zip": "E14 5ER",
       "city": "London",
-      "googlePlaceTextQuery": "Plateau, 4th Floor, Canada Place, Canada Square, E14 5ER London",
       "amexRaw": {
         "id": "d0fd26c9-0484-42f0-b65e-a0b096a99ce7",
         "name": "Plateau",
@@ -8089,7 +7992,6 @@
       "address": "8-10 Pollen Street",
       "zip": "W1S 1NQ",
       "city": "London",
-      "googlePlaceTextQuery": "Pollen Street Social, 8-10 Pollen Street, W1S 1NQ London",
       "amexRaw": {
         "id": "7853e980-6e63-4533-aeb6-6f47e9ffe0ae",
         "name": "Pollen Street Social",
@@ -8178,7 +8080,6 @@
       "address": "16 Bury Street, St. James",
       "zip": "SW1Y 6AJ",
       "city": "London",
-      "googlePlaceTextQuery": "Quaglino's, 16 Bury Street, St. James, SW1Y 6AJ London",
       "amexRaw": {
         "id": "dbdb3295-2395-42a6-8f43-06808a03fe46",
         "name": "Quaglino's",
@@ -8267,7 +8168,6 @@
       "address": "37 Charlotte Street",
       "zip": "W1T 1RR",
       "city": "London",
-      "googlePlaceTextQuery": "Roka, 37 Charlotte Street, W1T 1RR London",
       "amexRaw": {
         "id": "02691feb-9c0f-42b6-a114-a8bb81eb40d6",
         "name": "Roka",
@@ -8356,7 +8256,6 @@
       "address": "71 Aldwych",
       "zip": "WC2B 4HN",
       "city": "London",
-      "googlePlaceTextQuery": "Roka Aldwych, 71 Aldwych, WC2B 4HN London",
       "amexRaw": {
         "id": "192cb6f3-936a-40a8-8ba3-218d664b78ab",
         "name": "Roka Aldwych",
@@ -8445,7 +8344,6 @@
       "address": "35-37 Heddon Street",
       "zip": "W1B 4BR",
       "city": "London",
-      "googlePlaceTextQuery": "Sabor, 35-37 Heddon Street, W1B 4BR London",
       "amexRaw": {
         "id": "4e5512c5-5d55-4cc6-b06d-0bf74bcb3176",
         "name": "Sabor",
@@ -8534,7 +8432,6 @@
       "address": "Heathcoat House 20 Savile Row, Mayfair",
       "zip": "W1S 3PR",
       "city": "London",
-      "googlePlaceTextQuery": "Sartoria, Heathcoat House 20 Savile Row, Mayfair, W1S 3PR London",
       "amexRaw": {
         "id": "fb44e438-108c-4b2f-865d-5b0d69c16622",
         "name": "Sartoria",
@@ -8623,7 +8520,6 @@
       "address": "The Savoy",
       "zip": "WC2R 0EU",
       "city": "London",
-      "googlePlaceTextQuery": "Savoy Grill Gordon Ramsay, The Savoy, WC2R 0EU London",
       "amexRaw": {
         "id": "bdc10bc2-a59e-4865-bf5a-be441fdbdd75",
         "name": "Savoy Grill Gordon Ramsay",
@@ -8688,7 +8584,6 @@
       "address": "Berkeley Square House, Berkeley Square",
       "zip": "W1J 6BR",
       "city": "London",
-      "googlePlaceTextQuery": "Sexy Fish, Berkeley Square House, Berkeley Square, W1J 6BR London",
       "amexRaw": {
         "id": "c9f3f36f-18c4-4e9d-8a72-f06d5866262e",
         "name": "Sexy Fish",
@@ -8777,7 +8672,6 @@
       "address": "20 Highfield Road, Edgbaston",
       "zip": "B15 3DU",
       "city": "Birmingham",
-      "googlePlaceTextQuery": "Simpsons, 20 Highfield Road, Edgbaston, B15 3DU Birmingham",
       "amexRaw": {
         "id": "3f24c16c-eb1c-4a00-9385-e0d82565f5a9",
         "name": "Simpsons",
@@ -8863,7 +8757,6 @@
       "address": "9 Conduit Street",
       "zip": "W1S 2XG",
       "city": "London",
-      "googlePlaceTextQuery": "Sketch, 9 Conduit Street, W1S 2XG London",
       "amexRaw": {
         "id": "1a2ca608-822d-4cec-9c88-7cf3ad2f5a76",
         "name": "Sketch",
@@ -8952,7 +8845,6 @@
       "address": "Royal Festival Hall",
       "zip": "SE1 8XX",
       "city": "London",
-      "googlePlaceTextQuery": "Skylon, Royal Festival Hall, SE1 8XX London",
       "amexRaw": {
         "id": "e0d2e282-92ac-4e46-be07-d89eed9ee69c",
         "name": "Skylon",
@@ -9041,7 +8933,6 @@
       "address": "35 Sclater Street",
       "zip": "E1 6LB",
       "city": "London",
-      "googlePlaceTextQuery": "Smokestak, 35 Sclater Street, E1 6LB London",
       "amexRaw": {
         "id": "e3197d34-e20d-4723-b0da-d2079ef60c2d",
         "name": "Smokestak",
@@ -9106,7 +8997,6 @@
       "address": "43A Commercial St",
       "zip": "E1 6BD",
       "city": "London",
-      "googlePlaceTextQuery": "Som Saa, 43A Commercial St, E1 6BD London",
       "amexRaw": {
         "id": "a5d357b7-db51-4160-8b31-386cbf89b8c4",
         "name": "Som Saa",
@@ -9195,7 +9085,6 @@
       "address": "3 South Place",
       "zip": "EC2M 2AF",
       "city": "London",
-      "googlePlaceTextQuery": "South Place Chophouse, 3 South Place, EC2M 2AF London",
       "amexRaw": {
         "id": "c0e42e8a-dc5d-4e9a-963d-0e8a55358700",
         "name": "South Place Chophouse",
@@ -9260,7 +9149,6 @@
       "address": "110 Bishopsgate, Heron Tower",
       "zip": "EC2N 4AY",
       "city": "London",
-      "googlePlaceTextQuery": "Sushi Samba, 110 Bishopsgate, Heron Tower, EC2N 4AY London",
       "amexRaw": {
         "id": "be69167b-95c5-40de-9594-fbfe6c9881b6",
         "name": "Sushi Samba",
@@ -9349,7 +9237,6 @@
       "address": "35 The Market",
       "zip": "WC2E 8RF",
       "city": "London",
-      "googlePlaceTextQuery": "Sushi Samba Covent Garden, 35 The Market, WC2E 8RF London",
       "amexRaw": {
         "id": "bc0b54d7-69b0-4db1-b2a2-2dd2f3cae618",
         "name": "Sushi Samba Covent Garden",
@@ -9438,7 +9325,6 @@
       "address": "18 Barwick Street",
       "zip": "B3 2NT",
       "city": "Birmingham",
-      "googlePlaceTextQuery": "Tattu Birmingham, 18 Barwick Street, B3 2NT Birmingham",
       "amexRaw": {
         "id": "586024f4-71fa-4f8a-a291-1f2a58467718",
         "name": "Tattu Birmingham",
@@ -9527,7 +9413,6 @@
       "address": "18 West Register Street",
       "zip": "EH2 2AA",
       "city": "Edinburgh",
-      "googlePlaceTextQuery": "Tattu Edinburgh, 18 West Register Street, EH2 2AA Edinburgh",
       "amexRaw": {
         "id": "a3bd1615-991e-4025-9eea-656545c896fd",
         "name": "Tattu Edinburgh",
@@ -9616,7 +9501,6 @@
       "address": "Minerva",
       "zip": "LS1 5PS",
       "city": "Leeds",
-      "googlePlaceTextQuery": "Tattu Leeds, Minerva, LS1 5PS Leeds",
       "amexRaw": {
         "id": "28c6e124-0368-4bb4-82aa-e5d894cebe1e",
         "name": "Tattu Leeds",
@@ -9705,7 +9589,6 @@
       "address": "The Now Building Rooftop, Denmark Street",
       "zip": "WC21 OLA",
       "city": "London",
-      "googlePlaceTextQuery": "Tattu London, The Now Building Rooftop, Denmark Street, WC21 OLA London",
       "amexRaw": {
         "id": "f20c952d-8494-459d-b611-8743f2d5c4ab",
         "name": "Tattu London",
@@ -9794,7 +9677,6 @@
       "address": "3 Hardman Square, Gartside Street, Spinn",
       "zip": "M3 3EB",
       "city": "Manchester",
-      "googlePlaceTextQuery": "Tattu Manchester, 3 Hardman Square, Gartside Street, Spinn, M3 3EB Manchester",
       "amexRaw": {
         "id": "680f88f5-36e8-4238-87e5-2c425e78023c",
         "name": "Tattu Manchester",
@@ -9883,7 +9765,6 @@
       "address": "Walsall Road, Summerhill, Muckley corner",
       "zip": "WS140BU",
       "city": "Lichfield",
-      "googlePlaceTextQuery": "The Boat, Walsall Road, Summerhill, Muckley corner, WS140BU Lichfield",
       "amexRaw": {
         "id": "0c53e71c-96eb-444b-9eb6-84761218558b",
         "name": "The Boat",
@@ -9942,7 +9823,6 @@
       "address": "8 Balderton Street, The Beaumont, Brown",
       "zip": "W1K 6TF",
       "city": "London",
-      "googlePlaceTextQuery": "The Colony Grill, Beaumont Hotel, 8 Balderton Street, The Beaumont, Brown, W1K 6TF London",
       "amexRaw": {
         "id": "df703fc8-515a-43a5-b37c-9690a26a8209",
         "name": "The Colony Grill, Beaumont Hotel",
@@ -10007,7 +9887,6 @@
       "address": "55 Aldwych",
       "zip": "WC2B 4BB",
       "city": "London",
-      "googlePlaceTextQuery": "The Delaunay Restaurant, 55 Aldwych, WC2B 4BB London",
       "amexRaw": {
         "id": "c5a6a8b7-8d22-4476-b479-0295edc55381",
         "name": "The Delaunay Restaurant",
@@ -10096,7 +9975,6 @@
       "address": "8-10 N Audley Street",
       "zip": "W1K 6ZD",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Asia Mayfair, 8-10 N Audley Street, W1K 6ZD London",
       "amexRaw": {
         "id": "b1084036-a212-425e-abfb-bcbbbe20f7c7",
         "name": "The Ivy Asia Mayfair",
@@ -10185,7 +10063,6 @@
       "address": "1-3 Verulam Road",
       "zip": "AL3 4DA",
       "city": "St. Albans",
-      "googlePlaceTextQuery": "The Ivy St Albans, 1-3 Verulam Road, AL3 4DA St. Albans",
       "amexRaw": {
         "id": "00464d55-6fc9-4ff3-9a1e-f3e33a4798b9",
         "name": "The Ivy St Albans",
@@ -10268,7 +10145,6 @@
       "address": "51A Ship Street",
       "zip": "BN1 1AF",
       "city": "Brighton",
-      "googlePlaceTextQuery": "The Ivy In The Lanes, 51A Ship Street, BN1 1AF Brighton",
       "amexRaw": {
         "id": "128334ce-f1a5-498c-b576-8d1296ec013d",
         "name": "The Ivy In The Lanes",
@@ -10354,7 +10230,6 @@
       "address": "39 Milsom Street",
       "zip": "BA1 1DS",
       "city": "Bath",
-      "googlePlaceTextQuery": "The Ivy Bath Brasserie, 39 Milsom Street, BA1 1DS Bath",
       "amexRaw": {
         "id": "18321eb1-e70b-4b04-9abb-b2f2173fa1d3",
         "name": "The Ivy Bath Brasserie",
@@ -10440,7 +10315,6 @@
       "address": "2 St Helens Square",
       "zip": "YO1 8QP",
       "city": "York",
-      "googlePlaceTextQuery": "The Ivy St Helens Square, 2 St Helens Square, YO1 8QP York",
       "amexRaw": {
         "id": "21b5bb81-dd8f-4880-a5ef-00ceaadf4785",
         "name": "The Ivy St Helens Square",
@@ -10526,7 +10400,6 @@
       "address": "96 Marylebone Lane",
       "zip": "W1U 2QA",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Cafe Marylebone, 96 Marylebone Lane, W1U 2QA London",
       "amexRaw": {
         "id": "2873b4d3-63dd-473a-a24d-b1a5fcf72ea2",
         "name": "The Ivy Cafe Marylebone",
@@ -10612,7 +10485,6 @@
       "address": "16 Trinity St,City Centre",
       "zip": "CB2 1TB",
       "city": "Cambridge",
-      "googlePlaceTextQuery": "The Ivy Cambridge, 16 Trinity St,City Centre, CB2 1TB Cambridge",
       "amexRaw": {
         "id": "2b3a3acf-d4da-41e5-a2b3-1cb922593681",
         "name": "The Ivy Cambridge",
@@ -10698,7 +10570,6 @@
       "address": "1-5 West Street",
       "zip": "WC2H 9NQ",
       "city": "London",
-      "googlePlaceTextQuery": "Ivy West Street, 1-5 West Street, WC2H 9NQ London",
       "amexRaw": {
         "id": "2d39d0c9-b7a3-4556-a08d-0d7f6d940629",
         "name": "Ivy West Street",
@@ -10784,7 +10655,6 @@
       "address": "120-121 High Street",
       "zip": "OX1 4DD",
       "city": "Oxford",
-      "googlePlaceTextQuery": "The Ivy Oxford, 120-121 High Street, OX1 4DD Oxford",
       "amexRaw": {
         "id": "2e300abf-277a-4f92-800d-1d1736445fd9",
         "name": "The Ivy Oxford",
@@ -10870,7 +10740,6 @@
       "address": "26-28 Broadwick Street",
       "zip": "W1F 8JB",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Soho Brasserie, 26-28 Broadwick Street, W1F 8JB London",
       "amexRaw": {
         "id": "2ee2ffb7-f175-47e6-9add-2dc62d77e91e",
         "name": "The Ivy Soho Brasserie",
@@ -10956,7 +10825,6 @@
       "address": "6 St Andrew Square",
       "zip": "EH2 2BD",
       "city": "Edinburgh",
-      "googlePlaceTextQuery": "The Ivy on The Square, 6 St Andrew Square, EH2 2BD Edinburgh",
       "amexRaw": {
         "id": "325dd856-e7f7-40b9-87eb-ee360e97d8c0",
         "name": "The Ivy on The Square",
@@ -11042,7 +10910,6 @@
       "address": "1 Tower Bridge",
       "zip": "SE1 2AA",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Tower Bridge, 1 Tower Bridge, SE1 2AA London",
       "amexRaw": {
         "id": "36386c63-905b-4ada-9de6-e54cc17fdb60",
         "name": "The Ivy Tower Bridge",
@@ -11128,7 +10995,6 @@
       "address": "103-104 High Street",
       "zip": "SO23 9AH",
       "city": "Winchester",
-      "googlePlaceTextQuery": "The Ivy Winchester Brasserie, 103-104 High Street, SO23 9AH Winchester",
       "amexRaw": {
         "id": "44c3cfc0-2a16-4180-8552-d7cab3889a7f",
         "name": "The Ivy Winchester Brasserie",
@@ -11214,7 +11080,6 @@
       "address": "66 Victoria St",
       "zip": "SW1E 6SQ",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Victoria, 66 Victoria St, SW1E 6SQ London",
       "amexRaw": {
         "id": "563ab5e5-05b3-4f27-8237-ff431208ce28",
         "name": "The Ivy Victoria",
@@ -11300,7 +11165,6 @@
       "address": "48 High Street",
       "zip": "KT11 3EF",
       "city": "Cobham",
-      "googlePlaceTextQuery": "The Ivy Cobham Brasserie, 48 High Street, KT11 3EF Cobham",
       "amexRaw": {
         "id": "57a7e05c-2ba1-49eb-a35b-638ae65a7f51",
         "name": "The Ivy Cobham Brasserie",
@@ -11386,7 +11250,6 @@
       "address": "46-50 High Street",
       "zip": "TN1 1XF",
       "city": "Tunbridge Wells",
-      "googlePlaceTextQuery": "The Ivy Royal Tunbridge Wells, 46-50 High Street, TN1 1XF Tunbridge Wells",
       "amexRaw": {
         "id": "5b4b9692-2e7b-440d-a008-6ec62746e5b3",
         "name": "The Ivy Royal Tunbridge Wells",
@@ -11472,7 +11335,6 @@
       "address": "106 Buchanan Street",
       "zip": "G1 2NB",
       "city": "Glasgow",
-      "googlePlaceTextQuery": "The Ivy Glasgow, 106 Buchanan Street, G1 2NB Glasgow",
       "amexRaw": {
         "id": "673564e5-5383-4992-8533-f0d7b515ab18",
         "name": "The Ivy Glasgow",
@@ -11558,7 +11420,6 @@
       "address": "9-11 Hill Street",
       "zip": "TW9 1SX",
       "city": "Richmond-upon-Thames",
-      "googlePlaceTextQuery": "The Ivy Cafe Richmond, 9-11 Hill Street, TW9 1SX Richmond-upon-Thames",
       "amexRaw": {
         "id": "6a6001ef-5546-4c84-96ba-e8cb9a9d68b2",
         "name": "The Ivy Cafe Richmond",
@@ -11641,7 +11502,6 @@
       "address": "66-68 High Street",
       "zip": "SL7 1AH",
       "city": "Marlow",
-      "googlePlaceTextQuery": "The Ivy Marlow Garden, 66-68 High Street, SL7 1AH Marlow",
       "amexRaw": {
         "id": "6d99fad0-2160-4c6f-a5d8-42e5d982c070",
         "name": "The Ivy Marlow Garden",
@@ -11724,7 +11584,6 @@
       "address": "195-197 King's Road",
       "zip": "SW3 5EQ",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Chelsea Garden, 195-197 King's Road, SW3 5EQ London",
       "amexRaw": {
         "id": "7bfb7ae8-2018-4b0a-aa22-5e89436b9a2d",
         "name": "The Ivy Chelsea Garden",
@@ -11810,7 +11669,6 @@
       "address": "20 New Change Road",
       "zip": "EC4M 9AG",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Asia St Paul's, 20 New Change Road, EC4M 9AG London",
       "amexRaw": {
         "id": "832348f5-24bb-44a1-a13b-4081a240ad28",
         "name": "The Ivy Asia St Paul's",
@@ -11899,7 +11757,6 @@
       "address": "Rotunda Terrace",
       "zip": "GL50 1SH",
       "city": "Cheltenham",
-      "googlePlaceTextQuery": "The Ivy Montpelier Brasserie, Rotunda Terrace, GL50 1SH Cheltenham",
       "amexRaw": {
         "id": "88a7f918-0587-4d82-993d-22481250214d",
         "name": "The Ivy Montpelier Brasserie",
@@ -11985,7 +11842,6 @@
       "address": "43-45 Montpelier Vale, Blackheath",
       "zip": "SE3 0TJ",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Cafe Blackheath, 43-45 Montpelier Vale, Blackheath, SE3 0TJ London",
       "amexRaw": {
         "id": "8910e500-db64-42a4-b5c5-d4afd8cd80d1",
         "name": "The Ivy Cafe Blackheath",
@@ -12071,7 +11927,6 @@
       "address": "67-71 Temple Row",
       "zip": "B2 5LS",
       "city": "Birmingham",
-      "googlePlaceTextQuery": "The Ivy Temple Row, 67-71 Temple Row, B2 5LS Birmingham",
       "amexRaw": {
         "id": "8f7dcd7f-8269-46d0-89a1-b97d863bfe67",
         "name": "The Ivy Temple Row",
@@ -12157,7 +12012,6 @@
       "address": "1a Henrietta Street, Covent Garden",
       "zip": "WC2E 8PS",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Market Grill, 1a Henrietta Street, Covent Garden, WC2E 8PS London",
       "amexRaw": {
         "id": "9566f240-5539-49ff-abd6-3c19b7be61aa",
         "name": "The Ivy Market Grill",
@@ -12243,7 +12097,6 @@
       "address": "96 Kensington High Street",
       "zip": "W8 4SG",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Kensington Brasserie, 96 Kensington High Street, W8 4SG London",
       "amexRaw": {
         "id": "95dd989d-3f8f-4e0d-9b2c-d15763a6ac86",
         "name": "The Ivy Kensington Brasserie",
@@ -12329,7 +12182,6 @@
       "address": "30 London Street",
       "zip": "NR2 1LD",
       "city": "Norwich",
-      "googlePlaceTextQuery": "The Ivy Norwich Brasserie, 30 London Street, NR2 1LD Norwich",
       "amexRaw": {
         "id": "abc362e9-01ff-44dc-8b4d-d04427c19327",
         "name": "The Ivy Norwich Brasserie",
@@ -12415,7 +12267,6 @@
       "address": "Lg 69/70 St David South 2 Shopping Cen",
       "zip": "CF10 1GA",
       "city": "Cardiff",
-      "googlePlaceTextQuery": "The Ivy Cardiff, Lg 69/70 St David South 2 Shopping Cen, CF10 1GA Cardiff",
       "amexRaw": {
         "id": "b06a4a29-3b48-45ab-a253-2a112ba482b8",
         "name": "The Ivy Cardiff",
@@ -12501,7 +12352,6 @@
       "address": "50 Canada Square Park",
       "zip": "E14 5FW",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy In The Park, 50 Canada Square Park, E14 5FW London",
       "amexRaw": {
         "id": "bb8f9ad2-a852-44bd-b5ac-5c2781e7f69f",
         "name": "The Ivy In The Park",
@@ -12587,7 +12437,6 @@
       "address": "42-44 Caledonia Place, Clifton",
       "zip": "BS8 4DN",
       "city": "Bristol",
-      "googlePlaceTextQuery": "The Ivy Clifton Brasserie, 42-44 Caledonia Place, Clifton, BS8 4DN Bristol",
       "amexRaw": {
         "id": "d4f3d884-4a6c-4a13-8184-b3758b6cd197",
         "name": "The Ivy Clifton Brasserie",
@@ -12673,7 +12522,6 @@
       "address": "7-9 Parliament Street",
       "zip": "HG1 2QU",
       "city": "Harrogate",
-      "googlePlaceTextQuery": "The Ivy Harrogate Brasserie, 7-9 Parliament Street, HG1 2QU Harrogate",
       "amexRaw": {
         "id": "de076ba1-f345-40b3-9015-e7b11be93422",
         "name": "The Ivy Harrogate Brasserie",
@@ -12759,7 +12607,6 @@
       "address": "Dashwood House, 69 Old Broad Street",
       "zip": "EC2M 1QS",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy City Garden, Dashwood House, 69 Old Broad Street, EC2M 1QS London",
       "amexRaw": {
         "id": "de77b1a8-4fb6-408b-88e4-3bff36452040",
         "name": "The Ivy City Garden",
@@ -12845,7 +12692,6 @@
       "address": "Vicar Lane",
       "zip": "LS1 6BB",
       "city": "Leeds",
-      "googlePlaceTextQuery": "The Ivy Victoria Quarter, Vicar Lane, LS1 6BB Leeds",
       "amexRaw": {
         "id": "df595d44-b5bc-4464-932a-bb8ec7a33fde",
         "name": "The Ivy Victoria Quarter",
@@ -12931,7 +12777,6 @@
       "address": "75 High Street, Wimbledon Village",
       "zip": "SW19 5EQ",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Cafe Wimbledon, 75 High Street, Wimbledon Village, SW19 5EQ London",
       "amexRaw": {
         "id": "e1e49943-b3de-428d-aee7-ba2ebd0227d6",
         "name": "The Ivy Cafe Wimbledon",
@@ -13017,7 +12862,6 @@
       "address": "The Pavilion",
       "zip": "M3 3HG",
       "city": "Manchester",
-      "googlePlaceTextQuery": "The Ivy Spinningfields, The Pavilion, M3 3HG Manchester",
       "amexRaw": {
         "id": "e42bc813-8f30-4191-bdb8-932142e22764",
         "name": "The Ivy Spinningfields",
@@ -13103,7 +12947,6 @@
       "address": "120 St. John's Wood High Street",
       "zip": "NW8 7SG",
       "city": "London",
-      "googlePlaceTextQuery": "The Ivy Cafe St Johns Wood, 120 St. John's Wood High Street, NW8 7SG London",
       "amexRaw": {
         "id": "e9e9a973-4b85-438d-9e98-a4b4c97a756d",
         "name": "The Ivy Cafe St Johns Wood",
@@ -13189,7 +13032,6 @@
       "address": "Tunsgate Quarter,98-110 High Street",
       "zip": "GU1 3QY",
       "city": "Guildford",
-      "googlePlaceTextQuery": "The Ivy Castle View, Tunsgate Quarter,98-110 High Street, GU1 3QY Guildford",
       "amexRaw": {
         "id": "f9259983-36b1-4aac-ab41-9c46e77f1085",
         "name": "The Ivy Castle View",
@@ -13275,7 +13117,6 @@
       "address": "10 Upper Market Street",
       "zip": "BN3 1AS",
       "city": "Brighton",
-      "googlePlaceTextQuery": "The Little Fish Market, 10 Upper Market Street, BN3 1AS Brighton",
       "amexRaw": {
         "id": "bba1d458-cf48-43b7-b4e3-06bec2bad99f",
         "name": "The Little Fish Market",
@@ -13364,7 +13205,6 @@
       "address": "10 Crimp Hill, Old Windsor",
       "zip": "SL4 2QY",
       "city": "Windsor",
-      "googlePlaceTextQuery": "The Loch & The Tyne, 10 Crimp Hill, Old Windsor, SL4 2QY Windsor",
       "amexRaw": {
         "id": "b1138f47-d9ae-4564-8f44-b2d0f5d87eef",
         "name": "The Loch & The Tyne",
@@ -13447,7 +13287,6 @@
       "address": "22 Charlotte Street",
       "zip": "W1T 2NB",
       "city": "London",
-      "googlePlaceTextQuery": "The Ninth, 22 Charlotte Street, W1T 2NB London",
       "amexRaw": {
         "id": "6541a56d-7db5-472e-85db-c9481859cccf",
         "name": "The Ninth",
@@ -13536,7 +13375,6 @@
       "address": "160 Piccadilly",
       "zip": "W1J 9EB",
       "city": "London",
-      "googlePlaceTextQuery": "The Wolseley Restaurant Ltd, 160 Piccadilly, W1J 9EB London",
       "amexRaw": {
         "id": "6bf1792a-1610-4488-bcb6-9bf4e9638d9b",
         "name": "The Wolseley Restaurant Ltd",
@@ -13625,7 +13463,6 @@
       "address": "1 Surrey Street",
       "zip": "WC2R 2ND",
       "city": "London",
-      "googlePlaceTextQuery": "Toklas, 1 Surrey Street, WC2R 2ND London",
       "amexRaw": {
         "id": "1c215a53-1a2a-4944-a346-062fef49a6a8",
         "name": "Toklas",
@@ -13714,7 +13551,6 @@
       "address": "Carbis Bay Estate, Carbis Bay,Saint Ives",
       "zip": "TR26 2NP",
       "city": "Cornwall",
-      "googlePlaceTextQuery": "Ugly Butterfly, Carbis Bay Estate, Carbis Bay,Saint Ives, TR26 2NP Cornwall",
       "amexRaw": {
         "id": "36f8e5ac-b66f-42b4-aec6-c386cebcb981",
         "name": "Ugly Butterfly",
@@ -13797,7 +13633,6 @@
       "address": "14-16 Bruton Place",
       "zip": "W1J 6LX",
       "city": "London",
-      "googlePlaceTextQuery": "Umu, 14-16 Bruton Place, W1J 6LX London",
       "amexRaw": {
         "id": "25667b56-d940-4eb2-a5fe-7f3b79ddac10",
         "name": "Umu",
@@ -13886,7 +13721,6 @@
       "address": "Mezzanine Floor, Victory House, 99 Regent Street",
       "zip": "W1B 4RS",
       "city": "London",
-      "googlePlaceTextQuery": "Veeraswamy, Mezzanine Floor, Victory House, 99 Regent Street, W1B 4RS London",
       "amexRaw": {
         "id": "9b0b2a9f-1cab-47de-89e5-a76a65b61a4d",
         "name": "Veeraswamy",
@@ -13975,7 +13809,6 @@
       "address": "43 Broadgate Circle",
       "zip": "EC2M 2QS",
       "city": "London",
-      "googlePlaceTextQuery": "Yauatcha City, 43 Broadgate Circle, EC2M 2QS London",
       "amexRaw": {
         "id": "2447b62b-d899-4af5-be08-ab79021e38cc",
         "name": "Yauatcha City",
@@ -14061,7 +13894,6 @@
       "address": "15-17 Broadwick Street",
       "zip": "W1F 0DL",
       "city": "London",
-      "googlePlaceTextQuery": "Yauatcha Soho, 15-17 Broadwick Street, W1F 0DL London",
       "amexRaw": {
         "id": "03a6b107-9d17-4c64-baca-952b84858cab",
         "name": "Yauatcha Soho",

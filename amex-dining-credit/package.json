@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@googlemaps/places": "^1.6.0"
+  }
+}

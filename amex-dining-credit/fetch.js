@@ -3,9 +3,7 @@
 // handy command line infos: https://nodejs.org/en/learn/command-line/output-to-the-command-line-using-nodejs
 
 const fs = require('node:fs');
-
-console.log(process.env["PLACES_API_KEY"]);
-return;
+const util = require('node:util');
 
 function amexMerchantsToPlaces(amexApiMerchants) {
     return amexApiMerchants.flatMap(amexMerchant => {
@@ -22,12 +20,12 @@ function amexMerchantsToPlaces(amexApiMerchants) {
             "address": amexMerchant.address,
             "zip": amexMerchant.postcode,
             "city": amexMerchant.city.title,
-            "googlePlaceTextQuery": `${amexMerchant.name}, ${amexMerchant.address}, ${amexMerchant.postcode} ${amexMerchant.city.title}`,
+            //"googlePlaceTextQuery": `${amexMerchant.name}, ${amexMerchant.address}, ${amexMerchant.postcode} ${amexMerchant.city.title}`,
+            "assumedLocation": amexMerchant.googleMapsUrl.match(/@(?<lat>-?\d+(?:\.\d+)?),(?<lon>-?\d+(?:\.\d+)?)/)?.groups ?? null,
             "amexRaw": amexMerchant,
         }
     });
 }
-
 
 const placesPromises =
     ["GB"].map(async function(country) {
