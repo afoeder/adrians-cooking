@@ -23,5 +23,5 @@ Promise.all(merchantsPromise).then(merchantsInCountries => {
         merchants[country] = countryMerchants;
     });
     fs.writeFile('./amex-merchants.json', JSON.stringify(merchants, null, 2), error => error && console.error(error));
-    console.info("All merchants written successfully.");
+    console.info("All merchants data written.");
 });
