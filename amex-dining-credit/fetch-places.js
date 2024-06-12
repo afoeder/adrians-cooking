@@ -35,7 +35,7 @@ function amexMerchantsToPlaces(amexApiMerchants) {
 }
 
 const placesPromises =
-    ["DE"].map(async function(country) {
+    ["GB"].map(async function(country) {
         console.info("Fetching country "+country);
         const amexApiMerchants = await (
             await fetch(
@@ -44,7 +44,7 @@ const placesPromises =
         return {country: country, places: amexMerchantsToPlaces(amexApiMerchants)};
     });
 
-const places = {};
+const places = require("./places.json");
 
 Promise.all(placesPromises).then(placesInCountries => {
     placesInCountries.forEach(placesPerCountry => {
