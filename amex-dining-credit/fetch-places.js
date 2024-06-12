@@ -1,10 +1,11 @@
-// run: `$ node --env-file=.env --experimental-fetch fetch.js
+// run: `$ node --env-file=.env --experimental-fetch fetch-places.js
 // the standard "Fetch" API is only available experimentally in Node, with the above flag we can make it available.
 // handy command line infos: https://nodejs.org/en/learn/command-line/output-to-the-command-line-using-nodejs
 
 const fs = require('node:fs');
 const util = require('node:util');
 
+/** @todo: this is the same function as in index.html — should be shared; until then: keep in sync manually  */
 function amexMerchantsToPlaces(amexApiMerchants) {
     return amexApiMerchants.flatMap(amexMerchant => {
         if (amexMerchant.isMerchantGroup) {
@@ -15,27 +16,33 @@ function amexMerchantsToPlaces(amexApiMerchants) {
             console.log("Merchant group!", amexMerchant.name);
             return amexMerchantsToPlaces(amexMerchant.merchants);
         }
+        let assumedLocation =
+            amexMerchant.googleMapsUrl.match(/@(?<lat>-?\d+(?:\.\d+)?),(?<lon>-?\d+(?:\.\d+)?)/)?.groups ?? null;
+        if (assumedLocation?.lat) assumedLocation.lat = parseFloat(assumedLocation.lat);
+        if (assumedLocation?.lon) assumedLocation.lon = parseFloat(assumedLocation.lon);
         return {
             "name": amexMerchant.name,
             "address": amexMerchant.address,
             "zip": amexMerchant.postcode,
             "city": amexMerchant.city.title,
+            "amexId": amexMerchant.id,
             //"googlePlaceTextQuery": `${amexMerchant.name}, ${amexMerchant.address}, ${amexMerchant.postcode} ${amexMerchant.city.title}`,
-            "assumedLocation": amexMerchant.googleMapsUrl.match(/@(?<lat>-?\d+(?:\.\d+)?),(?<lon>-?\d+(?:\.\d+)?)/)?.groups ?? null,
-            "amexRaw": amexMerchant,
+            "assumedLocation": assumedLocation,
+            "googleMapsUrl": amexMerchant.googleMapsUrl
+            //"amexRaw": amexMerchant,
         }
     });
 }
 
 const placesPromises =
-    ["GB"].map(async function(country) {
-            const amexApiMerchants = await (
-                await fetch(
-                    `https://dining-offers-prod.amex.r53.tuimedia.com/api/country/${country}/merchants`))
-                .json();
-            return {country: country, places: amexMerchantsToPlaces(amexApiMerchants)};
-        }
-    );
+    ["DE"].map(async function(country) {
+        console.info("Fetching country "+country);
+        const amexApiMerchants = await (
+            await fetch(
+                `https://dining-offers-prod.amex.r53.tuimedia.com/api/country/${country}/merchants`))
+            .json();
+        return {country: country, places: amexMerchantsToPlaces(amexApiMerchants)};
+    });
 
 const places = {};
 

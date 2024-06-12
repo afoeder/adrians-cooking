@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>AMEX Dining credit locations</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
     <style>
         body { font-family: "SF Pro", sans-serif; }
         a { text-decoration: none }
     </style>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
 </head>
 
 <body>
@@ -50,16 +56,9 @@
 <div id="map" style="width: 80%;height: 80vh; margin: 0 auto"></div>
 
 <script>
-    (g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})({
-        key: "AIzaSyCsQbB1qCK4L0OkFjsSu2gsySgP9hm6sIM",
-        v: "weekly",
-        // Use the 'v' parameter to indicate the version to use (weekly, beta, alpha, etc.).
-        // Add other bootstrap parameters as needed, using camel case.
-    });
-</script>
-<script>
 !function() {
 
+    /** @todo: this is the same function as in fetch-places.js — should be shared; until then: keep in sync manually  */
     function amexMerchantsToPlaces(amexApiMerchants) {
         return amexApiMerchants.flatMap(amexMerchant => {
             if (amexMerchant.isMerchantGroup) {
@@ -79,30 +78,22 @@
                 "address": amexMerchant.address,
                 "zip": amexMerchant.postcode,
                 "city": amexMerchant.city.title,
+                "amexId": amexMerchant.id,
                 //"googlePlaceTextQuery": `${amexMerchant.name}, ${amexMerchant.address}, ${amexMerchant.postcode} ${amexMerchant.city.title}`,
                 "assumedLocation": assumedLocation,
+                "googleMapsUrl": amexMerchant.googleMapsUrl,
                 //"amexRaw": amexMerchant,
             }
         });
     }
 
-    let map;
-
-    async function initMap() {
-        const { Map } = await google.maps.importLibrary("maps");
-
-        map = new Map(document.getElementById("map"), {
-            center: { lat: 51.163375, lng: 10.447683 },
-            zoom: 2,
-            mapId: "DEMO_MAP_ID"
-        });
-    }
-
-    initMap();
+    const map = L.map('map').setView([51.163375, 10.447683], 2);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
 
     async function fillMarkers(country = "DE") {
-        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-
         let merchantsJson;
         let cachedMerchantsData = localStorage.getItem("amex-dining-merchants-"+country);
         if (!cachedMerchantsData) {
@@ -124,11 +115,13 @@
                 return;
             }
             const marker =
-                new AdvancedMarkerElement({
-                    map,
-                    position: { lat: item.assumedLocation.lat, lng: item.assumedLocation.lon },
-                    title: item.name,
-                });
+                L.marker([item.assumedLocation.lat, item.assumedLocation.lon])
+                    .addTo(map);
+            marker.bindPopup(
+                `<h3>${item.name}</h3>
+                <address>${item.address}<br/>
+                        ${item.zip} ${item.city}</address>`
+            )
         });
     }
 
@@ -140,8 +133,7 @@ document.getElementById("country-chooser").addEventListener("change", (event) =>
 
     const selectedOption = select.options[select.selectedIndex];
     //@setZoom https://developers.google.com/maps/documentation/javascript/reference/map
-    map.panTo({lat: parseFloat(selectedOption.dataset.lat), lng: parseFloat(selectedOption.dataset.lng)});
-    map.setZoom(6);
+    map.setView([parseFloat(selectedOption.dataset.lat), parseFloat(selectedOption.dataset.lng)], 6);
 });
 
 }();
