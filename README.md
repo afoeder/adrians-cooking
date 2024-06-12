@@ -13,5 +13,3 @@ Start with the [index](index.md).
 At some point I've decided to give "Writerside" a try. All information is located in the folder `./Writerside`. The building happens by the `.github/workflows/build-docs.yml` file; it's basically what is described on the Docs for GH pages: https://www.jetbrains.com/help/writerside/deploy-docs-to-github-pages.html
 
 The CNAME in the content root is for GitHub Pages.
-
-### AMEX

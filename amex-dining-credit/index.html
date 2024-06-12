@@ -58,7 +58,7 @@
 <script>
 !function() {
 
-    /** @todo: this is the same function as in fetch-places.js — should be shared; until then: keep in sync manually  */
+    /** @todo: this is the same function as in cache-merchants.js — should be shared; until then: keep in sync manually  */
     function amexMerchantsToPlaces(amexApiMerchants) {
         return amexApiMerchants.flatMap(amexMerchant => {
             if (amexMerchant.isMerchantGroup) {
