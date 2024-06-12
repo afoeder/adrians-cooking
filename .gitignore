@@ -1,2 +1,6 @@
+# Writerside's build artifact:
 /*-all.zip
+
+# Node:
 .env
+node_modules/
