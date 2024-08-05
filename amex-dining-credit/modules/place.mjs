@@ -4,7 +4,7 @@ export class Place {
     #zip
     #city
     #amexId
-    #assumedLocation = null
+    #location = null
     #googleMapsUrl
     #countryCode;
 
@@ -22,18 +22,32 @@ export class Place {
         return this.#countryCode === countryCode
     }
 
+    /**
+     *
+     * @param {GooglePlacesGeocoder|MockGeocoder} geocoder
+     */
+    geocode(geocoder) {
+        if (this.#location) return;
+
+        const result = geocoder.todoFindLocation()
+        this.#location = { lat: result.lat, lon: result.lon, type:"geocoded" }
+    }
+
     #setGoogleMapsUrl(googleMapsUrl) {
         if (!googleMapsUrl) {
             return;
         }
         this.#googleMapsUrl = googleMapsUrl
 
-        this.#assumedLocation =
+        this.#location =
             googleMapsUrl
                 .match(/@(?<lat>-?\d+(?:\.\d+)?),(?<lon>-?\d+(?:\.\d+)?)/)
                 ?.groups ?? null;
-        if (this.#assumedLocation?.lat) this.#assumedLocation.lat = parseFloat(this.#assumedLocation.lat);
-        if (this.#assumedLocation?.lon) this.#assumedLocation.lon = parseFloat(this.#assumedLocation.lon);
+        if (this.#location) {
+            this.#location.type = "assumed";
+            this.#location.lat = parseFloat(this.#location.lat);
+            this.#location.lon = parseFloat(this.#location.lon);
+        }
     }
 
     toJson() {
@@ -43,7 +57,7 @@ export class Place {
             zip: this.#zip,
             city: this.#city,
             amexId: this.#amexId,
-            assumedLocation: this.#assumedLocation,
+            location: this.#location,
             googleMapsUrl: this.#googleMapsUrl,
             countryCode: this.#countryCode,
         }

@@ -28,20 +28,20 @@ export class PlaceRepository {
         Object.entries(countriesMerchantsData).forEach(countryMerchantsData => {
             const [countryCode, merchantsData] = countryMerchantsData;
 
-            places.push(...this.fromAmexMerchantsData(merchantsData, countryCode));
+            places.push(...this.#fromAmexMerchantsData(merchantsData, countryCode));
         });
         return new PlaceRepository(places);
     }
 
-    static fromAmexMerchantsData(merchantsData, countryCode) {
+    static #fromAmexMerchantsData(merchantsData, countryCode) {
         return merchantsData.flatMap(merchantData => {
             if (merchantData.isMerchantGroup) {
                 // this happens when there is a "merchantGroup";
                 // like Gordon Ramsey etc. Those have a sub node in ".merchants"
                 // that again look like the merchants on the first level.
                 // We have to make a recursion here (yay), like:
-                console.log("Merchant group!", merchantData.name);
-                return this.fromAmexMerchantsData(merchantData.merchants, countryCode);
+                console.log(`Having a Merchant group in ${countryCode}:`, merchantData.name);
+                return this.#fromAmexMerchantsData(merchantData.merchants, countryCode);
             }
             return Place.fromAmexMerchantData(merchantData, countryCode);
         });

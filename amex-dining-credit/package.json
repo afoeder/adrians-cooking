@@ -1,5 +1,30 @@
 {
   "dependencies": {
     "@googlemaps/places": "^1.6.0"
-  }
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "name": "amex-dining-credit-map",
+  "version": "1.0.0",
+  "description": "Provides a map and data handling tools to plot the restaurants that participate in the AMEX Dining Credits benefits program.",
+  "main": "todo-entry-point.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {},
+    "moduleFileExtensions": ["mjs","js","jsx","ts","tsx","json","node"],
+    "testMatch": ["**/?(*.)test.?js"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afoeder/adrians-cooking.git#main"
+  },
+  "author": "Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/afoeder/adrians-cooking/issues"
+  },
+  "homepage": "https://github.com/afoeder/adrians-cooking/tree/main#readme"
 }

@@ -3,6 +3,7 @@
 // handy command line infos: https://nodejs.org/en/learn/command-line/output-to-the-command-line-using-nodejs
 
 import {PlaceRepository} from "./modules/place-repository.mjs";
+import {GooglePlacesGeocoder} from "./modules/google-places-geocoder.mjs";
 
 import merchantsData from "./amex-merchants.json" with { type: "json" };
 import fs from "node:fs";
@@ -15,7 +16,10 @@ fs.writeFile(
     JSON.stringify(
         placeRepository
             .findAll()
-            .map(place => place.toJson()),
+            .map(place => {
+                place.geocode(GooglePlacesGeocoder);
+                return place.toJson();
+            }),
         null,
         2),
     error => error && console.error(error));

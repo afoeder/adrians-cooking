@@ -12,7 +12,7 @@ permissions:
 env:
   INSTANCE: 'Writerside/ac'
   ARTIFACT: 'webHelpAC2-all.zip'
-  DOCKER_VERSION: '241.16003'
+  DOCKER_VERSION: '241.18775'
 
 jobs:
   build:
