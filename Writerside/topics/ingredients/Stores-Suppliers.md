@@ -10,11 +10,11 @@
 
 [](https://www.mexhaus.de)
 
-- Tajin
+- [](Tajin.md)
 - El Yucateco sauces/salsas
 - Salsa Valentina
 - Black Beans <!-- https://www.mexhaus.de/lebensmittel/mexikanische-bohnen/frijoles-schwarze-bohnen-getrocknet-verde-valle-1-kg-mhd-30-sep-2025-->
-- 
+
 #### Mex-Al
 
 [](https://www.mex-al.de)
