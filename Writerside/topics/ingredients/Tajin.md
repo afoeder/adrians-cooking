@@ -1,3 +1,6 @@
 # Tajin
 
-Start typing here...
+<primary-label ref="ingr"/>
+<secondary-label ref="mexican"/>
+
+@todo

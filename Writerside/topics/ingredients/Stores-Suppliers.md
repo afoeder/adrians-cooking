@@ -2,6 +2,8 @@
 
 ## Mexican
 
+<secondary-label ref="mx"/>
+
 ### Online Shops
 
 - [MexHaus.de](https://www.mexhaus.de). They kindly sell…
@@ -15,10 +17,12 @@
 
 ### Cash & Carry {id="mexican-cash-carry"}
 
-- Feinkost Latino Ventura in Stuttgart ([Apple Maps](https://maps.apple.com/?address=K%C3%B6nigstra%C3%9Fe%2020,%2070173%20Stuttgart,%20Germany&auid=13925846990395406637&ll=48.780027,9.179479&lsp=9902&q=Latino%20Ventura), [Google Maps](https://g.co/kgs/5dNeLVL))
+- Feinkost Latino Ventura in Stuttgart ([Apple Maps](https://maps.apple.com/?address=K%C3%B6nigstra%C3%9Fe%2020,%2070173%20Stuttgart,%20Germany&auid=13925846990395406637&ll=48.780027,9.179479&lsp=9902&q=Latino%20Ventura){ignore-vars="true"}, [Google Maps](https://g.co/kgs/5dNeLVL))
 
 ## Asian
 
-### Cash & Carry {id="asian-cash-carry"}}
+<secondary-label ref="chinese"/>
 
-- BETA Asia-Supermarkt in Stuttgart ([Apple Maps](https://maps.apple.com/?address=Hedelfinger%20Stra%C3%9Fe%2055,%20Wangen,%2070327%20Stuttgart,%20Germany&auid=10941247355514387052&ll=48.767836,9.248717&lsp=9902&q=Beta%20Asia-Supermarkt), [Google Maps](https://g.co/kgs/BK4ECak))
+### Cash & Carry {id="asian-cash-carry"}
+
+- BETA Asia-Supermarkt in Stuttgart ([Apple Maps](https://maps.apple.com/?address=Hedelfinger%20Stra%C3%9Fe%2055,%20Wangen,%2070327%20Stuttgart,%20Germany&auid=10941247355514387052&ll=48.767836,9.248717&lsp=9902&q=Beta%20Asia-Supermarkt){ignore-vars="true"}, [Google Maps](https://g.co/kgs/BK4ECak))

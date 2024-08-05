@@ -1,5 +1,9 @@
 # Sweet Potato with Picadillo
 
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
+<secondary-label ref="cu"/>
+
 Picadillo is ground meat, tomatoes/tomato sauce, raisins/a general dried fruit, and olives. See also its [Wikipedia article](https://en.wikipedia.org/wiki/Picadillo).
 Being a European, I just think Picadillo like “Sauce Bolognese but with dried fruits and olives.”
 

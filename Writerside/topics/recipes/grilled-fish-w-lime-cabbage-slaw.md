@@ -1,8 +1,7 @@
----
-tags: mexican
----
-
 # Grilled fish with lime cabbage slaw
+
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
 
 Inspiration: [Feastingathome.com](https://www.feastingathome.com/grilled-fish-tacos-with-cabbage-slaw/)
 

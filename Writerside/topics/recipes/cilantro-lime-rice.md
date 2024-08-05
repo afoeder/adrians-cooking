@@ -1,8 +1,7 @@
----
-tags: mexican
----
-
 # Cilantro lime rice
+
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
 
 ## Ingredients
 

@@ -1,8 +1,7 @@
----
-tags: american
----
-
 # Kenji's streamlined meatloaf
+
+<primary-label ref="recipe"/>
+<secondary-label ref="us"/>
 
 ## Introduction and source notes
 

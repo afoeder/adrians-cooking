@@ -1,8 +1,7 @@
----
-tags: chinese
----
-
 # Mapo Tofu
+
+<primary-label ref="recipe"/>
+<secondary-label ref="cn"/>
 
 ## Introduction and sources notes
 This is a dish I’ve got to know in a Stuttgart restaurant which quickly became my favourite. I never made the effort to research what it really is, until I think I’ve [seen it](https://www.instagram.com/p/CaIw6NdPDxp/) on Kenji’s Instagram.

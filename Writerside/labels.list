@@ -3,11 +3,18 @@
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
 
-    <primary-label short-name="R"  id="recipe" name="Recipe"/>
+    <primary-label short-name="R" id="recipe" name="Recipe"/>
 
-    <secondary-label id="mexican" name="Mexican"/>
-    <secondary-label id="german" name="German"/>
-    <secondary-label id="chinese" name="Chinese"/>
+    <secondary-label id="mx" name="🇲🇽 Mexican"/>
+    <secondary-label id="de" name="🇩🇪 German"/>
+    <secondary-label id="ch" name="🇨🇭 Swiss"/>
+    <secondary-label id="cn" name="🇨🇳 Chinese"/>
+    <secondary-label id="us" name="🇺🇸 United States"/>
+    <secondary-label id="cu" name="🇨🇺 Cuban"/>
+    <secondary-label id="creole" name="Creole"/>
+    <secondary-label id="cajun" name="Cajun"/>
+
+    <secondary-label id="stew" name="Stew"/>
 
     <primary-label short-name="KB" id="kb" name="Knowledge Base"/>
     <primary-label short-name="I" id="ingr" name="Ingredients"/>

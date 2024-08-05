@@ -1,8 +1,7 @@
----
-layout: ingredient
----
-
 # Fishwell Dried Chilli Peppers
+
+<primary-label ref="ingr"/>
+<secondary-label ref="chinese"/>
 
 This has a place of production »Wanzhou District, Chongqing, China«. This is kinda close to Sichuan, so maybe that’s the closest we’ll get to Sichuan pepper.
 

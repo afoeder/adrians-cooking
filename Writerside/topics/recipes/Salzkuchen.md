@@ -1,8 +1,7 @@
----
-tags: german
----
-
 # Salzkuchen
+
+<primary-label ref="recipe"/>
+<secondary-label ref="de"/>
 
 ## Zutaten
 

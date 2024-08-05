@@ -1,11 +1,10 @@
----
-tags:
-  - american
-labels:
-  - ultimate
----
-
 # Gumbo
+
+<primary-label ref="recipe"/>
+<secondary-label ref="stew"/>
+<secondary-label ref="us"/>
+<secondary-label ref="creole"/>
+<secondary-label ref="cajun"/>
 
 ## Ingredients
 

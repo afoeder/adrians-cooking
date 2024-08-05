@@ -1,5 +1,8 @@
 # Mexican Black Beans
 
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
+
 ## Ingredients
 
 * I use ⅔ of a cup dried black beans for two side portions

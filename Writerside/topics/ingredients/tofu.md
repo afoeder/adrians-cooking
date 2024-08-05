@@ -1,8 +1,7 @@
----
-layout: ingredient
----
-
 # Tofu
+
+<primary-label ref="ingr"/>
+<secondary-label ref="chinese"/>
 
 Note that tofu comes in various firmness (medium, firm, silken, … etc.).
 

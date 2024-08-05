@@ -1,8 +1,7 @@
----
-tags: mexican
----
-
 # Mexican Rice
+
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
 
 Inspiration src: [ArnieTex' video](https://www.youtube.com/watch?v=7kSiLTnKw0I)
 

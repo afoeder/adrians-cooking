@@ -1,8 +1,7 @@
----
-tags: german
----
-
 # Quarkkuchen / "Käsekuchen"
+
+<primary-label ref="recipe"/>
+<secondary-label ref="de"/>
 
 ![Fresszettel mit dem überlieferten Rezept](./photos/quarkkuchen-rezept.jpeg)
 

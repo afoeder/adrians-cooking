@@ -1,8 +1,7 @@
----
-layout: ingredient
----
-
 # Lao Gan Ma chili oils
+
+<primary-label ref="ingr"/>
+<secondary-label ref="chinese"/>
 
 This comes in multiple variations, there’s already a great [YouTube video of it by Chinese Cooking Demystified](https://www.youtube.com/watch?v=MVh7Fu0_Y1o).
 

@@ -1,8 +1,7 @@
----
-layout: ingredient
----
-
 # Fermented black beans
+
+<primary-label ref="ingr"/>
+<secondary-label ref="chinese"/>
 
 * ![Front side of the packaging](./photos/fermented-black-beans-front.webp)
 * ![Back side of the packaging](./photos/fermented-black-beans-back.webp)

@@ -1,8 +1,7 @@
----
-tags: mexican
----
-
 # Mole negro sauce
+
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
 
 ## Ingredients
 

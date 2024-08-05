@@ -1,8 +1,7 @@
----
-layout: ingredient
----
-
 # Xiaoxing wine
+
+<primary-label ref="ingr"/>
+<secondary-label ref="chinese"/>
 
 * ![Front side](./photos/xiaoxing-three-coconut-tree-total.webp)
 * ![Back side](./photos/xiaoxing-three-coconut-tree-label.webp)

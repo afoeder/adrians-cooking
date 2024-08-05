@@ -1,8 +1,7 @@
----
-tags: mexican
----
-
 # Chicken mole negro
+
+<primary-label ref="recipe"/>
+<secondary-label ref="mx"/>
 
 ## Ingredients
 
