@@ -1,6 +1,8 @@
 # Tajin
 
 <primary-label ref="ingr"/>
-<secondary-label ref="mexican"/>
+<secondary-label ref="mx"/>
 
-@todo
+### Store findings
+
+- [](Stores-Suppliers.md#mexhaus-de)

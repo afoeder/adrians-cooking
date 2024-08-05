@@ -1,7 +1,7 @@
 # Tofu
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 Note that tofu comes in various firmness (medium, firm, silken, … etc.).
 
@@ -9,4 +9,4 @@ Note that tofu comes in various firmness (medium, firm, silken, … etc.).
 
 ## Store findings
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)

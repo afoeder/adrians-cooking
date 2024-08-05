@@ -7,6 +7,7 @@
                  start-page="index.md">
 
     <toc-element topic="index.md"/>
+
     <toc-element toc-title="Recipes">
         <toc-element topic="chicken-mole-negro.md"/>
         <toc-element topic="cilantro-lime-rice.md"/>
@@ -39,10 +40,12 @@
         <toc-element topic="Instant-Pot.md"/>
         <toc-element topic="sous-vide.md"/>
         <toc-element topic="starch-trap.md"/>
-        <toc-element toc-title="Restaurants">
+    </toc-element>
 
-            <toc-element topic="AMEX-Dining-Credit-benefit.md"/>
-        </toc-element>
+    <toc-element toc-title="Hospitality">
+        <toc-element topic="2024-07.Tre-Archi-Pizzeria.IT.md"/>
+        <toc-element topic="2024-07.Boca-Grande.ES.md"/>
+        <toc-element topic="AMEX-Dining-Credit-benefit.md"/>
     </toc-element>
 
     <toc-element topic="about.md"/>

@@ -1,7 +1,7 @@
 # Fermented black beans
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 * ![Front side of the packaging](./photos/fermented-black-beans-front.webp)
 * ![Back side of the packaging](./photos/fermented-black-beans-back.webp)
@@ -20,4 +20,4 @@
 
 ## Store findings
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)

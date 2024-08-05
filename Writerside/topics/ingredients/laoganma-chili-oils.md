@@ -1,7 +1,7 @@
 # Lao Gan Ma chili oils
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 This comes in multiple variations, there’s already a great [YouTube video of it by Chinese Cooking Demystified](https://www.youtube.com/watch?v=MVh7Fu0_Y1o).
 
@@ -14,7 +14,7 @@ This comes in multiple variations, there’s already a great [YouTube video of i
 
 ### Store findings {id="store-findings-1"}
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)
 
 ## Black beans in chili oil
 
@@ -25,4 +25,4 @@ This comes in multiple variations, there’s already a great [YouTube video of i
 
 ### Store findings {id="store-findings-2"}
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)

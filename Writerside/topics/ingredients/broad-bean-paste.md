@@ -1,7 +1,7 @@
 # Broad bean paste
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 
 My first contact with this was when my attention got drawn to the [Mapo Tofu](mapo-tofu.md). On Kenji López-Alt’s [Serious Eats recipe](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe) and a [comment](https://www.seriouseats.com/real-deal-mapo-dofu-tofu-chinese-sichuan-recipe#comment-5523380302) by [author `xiaozi`](https://disqus.com/by/xiaozi/) both Kenji and `xiaozi` say[^1] the proper paste to use is _Pixiandouban_.
@@ -25,4 +25,4 @@ My first contact with this was when my attention got drawn to the [Mapo Tofu](ma
 
 ## Store findings
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)

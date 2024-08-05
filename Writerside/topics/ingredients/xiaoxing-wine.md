@@ -1,7 +1,7 @@
 # Xiaoxing wine
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 * ![Front side](./photos/xiaoxing-three-coconut-tree-total.webp)
 * ![Back side](./photos/xiaoxing-three-coconut-tree-label.webp)
@@ -10,4 +10,4 @@
 
 ### Store findings
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)

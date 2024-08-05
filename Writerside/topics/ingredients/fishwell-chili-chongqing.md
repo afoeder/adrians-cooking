@@ -1,7 +1,7 @@
 # Fishwell Dried Chilli Peppers
 
 <primary-label ref="ingr"/>
-<secondary-label ref="chinese"/>
+<secondary-label ref="cn"/>
 
 This has a place of production »Wanzhou District, Chongqing, China«. This is kinda close to Sichuan, so maybe that’s the closest we’ll get to Sichuan pepper.
 
@@ -12,4 +12,4 @@ This has a place of production »Wanzhou District, Chongqing, China«. This is k
 
 ## Store findings
 
-* 🇩🇪 BETA Asia-Supermarkt, Stuttgart ([Google Maps](https://goo.gl/maps/UwoeLhQNrwrqREye6), [Website](http://www.beta-asia-supermarkt.de/))
+- [](Stores-Suppliers.md#beta-asia-supermarkt)
