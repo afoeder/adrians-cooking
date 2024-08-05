@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE labels SYSTEM "https://resources.jetbrains.com/writerside/1.0/labels-list.dtd">
 <labels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/labels.xsd">
+        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/labels.xsd">
+
+    <primary-label short-name="R"  id="recipe" name="Recipe"/>
+
+    <secondary-label id="mexican" name="Mexican"/>
+    <secondary-label id="german" name="German"/>
+    <secondary-label id="chinese" name="Chinese"/>
+
+    <primary-label short-name="KB" id="kb" name="Knowledge Base"/>
+    <primary-label short-name="I" id="ingr" name="Ingredients"/>
 
 </labels>

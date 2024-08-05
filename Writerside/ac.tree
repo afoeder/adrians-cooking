@@ -24,6 +24,7 @@
     </toc-element>
 
     <toc-element toc-title="General ingredients">
+        <toc-element topic="Tajin.md"/>
         <toc-element topic="broad-bean-paste.md"/>
         <toc-element topic="fermented-black-beans.md"/>
         <toc-element topic="fishwell-chili-chongqing.md"/>
@@ -34,6 +35,7 @@
     </toc-element>
 
     <toc-element toc-title="Knowledge base">
+        <toc-element topic="Stores-Suppliers.md"/>
         <toc-element topic="Instant-Pot.md"/>
         <toc-element topic="sous-vide.md"/>
         <toc-element topic="starch-trap.md"/>

@@ -4,7 +4,7 @@ tags: mexican
 
 # Mexican Rice
 
-Inspo src: [ArnieTex' video](https://www.youtube.com/watch?v=7kSiLTnKw0I)
+Inspiration src: [ArnieTex' video](https://www.youtube.com/watch?v=7kSiLTnKw0I)
 
 ## Ingredients
 - 1 tbsp oil
