@@ -1,6 +1,6 @@
 # Tofu
 
-<primary-label ref="ingr"/>
+<primary-label ref="pantry"/>
 <secondary-label ref="cn"/>
 
 Note that tofu comes in various firmness (medium, firm, silken, … etc.).
@@ -9,4 +9,4 @@ Note that tofu comes in various firmness (medium, firm, silken, … etc.).
 
 ## Store findings
 
-- [](Stores-Suppliers.md#beta-asia-supermarkt)
+- [](Pantry-Stores-Suppliers.md#beta-asia-supermarkt)

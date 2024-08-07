@@ -1,6 +1,6 @@
 # Xiaoxing wine
 
-<primary-label ref="ingr"/>
+<primary-label ref="pantry"/>
 <secondary-label ref="cn"/>
 
 * ![Front side](./photos/xiaoxing-three-coconut-tree-total.webp)
@@ -10,4 +10,4 @@
 
 ### Store findings
 
-- [](Stores-Suppliers.md#beta-asia-supermarkt)
+- [](Pantry-Stores-Suppliers.md#beta-asia-supermarkt)

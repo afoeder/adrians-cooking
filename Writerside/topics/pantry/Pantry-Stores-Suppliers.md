@@ -1,4 +1,4 @@
-# Stores & Suppliers
+# Pantry Stores & Suppliers
 
 ## Mexican
 
@@ -24,7 +24,6 @@
 
 - [](https://feinkostlatinoventura.de/)
 - [Google Maps](https://maps.app.goo.gl/YzLCbaPZPniShbGo8), [Apple Maps](https://maps.apple.com/?address=K%C3%B6nigstra%C3%9Fe%2020,%2070173%20Stuttgart,%20Germany&auid=13925846990395406637&ll=48.780027,9.179479&lsp=9902&q=Latino%20Ventura){ignore-vars="true"}
-
 
 ## Asian
 

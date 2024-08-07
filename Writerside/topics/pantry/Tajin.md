@@ -1,6 +1,6 @@
 # Tajin
 
-<primary-label ref="ingr"/>
+<primary-label ref="pantry"/>
 <secondary-label ref="mx"/>
 
 [](https://www.tajin.com/)
@@ -11,4 +11,4 @@ Squeeze a lemon and add its whole peel if you’re feeling extra fresh.
 
 ## Store findings
 
-- [](Stores-Suppliers.md#mexhaus-de)
+- [](Pantry-Stores-Suppliers.md#mexhaus-de)

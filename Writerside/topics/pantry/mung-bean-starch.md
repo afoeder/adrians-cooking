@@ -1,6 +1,6 @@
 # Mung bean starch
 
-<primary-label ref="ingr"/>
+<primary-label ref="pantry"/>
 <secondary-label ref="cn"/>
 
 * ![Front side of a bottle of Mung bean starch](./photos/mung-bean-starch-front.webp)
@@ -10,4 +10,4 @@
 
 ### Store findings
 
-- [](Stores-Suppliers.md#beta-asia-supermarkt)
+- [](Pantry-Stores-Suppliers.md#beta-asia-supermarkt)

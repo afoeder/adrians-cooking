@@ -21,6 +21,6 @@
     <secondary-label id="seafood" name="🦐 Seafood"/>
 
     <primary-label short-name="KB" id="kb" name="Knowledge Base"/>
-    <primary-label short-name="I" id="ingr" name="Ingredients"/>
+    <primary-label short-name="P" id="pantry" name="Pantry"/>
 
 </labels>
