@@ -6,12 +6,15 @@
     <primary-label short-name="R" id="recipe" name="Recipe"/>
     <primary-label short-name="H" id="hospitality" name="Hospitality"/>
 
-    <secondary-label id="mx" name="🇲🇽 Mexican"/>
-    <secondary-label id="es" name="🇪🇸 Spanish"/>
+    <secondary-label id="MX" name="🇲🇽 Mexico"/>
+    <secondary-label id="mx" name="🌮 Mexican"/>
+    <secondary-label id="ES" name="🇪🇸 Spain"/>
+    <secondary-label id="es" name="🥘 Spanish"/>
     <secondary-label id="de" name="🇩🇪 German"/>
     <secondary-label id="ch" name="🇨🇭 Swiss"/>
-    <secondary-label id="cn" name="🇨🇳 Chinese"/>
-    <secondary-label id="us" name="🇺🇸 United States"/>
+    <secondary-label id="CN" name="🇨🇳 China"/>
+    <secondary-label id="cn" name="🍚 Chinese"/>
+    <secondary-label id="US" name="🇺🇸 United States"/>
     <secondary-label id="cu" name="🇨🇺 Cuban"/>
     <secondary-label id="it" name="🇮🇹 Italian"/>
     <secondary-label id="creole" name="Creole"/>
