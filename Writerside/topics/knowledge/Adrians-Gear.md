@@ -46,7 +46,7 @@ I own two sizes of the Series 652 from the company Turk.
 
 ### Cast iron
 
-At home I don’t quite use cast iron, I have some skillets from Petromax and Lodge though.
+At home, I don’t quite use cast iron, I have some skillets from Petromax and Lodge though.
 
 ### Dutch Ovens
 

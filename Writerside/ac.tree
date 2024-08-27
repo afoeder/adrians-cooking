@@ -44,9 +44,10 @@
     </toc-element>
 
     <toc-element toc-title="Hospitality">
-        <toc-element topic="2024-01.Mexas-Tacos.FL.US.md"/>
         <toc-element topic="2024-07.Tre-Archi-Pizzeria.IT.md"/>
         <toc-element topic="2024-07.Boca-Grande.ES.md"/>
+        <toc-element topic="2024-01.Mexas-Tacos.FL.US.md"/>
+        <toc-element topic="BCKT.San-Gabriel-Valley.CA.US.md"/>
         <toc-element topic="AMEX-Dining-Credit-benefit.md"/>
     </toc-element>
 
