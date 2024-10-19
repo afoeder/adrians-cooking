@@ -32,6 +32,9 @@
 | Lima Beans                        | D: 12–14′ / S: 6–10′  | 
 | Soybeans                          | D: 35–45′ / S: 18–20′ | 
 
+## Other interesting links
+
+* "[Pressure Cooker PSI FAQ: the stuff you didn’t think to ask about pressure](https://www.hippressurecooking.com/pressure-cooker-psi-faq-the-stuff-you-didnt-think-to-ask/)"
 
 [manual]: https://p.widencdn.net/ukjpye/Duo_Full-Manual_English_2020-05-14-INTERACTIVE
 [timetable]: https://p.widencdn.net/imcpw0/EPC_Cooking-Time-Table-033120.pdf
