@@ -4,9 +4,24 @@
 
 ### Rice
 
-| Rice                 | Water        | Program setting | Cooking time | Release time | Result                                                                 |
-|----------------------|--------------|-----------------|--------------|--------------|------------------------------------------------------------------------|
-| Basmati 100&#x202F;g | 100&#x202F;g | `Rice`+`Normal` | yield 12′    | 10′          | Stuck a bit to bottom, quite al dente. Might be too al dente for some. |
+Sort
+:   Basmati 100&#x202F;g
+
+Water
+:   100&#x202F;g
+
+Program setting
+:   `Rice`+`Normal`
+
+Cooking time
+:   yield 12′
+
+Release time
+:   10′
+
+Result
+:   Stuck a bit to bottom, quite al dente. Might be too al dente for some.
+
 
 ## Tables
 
