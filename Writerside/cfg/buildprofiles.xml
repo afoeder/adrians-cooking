@@ -6,13 +6,12 @@
         <custom-favicons>favicon.svg</custom-favicons>
         <header-logo>favicon.svg</header-logo>
         <noindex-content>true</noindex-content>
-        <enable-browser-edits>true</enable-browser-edits>
-        <browser-edits-url>https://github.com/afoeder/adrians-cooking/tree/main/Writerside/</browser-edits-url>
+        <contribute-url>https://github.com/afoeder/adrians-cooking/tree/main/Writerside/</contribute-url>
     </variables>
 
     <footer>
         <copyright>CC-BY 4.0 Adrian Föder (https://creativecommons.org/licenses/by/4.0/)</copyright>
-        <social type="twitter" href="afoeder"/>
+        <social type="youtube" href="https://www.youtube.com/@adrians.cooking"/>
     </footer>
 
 </buildprofiles>
