@@ -7,12 +7,13 @@
 Quite some time ago I settled to use the brand _Demeyere_ for stainless steel pots and pans. I own the following:
 
 - Demeyere Proline 7 frying pan in 28 cm (22 cm bottom diameter)
+- Demeyere Proline 7 frying pan in 24 cm (18 cm bottom diameter)
 - Demeyere Atlantis conical sauté pan, 20 cm (14 cm bottom diameter)
 - Demeyere Atlantis saucepan, 14 cm
 
-I also used to have a conical sauté pan in 14 cm, but due to its conical nature, this was way too small. I might want to add one with 18 cm though. I also would like to augment the collection with a 24 cm Proline.
+I also used to have a conical sauté pan in 14 cm, but due to its conical nature, this was way too small. I might want to add one with 18 cm (12 cm bottom) though.
 
-I ordered all of them via [](https://betterkitchen.de/).
+I ordered most of them via [BetterKitchen.de](https://betterkitchen.de/) except there was a particular deal, like one I've [found on CoolBlue](https://www.coolblue.de/toepfe-und-pfannen/demeyere).
 
 #### Demeyere Proline vs. Atlantis {collapsible="true"}
 
@@ -36,17 +37,19 @@ Non-stick to me is kind of a throwaway-article, so I think it doesn’t make sen
 - Tefal E85602 Jamie Oliver 20 cm
 - Tefal E3040444 Jamie Oliver 24 cm
 
+When I'd buy new ones I think I'd go for a [Tramontina](https://www.tramontina.com/pro-series-10-in-fry-pan-80114535.html) or Winco aluminum pan.
+
 #### Recoating
 
 I discovered [a service](https://pfannenbeschichtung.de) that offers recoatings for non-stick pans. I gave it a try and was really satisfied with the optics; I need to find out how cooking works though. I might buy more expensive pans in the future and just consider recoating them, therefore not regarding non-stick pans as throaway.
 
 ### Iron pans, forged
 
-I own two sizes of the Series 652 from the company Turk.
+I own two sizes of the [Series 652](https://www.albert-turk.de/eisenpfannen/schmiedeeiserne-bratpfanne) from the company Turk.
 
 ### Cast iron
 
-At home, I don’t quite use cast iron, I have some skillets from Petromax and Lodge though.
+At home, I don’t quite use cast iron, I have some skillets from Petromax and Lodge though that I use on my gas grill (a simple Outdoorchef 420 series).
 
 ### Dutch Ovens
 
