@@ -1,44 +1,46 @@
 # Kenji's streamlined meatloaf
 
 <primary-label ref="recipe"/>
-<secondary-label ref="us"/>
+<secondary-label ref="US"/>
 
 ## Introduction and source notes
 
-I’ve found this recipe on [YouTube](https://youtu.be/qws7VGet1A4). These are my notes following along.
+I’ve found this recipe on [YouTube](https://youtu.be/qws7VGet1A4). These are my notes while following along cooking it.
 
 ## Directions
 
-Preheat oven to 60&#x202F;°C.
+Preheat oven to 175&#x202F;°C.
 
 ### The loaf
 
 Put in a bowl and mix by hand into a paste:
 
-* 100&#x202F;g Bread,
+* 100&#x202F;g Bread (following 1:10 ratio bread:meat)
+  * I've once soaked a pretzel and topped up with Panko.
 * 1 egg
-* ½ cup buttermilk
+* ½—¾ cup buttermilk
 * pinch of salt
 * ground pepper
-* 2 tbsp powdered gelatin
+* 2 tbsp powdered gelatin (~13&#x202F;g)
+* if you like, ½ tsp instant beef broth
 
 Make a mirepoix with butter of chopped…:
 
 * onions
 * carrots
 * celery
-* garlic
 
 Add the paste in a bowl with
 
-* 500&#x202F;g ground beef
-* 500&#x202F;g ground pork
+* 300&#x202F;g ground beef
+* 300&#x202F;g ground pork
+* 300&#x202F;g ground veal
 * 1&#x202F;tbsp soy sauce
 * dash of Worcestershire sauce
 * ~10-12&#x202F;g of salt (about 1&#x202F;%)
 * pepper
 * the mirepoix
-* ~120&#x202F;g grated (mozzarella) cheese
+* ~120&#x202F;g grated (mozzarella) cheese. The cheese should be really fine and not these long sauerkraut-y strings: these do not mix well. 
 
 …and knead it until it is homogenous. Do not overmix.
 
