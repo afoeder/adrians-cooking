@@ -1,0 +1,78 @@
+site_name: Adrian's Cooking
+site_url: https://adrians.cooking/
+repo_url: https://github.com/afoeder/adrians-cooking
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/favicon.svg # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
+  favicon: assets/favicon.svg # https://squidfunk.github.io/mkdocs-material/setup/changing-the-logo-and-icons/#logo
+  palette:
+    scheme: slate # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#color-scheme
+    primary: red # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
+  features:
+    - content.action.edit
+    - navigation.indexes
+  icon:
+    tag:
+      recipe: "twemoji/1f923"
+      stew: "twemoji/1f372" #1F372 🍲 https://emojipedia.org/pot-of-food
+      seafood: "twemoji/1f990" #1F990 🦐 Shrimp
+      MX: "twemoji/1f1f2-1f1fd" #1F1F2-1F1FD 🇲🇽
+      mx: "twemoji/1f32e" #1F32E 🌮 https://emojipedia.org/taco
+      ES: "twemoji/1f1ea-1f1f8" #1F1EA-1F1F8 🇪🇸
+      es: "twemoji/1f958" #1F958 🥘 Shallow Pan of Food
+      de: "twemoji/1f1e9-1f1ea" #1F1E9-1F1EA 🇩🇪
+      ch: "twemoji/1f1e8-1f1ed" #1F1E8-1F1ED 🇨🇭
+      CN: "twemoji/1f1e8-1f1f3" #1F1E8-1F1F3 🇨🇳
+      cn: "twemoji/1f35a" #1F35A 🍚 Cooked Rice
+      US: "twemoji/1f1fa-1f1f8" #1F1FA-1F1F8 🇺🇸
+      cu: "twemoji/1f1e8-1f1fa" #1F1E8-1F1FA 🇨🇺
+      it: "twemoji/1f1ee-1f1f9" #1F1EE-1F1F9 🇮🇹
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  tags:
+    Recipe: recipe
+    Hospitality: hospitality
+    Knowledge Base: kb
+    Pantry: pantry
+
+    Stew: stew
+    Seafood: seafood
+
+    Creole: creole
+    Cajun: cajun
+
+    Mexico: MX
+    Mexican: mx
+    Spain: ES
+    Spanish: es
+    German: de
+    Swiss: ch
+    China: CN
+    Chinese: cn
+    United States: US
+    Cuban: cu
+    Italian: it
+
+  social:
+    - icon: material/youtube
+      link: "https://www.youtube.com/@adrians.cooking"
+
+copyright: "CC-BY 4.0 Adrian Föder (https://creativecommons.org/licenses/by/4.0/)"
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - def_list
+  - attr_list
+  - pymdownx.tilde
+  - footnotes
+
+plugins:
+  - tags
+  - search

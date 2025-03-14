@@ -1,0 +1,18 @@
+main .md-typeset a:not(.md-icon) {
+    &[href^="//"]::after,
+    &[href^="http://"]::after,
+    &[href^="https://"]::after {
+        content: "↗";
+        font-size: smaller;
+        margin-left: .2em;
+        vertical-align: top;
+    }
+}
+
+main .md-typeset dt::after {
+    content: ":"
+}
+main .md-typeset dd {
+    margin-bottom: .5em;
+    margin-top: 0;
+}

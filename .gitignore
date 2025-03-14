@@ -1,2 +1,7 @@
-# Writerside's build artifact:
-/*-all.zip
+# Python's venv (https://realpython.com/what-is-pip/#using-pip-in-a-python-virtual-environment)
+# which is recommended by material; this creates a directory.
+/venv/
+
+# This is a locally installed mkdocs-material (as described in https://squidfunk.github.io/mkdocs-material/getting-started/#with-git)
+# We might have this if we want the bleeding edge most recent version.
+/mkdocs-material/
