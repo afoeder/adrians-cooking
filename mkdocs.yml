@@ -3,6 +3,47 @@ site_url: https://adrians.cooking/
 repo_url: https://github.com/afoeder/adrians-cooking
 edit_uri: edit/main/docs/
 
+nav:
+  - Home:
+      - index.md
+      - about.md
+  - Recipes:
+      - recipes/chicken-mole-negro.md
+      - recipes/cilantro-lime-rice.md
+      - recipes/gumbo.md
+      - recipes/grilled-fish-w-lime-cabbage-slaw.md
+      - recipes/kenjis-streamlined-meatloaf.md
+      - recipes/Mexican-black-beans.md
+      - recipes/Mexican-rice.md
+      - recipes/mapo-tofu.md
+      - recipes/mole-negro.md
+      - recipes/Quarkkuchen.md
+      - recipes/rösti.md
+      - recipes/Salzkuchen.md
+      - recipes/sweet-potato-w-picadillo.md
+  - Pantry:
+      - pantry/broad-bean-paste.md
+      - pantry/fermented-black-beans.md
+      - pantry/fishwell-chili-chongqing.md
+      - pantry/laoganma-chili-oils.md
+      - pantry/mung-bean-starch.md
+      - pantry/Pantry-Stores-Suppliers.md
+      - pantry/Tajin.md
+      - pantry/tofu.md
+      - pantry/xiaoxing-wine.md
+  - Hospitality:
+      - hospitality/BCKT.San-Gabriel-Valley.CA.US.md
+      - hospitality/2024-01.Mexas-Tacos.FL.US.md
+      - hospitality/2024-07.Boca-Grande.ES.md
+      - hospitality/2024-07.Tre-Archi-Pizzeria.IT.md
+      - hospitality/2022-04-28.Die-Speiserei-im-Maier.BW.DE.md
+      - hospitality/AMEX-Dining-Credit-benefit.md
+  - Knowledge:
+      - knowledge/Adrians-Gear.md
+      - knowledge/Instant-Pot.md
+      - knowledge/sous-vide.md
+      - knowledge/starch-trap.md
+
 theme:
   name: material
   custom_dir: overrides
@@ -13,10 +54,14 @@ theme:
     primary: red # https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#primary-color
   features:
     - content.action.edit
-    - navigation.indexes
+    - navigation.indexes # https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#section-index-pages
+    - navigation.tabs
   icon:
     tag:
-      recipe: "twemoji/1f923"
+      recipe: "twemoji/1f4dc" #1F4DC 📜 Scroll https://emojipedia.org/scroll
+      hospitality: "twemoji/1f37d" #1f37d 🍽️ Fork and Knife with Plate https://emojipedia.org/fork-and-knife-with-plate
+      kb: "twemoji/1f4a1" #1F4A1 💡 Electric Light Bulb
+      pantry: "twemoji/1f9fa" #1F9FA 🧺 Basket https://emojipedia.org/basket
       stew: "twemoji/1f372" #1F372 🍲 https://emojipedia.org/pot-of-food
       seafood: "twemoji/1f990" #1F990 🦐 Shrimp
       MX: "twemoji/1f1f2-1f1fd" #1F1F2-1F1FD 🇲🇽
@@ -30,9 +75,6 @@ theme:
       US: "twemoji/1f1fa-1f1f8" #1F1FA-1F1F8 🇺🇸
       cu: "twemoji/1f1e8-1f1fa" #1F1E8-1F1FA 🇨🇺
       it: "twemoji/1f1ee-1f1f9" #1F1EE-1F1F9 🇮🇹
-
-extra_css:
-  - assets/extra.css
 
 extra:
   tags:
@@ -63,6 +105,9 @@ extra:
     - icon: material/youtube
       link: "https://www.youtube.com/@adrians.cooking"
 
+extra_css:
+  - assets/extra.css
+
 copyright: "CC-BY 4.0 Adrian Föder (https://creativecommons.org/licenses/by/4.0/)"
 
 markdown_extensions:
@@ -75,4 +120,6 @@ markdown_extensions:
 
 plugins:
   - tags
-  - search
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - meta # https://squidfunk.github.io/mkdocs-material/plugins/meta/

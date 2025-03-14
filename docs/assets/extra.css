@@ -3,9 +3,9 @@ main .md-typeset a:not(.md-icon) {
     &[href^="http://"]::after,
     &[href^="https://"]::after {
         content: "↗";
-        font-size: smaller;
+        font-size: small;
         margin-left: .2em;
-        vertical-align: top;
+        vertical-align: baseline;
     }
 }
 
@@ -15,4 +15,13 @@ main .md-typeset dt::after {
 main .md-typeset dd {
     margin-bottom: .5em;
     margin-top: 0;
+}
+
+/* as seen on https://github.com/squidfunk/mkdocs-material/pull/8087#issuecomment-2721416128
+   the custom SVG icons use a masking property ("mask-image"). This fills the whole icon
+   grey, unfortunately, so we'll set the svg-icon as an actual background-image for classes
+   that contain "md-tag--…" like "md-tag--my-custom-tag"
+ */
+.md-typeset .md-tag-icon[class*='md-tag--']:before {
+    background-image: var(--md-tag-icon);
 }

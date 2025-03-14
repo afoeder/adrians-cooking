@@ -37,7 +37,7 @@ The [mkdocs.yml](mkdocs.yml) references icon tags. We need these to be available
 Note that Twemoji uses lowercase hex names, OpenMoji uppercase, so they are adjusted.
 
 ```bash
-declare -a arr=("1F603" "1f923" "1F372" "1F990" "1f1f2-1f1fd" "1f32e" "1f1ea-1f1f8" "1f958" "1f1e9-1f1ea" "1f1e8-1f1ed" "1f1e8-1f1f3" "1f35a" "1f1fa-1f1f8" "1f1e8-1f1fa" "1f1ee-1f1f9")
+declare -a arr=("1f4dc" "1f37d" "1f4a1" "1f9fa" "1F603" "1F372" "1F990" "1f1f2-1f1fd" "1f32e" "1f1ea-1f1f8" "1f958" "1f1e9-1f1ea" "1f1e8-1f1ed" "1f1e8-1f1f3" "1f35a" "1f1fa-1f1f8" "1f1e8-1f1fa" "1f1ee-1f1f9")
 for hex in "${arr[@]}"
 do
   hexUppercase=$(echo "$hex" | tr '[:lower:]' '[:upper:]')
