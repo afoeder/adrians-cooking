@@ -7,12 +7,12 @@
 
 * [Mole Negro sauce](mole-negro.md)
 * Rub spices:
-  * 1 tsp cumin
-  * 1 tsp coriander
-  * 1 tsp chili powder
-  * ½ tsp cinnamon
-  * 2 tbsp olive oil
-  * ½ cup broth or stock
+    * 1 tsp cumin
+    * 1 tsp coriander
+    * 1 tsp chili powder
+    * ½ tsp cinnamon
+    * 2 tbsp olive oil
+    * ½ cup broth or stock
 
 ## Directions
 

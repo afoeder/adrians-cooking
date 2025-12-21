@@ -26,7 +26,7 @@
 ## Directions
 
 1. Mince bell pepper, onion, celery and garlic; cut Okra in 1/2 cm slices.
-   * set aside, keep the garlic separated
+    * set aside, keep the garlic separated
 2. Slice Andouille sausage ½ cm, fry nicely in a Dutch oven pan
 3. Cut chicken into rough pieces and marinade with ground paprika, black pepper and cayenne powder
 4. Fry chicken in the same Dutch oven pan as the sausage until nicely golden brown; remove from pan

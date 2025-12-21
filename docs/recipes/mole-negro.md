@@ -6,11 +6,11 @@
 ## Ingredients
 
 * 6 dried chillies, e.g.
-  * Pasilla
-  * Arbol
-  * Chipotle
-  * Guajillo
-  * Ancho
+    * Pasilla
+    * Arbol
+    * Chipotle
+    * Guajillo
+    * Ancho
 * 1 liter / 4 cups broth or stock
 * 1 cup prunes or dark raisins
 * 1 large onion diced

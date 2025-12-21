@@ -10,12 +10,12 @@
 * 1–2 thyme leaves
 * clove of garlic
 * A generous dash each of ground…
-  * Paprika
-  * Smoked Paprika
-  * Cayenne pepper
-  * Cumin
-  * Salt
-  * Pepper
+    * Paprika
+    * Smoked Paprika
+    * Cayenne pepper
+    * Cumin
+    * Salt
+    * Pepper
 
 ## Directions
 

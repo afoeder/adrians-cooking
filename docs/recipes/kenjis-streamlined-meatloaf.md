@@ -16,7 +16,7 @@ Preheat oven to 175&#x202F;°C.
 Put in a bowl and mix by hand into a paste:
 
 * 100&#x202F;g Bread (following 1:10 ratio bread:meat)
-  * I've once soaked a pretzel and topped up with Panko.
+    * I've once soaked a pretzel and topped up with Panko.
 * 1 egg
 * ½—¾ cup buttermilk
 * pinch of salt

@@ -9,19 +9,19 @@ Inspiration: [Feastingathome.com](https://www.feastingathome.com/grilled-fish-ta
 
 * Fish: Tilapia, red snapper, black cod, sea bass etc. Should be firm, white and be able to be grilled without falling apart.
 * Rub:
-  * Chili powder, cumin, coriander, garlic, chipotle powder or smoked paprika, salt and sugar
+    * Chili powder, cumin, coriander, garlic, chipotle powder or smoked paprika, salt and sugar
 * Slaw:
-  * Cabbage
-  * red onion
-  * lime (juice)
-  * cilantro
-  * jalapeno
-  * olive oil
-  * salt
+    * Cabbage
+    * red onion
+    * lime (juice)
+    * cilantro
+    * jalapeno
+    * olive oil
+    * salt
 * Sauce
-  * Let’s keep it simple and go with Guacamole
+    * Let’s keep it simple and go with Guacamole
 * Toppings:
-  * Cotija Cheese or feta, cilantro, lime, avocado
+    * Cotija Cheese or feta, cilantro, lime, avocado
 * Tortillas
 
 ## Directions
