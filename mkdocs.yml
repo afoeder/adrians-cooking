@@ -3,6 +3,8 @@ site_url: https://adrians.cooking/
 repo_url: https://github.com/afoeder/adrians-cooking
 edit_uri: edit/main/docs/
 
+not_in_nav: /index.md
+
 theme:
   name: material
   custom_dir: overrides
