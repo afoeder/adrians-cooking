@@ -19,10 +19,13 @@ theme:
     - navigation.tabs
   icon:
     tag:
+      # Note that the emojis are loaded from overrides/.icons/twemoji
+      # and must be downloaded/copied from https://github.com/twitter/twemoji/tree/master/assets/svg
       recipe: "twemoji/1f4dc" #1F4DC 📜 Scroll https://emojipedia.org/scroll
       hospitality: "twemoji/1f37d" #1f37d 🍽️ Fork and Knife with Plate https://emojipedia.org/fork-and-knife-with-plate
       kb: "twemoji/1f4a1" #1F4A1 💡 Electric Light Bulb
       pantry: "twemoji/1f9fa" #1F9FA 🧺 Basket https://emojipedia.org/basket
+      dessert: "twemoji/1f36e" #1F36E 🍮 https://emojipedia.org/custard
       stew: "twemoji/1f372" #1F372 🍲 https://emojipedia.org/pot-of-food
       seafood: "twemoji/1f990" #1F990 🦐 Shrimp
       MX: "twemoji/1f1f2-1f1fd" #1F1F2-1F1FD 🇲🇽
@@ -44,6 +47,7 @@ extra:
     Knowledge Base: kb
     Pantry: pantry
 
+    Dessert: dessert
     Stew: stew
     Seafood: seafood
 
@@ -54,12 +58,16 @@ extra:
     Mexican: mx
     Spain: ES
     Spanish: es
+    Germany: DE
     German: de
+    Switzerland: CH
     Swiss: ch
     China: CN
     Chinese: cn
     United States: US
+    Cuba: CU
     Cuban: cu
+    Italy: IT
     Italian: it
 
   social:
@@ -75,9 +83,10 @@ markdown_extensions:
   - toc:
       permalink: true
   - def_list
-  - attr_list
+  - attr_list # at least for image alignment https://squidfunk.github.io/mkdocs-material/reference/images/#image-alignment-right
   - pymdownx.tilde
   - footnotes
+  - md_in_html # introduced for Image Captions https://squidfunk.github.io/mkdocs-material/reference/images/#image-captions
 
 plugins:
   - tags

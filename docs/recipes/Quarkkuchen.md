@@ -1,7 +1,10 @@
-# Quarkkuchen / "Käsekuchen"
+---
+tags:
+  - Dessert
+  - German
+---
 
-<primary-label ref="recipe"/>
-<secondary-label ref="de"/>
+# Quarkkuchen / "Käsekuchen"
 
 ![Fresszettel mit dem überlieferten Rezept](./photos/quarkkuchen-rezept.jpeg)
 
@@ -31,10 +34,10 @@
 ## Zubereitung
 
 1. Boden verkneten
-  * in Backform verteilen
-  * Rand leicht hochziehen
+    * in Backform verteilen 
+    * Rand leicht hochziehen
 2. Füllung verrühren
-  * auf den Boden gießen
+    * auf den Boden gießen
 3. Im Backofen bei 190&thinsp;°C für 60′ backen, danach ausschalten und im heißen Backofen ruhen lassen
 
 ----

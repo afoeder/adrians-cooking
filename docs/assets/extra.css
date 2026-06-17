@@ -17,6 +17,16 @@ main .md-typeset dd {
     margin-top: 0;
 }
 
+main .md-typeset figure {
+    margin-top: 0;
+}
+
+main .md-typeset figcaption {
+    font-size: smaller;
+    text-align: left;
+    margin: -1rem auto 0;
+}
+
 /* as seen on https://github.com/squidfunk/mkdocs-material/pull/8087#issuecomment-2721416128
    the custom SVG icons use a masking property ("mask-image"). This fills the whole icon
    grey, unfortunately, so we'll set the svg-icon as an actual background-image for classes
