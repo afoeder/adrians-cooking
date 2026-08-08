@@ -31,6 +31,16 @@ ich selbst noch nicht ausprobiert, wäre aber nach diesem Rezept die eigentliche
 5. Pro Pancake ca. ¼ Tasse Teig aufgießen
 6. Von beiden Seiten goldbraun braten (Blasen an der Oberfläche = wenden), heiß servieren
 
+## Banana-Variante (Idee, noch nicht ausprobiert)
+
+Für zwei sehr reife Bananen, die mir zum So-Essen zu weich geworden waren:
+
+- 2 reife Bananen mit der Gabel zerdrücken und zu den flüssigen Zutaten (Buttermilch/Milch, Ei, Butter) dazugeben
+- Buttermilch/Milch um ca. ¼ Tasse reduzieren, die Banane bringt selbst Feuchtigkeit mit – lieber erst weniger nehmen und bei Bedarf nachgießen
+- Zucker halbieren oder ganz weglassen, die Banane süßt schon genug
+- Hitze eher etwas niedriger als sonst, der Fruchtzucker karamellisiert schneller – sonst außen zu dunkel, bevor sie innen durch sind
+- optional: Prise Zimt, ggf. etwas Vanilleextrakt
+
 ## Notizen
 
 - Teig direkt vor dem Braten machen, nicht lange stehen lassen
