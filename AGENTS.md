@@ -85,6 +85,13 @@ MkDocs site. Has its own `package.json`, `README.md`, and Jest tests
 (`npm test` from within `amex-dining-credit/`). Changes to the cooking content in `docs/`
 should not touch this directory, and vice versa.
 
+## Git / commit conventions
+
+- Commits should be authored as the human (Adrian Föder `<adrian@foeder.de>`), not as the agent.
+  Set `GIT_AUTHOR_NAME`/`GIT_AUTHOR_EMAIL` (and committer) accordingly before committing.
+- Add the agent as a `Co-Authored-By:` trailer in the commit message instead, e.g.
+  `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`.
+
 ## General agent notes
 
 - Prefer editing existing files/patterns over introducing new structures.
