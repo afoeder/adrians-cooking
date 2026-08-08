@@ -29,8 +29,10 @@ CONTRIBUTING.md     Style guide (units, fractions, prime symbols) — authoritat
 ```
 
 Each content directory usually has a `.meta.yml` with a default `tags:` entry
-(via the MkDocs `meta` plugin) applied to every page in it. Individual pages
-can add more specific tags inline with:
+(via the MkDocs `meta` plugin) applied to every page in it. This is currently the
+**only working way** to tag a page.
+
+Many existing pages also carry inline markup like:
 
 ```
 <primary-label ref="recipe"/>
@@ -38,9 +40,16 @@ can add more specific tags inline with:
 <secondary-label ref="stew"/>
 ```
 
-Valid `ref` values are the tag *keys* (right-hand side) defined under `extra.tags`
-in `mkdocs.yml` — check there before inventing a new tag, and add new tags to that
-list (plus an icon under `theme.icon.tag` / `overrides/.icons/`) if you introduce one.
+**⚠️ These `<primary-label>`/`<secondary-label>` tags are obsolete/dead.** They are a
+leftover from an earlier JetBrains Writerside-based version of this project and are
+*not* processed by MkDocs Material/the `meta`/`tags` plugins used today — they don't do
+anything anymore, they just sit in the rendered page as inert HTML-ish text. They still
+appear in many existing files but should **not** be used as a model for new content, and
+should eventually be removed from the repo (tracked as cleanup, not yet done — don't
+mass-delete them on your own initiative unless asked). Until that cleanup happens, treat
+`.meta.yml` as the authoritative tag source and check `extra.tags` in `mkdocs.yml` for
+the valid tag keys before inventing a new one (add an icon under `theme.icon.tag` /
+`overrides/.icons/` if you introduce one).
 
 ## Content conventions (recipes especially)
 
