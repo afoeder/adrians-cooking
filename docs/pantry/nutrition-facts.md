@@ -30,7 +30,7 @@ Keine EAN (Bäckerware).
 | Eiweiß                      | 11 g                |
 | Salz                        | 1,6 g               |
 
-## Milchprodukte
+## Milchprodukte & Alternativen
 
 ### Svježi polumasni sir (Kaufland Hrvatska) {#ean-3858893130611}
 
@@ -49,6 +49,45 @@ Inverkehrbringer: Kaufland Hrvatska k.d., Zagreb.
 | davon Zucker                | 3,0 g             |
 | Eiweiß                      | 10 g              |
 | Salz                        | 0,20 g            |
+
+### Vemondo „No Milk“ Hafer 3,5 % Fett (Lidl) {#lidl-vemondo-no-milk-hafer-3-5}
+
+Haferdrink, Lidl-Eigenmarke Vemondo, 1 l. Vegan, laktosefrei, mit Calcium, Vitamin D und B12.
+Zutaten: Wasser, 8,7 % Hafer (fermentiert), Rapsöl, Inulin, Calciumcarbonat, Erbsenprotein,
+Meersalz, natürliches Aroma, Stabilisator Gellan, Vitamine.
+
+**EAN:** `4335619030954` oder `4056489708995` – beide Varianten sind im Umlauf; noch nicht vom
+eigenen Karton bestätigt. Werte aus [Open Food Facts](https://de.openfoodfacts.org/produkt/4335619030954/no-milk-hafer-3-5-fett-vemondo).
+
+| Durchschnittliche Werte     | je 100 ml       |
+|-----------------------------|-----------------|
+| Energie                     | 222 kJ / 53 kcal |
+| Fett                        | 3,5 g           |
+| davon gesättigte Fettsäuren | 0,3 g           |
+| Kohlenhydrate               | 4,1 g           |
+| davon Zucker                | 1,2 g           |
+| Ballaststoffe               | 1,1 g           |
+| Eiweiß                      | 0,8 g           |
+| Salz                        | 0,13 g          |
+
+## Getränke
+
+### Staropramen Premium (0,5 l Flasche) {#ean-8593868110117}
+
+Tschechisches Lagerbier, Staropramen, Prag. 5,0 % Vol.
+Zutaten: Wasser, Gerstenmalz, Gerste, Hopfen, isomerisierter Hopfenextrakt, Kohlendioxid.
+
+**EAN:** `8593868110117` (0,5-l-Flasche; noch nicht vom eigenen Gebinde bestätigt).
+Werte aus [Open Food Facts](https://de.openfoodfacts.org/produkt/8593868110117/staropramen-premium-beer).
+
+| Durchschnittliche Werte     | je 100 ml   |
+|-----------------------------|-------------|
+| Energie                     | 49 kcal     |
+| Alkohol                     | 5,0 % Vol.  |
+| Fett                        | 0,1 g       |
+| Kohlenhydrate               | 3,2 g       |
+| davon Zucker                | 0,5 g       |
+| Eiweiß                      | 0,7 g       |
 
 ## Nahrungsergänzung
 
