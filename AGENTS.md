@@ -18,9 +18,10 @@ docs/
   recipes/       Recipes (main content)
   hospitality/    Restaurant / venue reviews
   knowledge/      General cooking knowledge (sous vide, vacuum sealing, gear, …)
-  pantry/         Pantry ingredient write-ups (often with photos/)
+  pantry/         Pantry ingredient write-ups (often with photos/), incl. nutrition-facts.md product catalog
   blog/           MkDocs blog plugin posts (e.g. meal plans)
   about.md, index.md
+templates/          Templates for new content (not rendered), e.g. meal-plan-day.md
 mkdocs.yml         Site config: nav, theme, tag definitions, plugins
 overrides/          Custom theme assets, incl. locally cached emoji icons used as tag icons
 amex-dining-credit/ Standalone Node.js tool, unrelated to the recipe content
@@ -68,6 +69,54 @@ Follow `CONTRIBUTING.md` for style. Highlights:
 - Don't invent recipe content. When asked to add a recipe from an external source, keep it
   attributed (source link, video, book, etc., as several existing files already do) and keep
   quantities/steps faithful to the source rather than guessing.
+
+## Meal-Plan-Posts (Tages-Ernährungslog)
+
+Adrian tells the agent (in German, often in several messages over the day) what he ate;
+the agent turns that into one blog post per day. The goal is that he only has to say what he
+ate — everything else follows from these rules.
+
+**Profile (for the commentary, not printed in posts unless asked):** 174 cm, 68 kg,
+wants a moderate calorie deficit to lose fat. Rough target ~1.700–1.900 kcal/day and
+~110–135 g protein/day (1,6–2 g/kg). Typical breakfast: 180 g Skyr + 30–40 g Haferflocken
+(use 35 g if not specified). Lunch is usually in the Kantine with unknown portions.
+When replying, briefly say how the day stands against these targets; keep it encouraging, no
+lecturing — a single low or high day is fine, the weekly average is what counts.
+
+**File:** `docs/blog/posts/YYYY-MM-DD What to eat.md`, based on
+[`templates/meal-plan-day.md`](templates/meal-plan-day.md) (the template lives outside `docs/`
+so it is not rendered). Written in German. Structure: front matter with `date` and
+`categories: [Meal Plan]`, heading `# Essen am <D. Monat YYYY>`, a day summary table
+(one row per meal + `**Zusammen**`), then one `##` section per meal (`Frühstück`, `Mittag`,
+`Abend`, and `Später` for snacks/shakes) with an ingredient table and `**Gesamt**` row.
+Columns are always Kalorien / Eiweiß / Kohlenhydrate / Fett, values prefixed with `~`
+because they are estimates. Omit meals that haven't happened (yet) rather than writing
+"unbekannt" rows. Keep the summary table and all totals consistent after every change.
+
+**Products:** Packaged/specific products live in the product catalog
+[`docs/pantry/nutrition-facts.md`](docs/pantry/nutrition-facts.md), not in the posts. Each
+product is one `###` section with an explicit anchor `{#ean-<EAN>}` (or a descriptive slug like
+`{#maurer-dinkelwuerfel}` if there is no EAN), a short description (brand, store/manufacturer,
+package size), the EAN, and the nutrition table exactly as printed on the label. Posts only
+state the amount eaten and link to the anchor, e.g.
+`[Svježi polumasni sir](../../pantry/nutrition-facts.md#ean-3858893130611)`.
+- When Adrian sends a photo of a label, transcribe it into a new catalog entry. Validate the EAN
+  check digit before using it. Never edit an existing entry's values to fit a different product —
+  a different product (other store, other brand, changed recipe) gets its own entry, so older
+  posts stay correct.
+- For products with a website (e.g. bakery bread), take the values from there and link the page.
+- Unpackaged food (Kantine, restaurant, home-cooked without label) is estimated with typical
+  values and marked as such, e.g. `(Kantine – Mengen geschätzt)`.
+
+**Git workflow — one commit per day:**
+1. First message of a day: branch `blog/YYYY-MM-DD-what-to-eat` from an up-to-date `main`,
+   create the post (plus any new catalog entries), commit, push.
+2. Every later addition that day: update the post, `git commit --amend`, and
+   `git push --force-with-lease`, so the branch always holds exactly one commit for that day.
+   Commit message: `Add meal plan blog post for YYYY-MM-DD` with a short German body listing the meals.
+3. When Adrian says the day is complete, merge into `main` (fast-forward/squash, so one commit
+   lands) and push — Cloudflare Pages then publishes it. Don't merge before he says so.
+   Changes to the catalog or this workflow that aren't part of a specific day go in their own commit.
 
 ## Working with the site
 
