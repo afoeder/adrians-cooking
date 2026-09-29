@@ -35,3 +35,21 @@ main .md-typeset figcaption {
 .md-typeset .md-tag-icon[class*='md-tag--']:before {
     background-image: var(--md-tag-icon);
 }
+
+/* recipe card in Michael Chu's "Cooking for Engineers" notation:
+   every cell is framed so that row- and colspans read as a tree */
+main .md-typeset table.recipe-card {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+    font-size: .7rem;
+    & td {
+        border: 1px solid var(--md-default-fg-color--light);
+        padding: .4em .7em;
+        vertical-align: middle;
+    }
+    & td:not(:first-child) {
+        background-color: var(--md-code-bg-color);
+    }
+}
