@@ -70,6 +70,31 @@ eigenen Karton bestätigt. Werte aus [Open Food Facts](https://de.openfoodfacts.
 | Eiweiß                      | 0,8 g           |
 | Salz                        | 0,13 g          |
 
+## Fisch
+
+### Bom Petisco Sardinhas em óleo de girassol picante {#ean-5601029000085}
+
+Sardinen in scharfem Sonnenblumenöl, Bom Petisco, Portugal. 120 g Dose, 84 g abgetropft.
+Zutaten: Sardinen (*Sardina pilchardus*) 70 %, Sonnenblumenöl 28,4 %, Salz, Piri-Piri 0,5 %,
+natürliches Chiliaroma 0,1 %. Herkunft: Atlantik.
+
+**EAN:** `5601029000085`
+
+| Durchschnittliche Werte je 100 g **abgetropft** | je 100 g         |
+|-------------------------------------------------|------------------|
+| Energie                                         | 681 kJ / 163 kcal |
+| Fett                                            | 8,1 g            |
+| davon gesättigte Fettsäuren                     | 1,9 g            |
+| Kohlenhydrate                                   | 0 g              |
+| davon Zucker                                    | 0 g              |
+| Eiweiß                                          | 22 g             |
+| Salz                                            | 0,9 g            |
+| Omega-3-Fettsäuren                              | 1,5 g            |
+| davon EPA + DHA                                 | 1 g              |
+
+Die Werte beziehen sich auf den abgetropften Fisch; mitgegessenes Öl kommt obendrauf
+(~9 kcal je g).
+
 ## Getränke
 
 ### Staropramen Premium (0,5 l Flasche) {#ean-8593868110117}
