@@ -77,8 +77,12 @@ the agent turns that into one blog post per day. The goal is that he only has to
 ate — everything else follows from these rules.
 
 **Profile (for the commentary, not printed in posts unless asked):** 174 cm, 68 kg,
-wants a moderate calorie deficit to lose fat. Rough target ~1.700–1.900 kcal/day and
-~110–135 g protein/day (1,6–2 g/kg). Typical breakfast: 180 g Skyr + 30–40 g Haferflocken
+wants a moderate calorie deficit to lose fat. Apple Health, September 2026 averages:
+Ruheenergie ~1.758 kcal + Aktive Energie ~845 kcal = ~2.600 kcal/day (watch active values
+tend to run high, so assume ~2.350–2.600). Target ~1.900–2.100 kcal/day (deficit ~400–500 kcal)
+and ~110–135 g protein/day (1,6–2 g/kg). Regularly eating far below ~1.800 kcal is too
+aggressive — point that out gently. Re-check the target when Adrian reports new averages or his
+weight trend (goal ~0,3–0,5 kg/week). Typical breakfast: 180 g Skyr + 30–40 g Haferflocken
 (use 35 g if not specified). Lunch is usually in the Kantine with unknown portions.
 When replying, briefly say how the day stands against these targets; keep it encouraging, no
 lecturing — a single low or high day is fine, the weekly average is what counts.
