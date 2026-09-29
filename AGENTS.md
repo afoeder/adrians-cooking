@@ -112,6 +112,25 @@ state the amount eaten and link to the anchor, e.g.
 - Unpackaged food (Kantine, restaurant, home-cooked without label) is estimated with typical
   values and marked as such, e.g. `(Kantine – Mengen geschätzt)`.
 
+**Kantine receipts (JSON export from the canteen's POS):** Adrian may attach the receipt as a
+JSON array, one object per item (`articleName`/`guestDescription`, `nutrientInfo[]` with
+`nutrientName`, `currentValue`, `unitShortName`). The values are per item as served, but the
+units are unreliable despite all saying "g":
+- `kcal` and `Kohlenhydrate`: trustworthy, use as-is.
+- `Fett`: consistently in **milligrams** (e.g. `18865.94` → 18,9 g).
+- `Eiweiß`: sometimes correct, sometimes ×10 too high (`30.43` on a side salad → ~3 g) or in mg.
+- `davon Zucker`: sometimes mg (`3817.03` → 3,8 g), sometimes g.
+- `davon Gesättigte Fettsäuren`: unusable (often exceeds total fat) — ignore.
+- `Salz`: mostly plausible in g, but treat values > ~5 g per item as suspect.
+- All-zero `nutrientInfo` (e.g. the Schnitzel) means no data — estimate from the name,
+  which often includes the portion weight (`… 125g`). Drinks like Tafelwasser have no values.
+
+Always sanity-check with the energy balance (4 kcal/g carbs & protein, 9 kcal/g fat) against the
+`kcal` value; if protein/fat don't reconcile, keep kcal and carbs and derive the rest
+(estimate protein, fat = remainder / 9). Note in the post that values come from the receipt
+and which were corrected or derived. If a receipt arrives for a day already on `main`, correct
+that post directly on `main` (small change to existing content).
+
 **Git workflow — one commit per day:**
 1. First message of a day: branch `blog/YYYY-MM-DD-what-to-eat` from an up-to-date `main`,
    create the post (plus any new catalog entries), commit, push.
