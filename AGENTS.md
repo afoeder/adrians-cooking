@@ -140,6 +140,12 @@ should not touch this directory, and vice versa.
   Set `GIT_AUTHOR_NAME`/`GIT_AUTHOR_EMAIL` (and committer) accordingly before committing.
 - Add the agent as a `Co-Authored-By:` trailer in the commit message instead, e.g.
   `Co-Authored-By: Claude Sonnet 5 <noreply@anthropic.com>`.
+- Prefer a single, canonical commit per change: when refining work that isn't merged yet,
+  `git commit --amend` and `git push --force-with-lease` instead of stacking fix-up commits.
+- New undertakings (e.g. a new recipe or page, new structures or tooling) go through a
+  pull request, so they can be refined before landing. Small changes to existing content
+  (a wording fix, an added hint, a corrected quantity) are committed directly to `main`
+  without a PR. If in doubt, ask.
 
 ## General agent notes
 
