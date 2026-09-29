@@ -13,7 +13,7 @@ tags:
 - 70&#x202F;g (Fein-)Zucker (⅓ cup), relativ wenig, aber bewährt
 - 1 Teil starker Kaffee oder Espresso
 - ½ Teil Disaronno
-- 1 Biskuit-Tortenboden
+- 1 Biskuit-Tortenboden; gut geeignet ist ein fertiger „Heller Wiener Boden“ aus dem Handel
 - Kakaopulver zum Bestäuben
 
 ## Zubereitung
