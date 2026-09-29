@@ -9,11 +9,11 @@ categories:
 |                       | Kalorien        | Eiweiß     | Kohlenhydrate | Fett      |
 |-----------------------|-----------------|------------|---------------|-----------|
 | Frühstück             | ~320 kcal       | ~26 g      | ~33 g         | ~7 g      |
-| Mittagessen (Kantine) | ~580 kcal       | ~37 g      | ~36 g         | ~32 g     |
+| Mittagessen (Kantine) | ~895 kcal       | ~38 g      | ~51 g         | ~53 g     |
 | Abendessen            | ~555 kcal       | ~24 g      | ~53 g         | ~25 g     |
 | Proteinshake          | ~56 kcal        | ~13 g      | ~0 g          | ~0 g      |
 | Bier (0,5 l)          | ~245 kcal       | ~4 g       | ~16 g         | ~0 g      |
-| **Zusammen**          | **~1.755 kcal** | **~104 g** | **~138 g**    | **~64 g** |
+| **Zusammen**          | **~2.070 kcal** | **~105 g** | **~153 g**    | **~85 g** |
 
 ## Frühstück
 
@@ -38,17 +38,21 @@ categories:
 ## Mittag
 
 ### Paniertes Hähnchenschnitzel mit grünen Bohnen, Balkangemüse und Salat
-(Kantine – Mengen geschätzt)
+(Kantine – Beilagen laut Kassenbon, Schnitzel geschätzt)
 
-|                                  | Kalorien      | Eiweiß    | Kohlenhydrate | Fett      |
-|----------------------------------|---------------|-----------|---------------|-----------|
-| Hähnchenschnitzel, paniert (~150 g) | ~350 kcal     | ~30 g     | ~15 g         | ~18 g     |
-| Grüne Bohnen (~150 g)            | ~60 kcal      | ~3 g      | ~7 g          | ~3 g      |
-| Balkangemüse (~150 g)            | ~90 kcal      | ~3 g      | ~10 g         | ~4 g      |
-| Kleiner gemischter Salat mit Dressing | ~80 kcal      | ~1 g      | ~4 g          | ~7 g      |
-| **Gesamt**                       | **~580 kcal** | **~37 g** | **~36 g**     | **~32 g** |
+|                                      | Kalorien      | Eiweiß    | Kohlenhydrate | Fett      |
+|--------------------------------------|---------------|-----------|---------------|-----------|
+| Hähnchenschnitzel, paniert, glutenfrei (125 g) | ~300 kcal     | ~25 g     | ~13 g         | ~15 g     |
+| Grüne Bohnen                         | ~156 kcal     | ~5 g      | ~8 g          | ~9 g      |
+| Balkangemüse                         | ~206 kcal     | ~6 g      | ~15 g         | ~9 g      |
+| Schwäbischer Beilagensalat           | ~233 kcal     | ~3 g      | ~14 g         | ~19 g     |
+| **Gesamt**                           | **~895 kcal** | **~38 g** | **~51 g**     | **~53 g** |
 
-Das meiste Fett steckt in der Panade (Bratfett) und im Dressing.
+Nachträglich mit dem Kassenbon korrigiert (ursprünglich auf ~580 kcal geschätzt): Die Beilagen
+waren deutlich fettreicher als gedacht – Bohnen und Balkangemüse mit je ~9 g Fett, der
+„Beilagensalat“ mit ~19 g. Für das Schnitzel lieferte die Kasse keine Werte, daher geschätzt.
+Die Fettwerte stehen im Kassenbon in Milligramm (z. B. „18.866 g“ = 18,9 g); Eiweiß beim
+Beilagensalat (30,43 g) passt nicht zur Energiebilanz und wurde auf ~3 g korrigiert.
 
 ## Abend
 
