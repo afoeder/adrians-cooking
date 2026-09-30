@@ -82,8 +82,9 @@ Ruheenergie ~1.758 kcal + Aktive Energie ~845 kcal = ~2.600 kcal/day (watch acti
 tend to run high, so assume ~2.350–2.600). Target ~1.900–2.100 kcal/day (deficit ~400–500 kcal)
 and ~110–135 g protein/day (1,6–2 g/kg). Regularly eating far below ~1.800 kcal is too
 aggressive — point that out gently. Re-check the target when Adrian reports new averages or his
-weight trend (goal ~0,3–0,5 kg/week). Typical breakfast: 180 g Skyr + 30–40 g Haferflocken
-(use 35 g if not specified). Lunch is usually in the Kantine with unknown portions.
+weight trend (goal ~0,3–0,5 kg/week). Typical breakfast: 180–200 g Skyr + 30–40 g Haferflocken
+(ask or use 35 g if not specified), plus "Kaffee wie üblich" = 0,5 l coffee with 100 g Vemondo
+„No Milk“ Hafer 3,5 % (catalog anchor `#lidl-vemondo-no-milk-hafer-3-5`). Lunch is usually in the Kantine with unknown portions.
 When replying, briefly say how the day stands against these targets; keep it encouraging, no
 lecturing — a single low or high day is fine, the weekly average is what counts.
 
