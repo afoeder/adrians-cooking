@@ -50,6 +50,25 @@ Inverkehrbringer: Kaufland Hrvatska k.d., Zagreb.
 | Eiweiß                      | 10 g              |
 | Salz                        | 0,20 g            |
 
+### Svježi posni sir (Kaufland Hrvatska) {#ean-3858893130604}
+
+Magerer Frischkäse (körnig, ähnlich Hüttenkäse), min. 7 % Fett i. Tr., 500 g – die fettarme
+Variante des [halbfetten Svježi polumasni sir](#ean-3858893130611) (blauer statt oranger Becher).
+Zutaten: pasteurisierte Milch, Milchkulturen, Lab.
+Inverkehrbringer: Kaufland Hrvatska k.d., Zagreb.
+
+**EAN:** `3858893130604`
+
+| Durchschnittliche Werte     | je 100 g          |
+|-----------------------------|-------------------|
+| Energie                     | 301 kJ / 71 kcal  |
+| Fett                        | 1,7 g             |
+| davon gesättigte Fettsäuren | 1,2 g             |
+| Kohlenhydrate               | 3,0 g             |
+| davon Zucker                | 3,0 g             |
+| Eiweiß                      | 11 g              |
+| Salz                        | 0,15 g            |
+
 ### Vemondo „No Milk“ Hafer 3,5 % Fett (Lidl) {#lidl-vemondo-no-milk-hafer-3-5}
 
 Haferdrink, Lidl-Eigenmarke Vemondo, 1 l. Vegan, laktosefrei, mit Calcium, Vitamin D und B12.
