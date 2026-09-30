@@ -8,7 +8,7 @@ categories:
 
 <!--
 Vorlage für einen Tages-Post. Kopieren nach
-docs/blog/posts/YYYY-MM-DD What to eat.md – Regeln siehe AGENTS.md, Abschnitt „Meal-Plan-Posts“.
+docs/blog/posts/YYYY-MM-DD What I ate.md – Regeln siehe AGENTS.md, Abschnitt „Meal-Plan-Posts“.
 Mahlzeiten, die (noch) nicht stattgefunden haben, einfach weglassen.
 Diesen Kommentar im fertigen Post entfernen.
 -->

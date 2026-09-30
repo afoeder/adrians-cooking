@@ -88,7 +88,7 @@ weight trend (goal ~0,3–0,5 kg/week). Typical breakfast: 180–200 g Skyr + 30
 When replying, briefly say how the day stands against these targets; keep it encouraging, no
 lecturing — a single low or high day is fine, the weekly average is what counts.
 
-**File:** `docs/blog/posts/YYYY-MM-DD What to eat.md`, based on
+**File:** `docs/blog/posts/YYYY-MM-DD What I ate.md`, based on
 [`templates/meal-plan-day.md`](templates/meal-plan-day.md) (the template lives outside `docs/`
 so it is not rendered). Written in German. Structure: front matter with `date` and
 `categories: [What I Ate]`, heading `# Essen am <D. Monat YYYY>`, a day summary table
