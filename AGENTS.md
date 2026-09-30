@@ -117,7 +117,10 @@ state the amount eaten and link to the anchor, e.g.
 JSON array, one object per item (`articleName`/`guestDescription`, `nutrientInfo[]` with
 `nutrientName`, `currentValue`, `unitShortName`). The values are per item as served, but the
 units are unreliable despite all saying "g":
-- `kcal` and `Kohlenhydrate`: trustworthy, use as-is.
+- `kcal` and `Kohlenhydrate`: usually plausible, but not always — e.g. Tagliatelle Aglio Olio
+  (2026-09-30) listed 1.339 kcal while carbs/fat only add up to ~870 kcal. Always cross-check.
+- Some items use a different scaling altogether (recognisable by `unitName: "g"` with an empty
+  `unitShortName`, e.g. Glasnudelsalat): there only `kcal` looked usable; sugar exceeded carbs.
 - `Fett`: consistently in **milligrams** (e.g. `18865.94` → 18,9 g).
 - `Eiweiß`: sometimes correct, sometimes ×10 too high (`30.43` on a side salad → ~3 g) or in mg.
 - `davon Zucker`: sometimes mg (`3817.03` → 3,8 g), sometimes g.
