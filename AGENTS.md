@@ -98,6 +98,14 @@ Columns are always Kalorien / Eiweiß / Kohlenhydrate / Fett, values prefixed wi
 because they are estimates. Omit meals that haven't happened (yet) rather than writing
 "unbekannt" rows. Keep the summary table and all totals consistent after every change.
 
+**Energy balance:** Every morning Adrian sends the previous day's Apple Health values
+(Ruheenergie + Aktive Energie, e.g. copied by his iOS shortcut), usually together with breakfast.
+Add them to the previous day's post directly below the summary table:
+`**Energiebilanz laut Apple Health:** Ruheenergie X kcal + Aktive Energie Y kcal = **Z kcal Verbrauch** → Defizit **~N kcal**`
+(or "Überschuss" if intake was higher). If that day is already on `main`, add it there directly
+(small change to existing content); otherwise amend it into the day's commit. Use the real
+values for commentary instead of the monthly average whenever available.
+
 **Products:** Packaged/specific products live in the product catalog
 [`docs/pantry/nutrition-facts.md`](docs/pantry/nutrition-facts.md), not in the posts. Each
 product is one `###` section with an explicit anchor `{#ean-<EAN>}` (or a descriptive slug like

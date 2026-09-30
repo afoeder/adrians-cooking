@@ -20,6 +20,10 @@ Diesen Kommentar im fertigen Post entfernen.
 | Abendessen   | ~0 kcal       | ~0 g      | ~0 g          | ~0 g      |
 | **Zusammen** | **~0 kcal**   | **~0 g**  | **~0 g**      | **~0 g**  |
 
+**Energiebilanz laut Apple Health:** Ruheenergie 0 kcal + Aktive Energie 0 kcal =
+**0 kcal Verbrauch** → Defizit **~0 kcal**.
+<!-- Wird am Folgetag mit den Apple-Health-Werten ergänzt; bis dahin weglassen. -->
+
 ## Frühstück
 
 ### Name des Gerichts
