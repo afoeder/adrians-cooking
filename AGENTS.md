@@ -91,7 +91,7 @@ lecturing — a single low or high day is fine, the weekly average is what count
 **File:** `docs/blog/posts/YYYY-MM-DD What to eat.md`, based on
 [`templates/meal-plan-day.md`](templates/meal-plan-day.md) (the template lives outside `docs/`
 so it is not rendered). Written in German. Structure: front matter with `date` and
-`categories: [Meal Plan]`, heading `# Essen am <D. Monat YYYY>`, a day summary table
+`categories: [What I Ate]`, heading `# Essen am <D. Monat YYYY>`, a day summary table
 (one row per meal + `**Zusammen**`), then one `##` section per meal (`Frühstück`, `Mittag`,
 `Abend`, and `Später` for snacks/shakes) with an ingredient table and `**Gesamt**` row.
 Columns are always Kalorien / Eiweiß / Kohlenhydrate / Fett, values prefixed with `~`
@@ -133,7 +133,7 @@ and which were corrected or derived. If a receipt arrives for a day already on `
 that post directly on `main` (small change to existing content).
 
 **Git workflow — one commit per day:**
-1. First message of a day: branch `blog/YYYY-MM-DD-what-to-eat` from an up-to-date `main`,
+1. First message of a day: branch `blog/YYYY-MM-DD-what-i-ate` from an up-to-date `main`,
    create the post (plus any new catalog entries), commit, push.
 2. Every later addition that day: update the post, `git commit --amend`, and
    `git push --force-with-lease`, so the branch always holds exactly one commit for that day.

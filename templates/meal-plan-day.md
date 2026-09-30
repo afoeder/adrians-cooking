@@ -1,7 +1,7 @@
 ---
 date: YYYY-MM-DD
 categories:
-  - Meal Plan
+  - What I Ate
 ---
 
 # Essen am D. Monat YYYY

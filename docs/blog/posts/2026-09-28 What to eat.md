@@ -1,7 +1,7 @@
 ---
 date: 2026-09-28
 categories:
-  - Meal Plan
+  - What I Ate
 ---
 
 # Essen am 28. September 2026

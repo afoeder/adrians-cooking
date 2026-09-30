@@ -1,7 +1,7 @@
 ---
 date: 2026-04-17
 categories:
-  - Meal Plan
+  - What I Ate
 ---
 
 # Essen am 17. April 2026
