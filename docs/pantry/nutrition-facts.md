@@ -114,6 +114,49 @@ natürliches Chiliaroma 0,1 %. Herkunft: Atlantik.
 Die Werte beziehen sich auf den abgetropften Fisch; mitgegessenes Öl kommt obendrauf
 (~9 kcal je g).
 
+## Snacks & belegte Brote
+
+### Roggenvollkornbrot mit Putensalami (freshcompany) {#ean-4032943301506}
+
+Belegtes Roggenvollkornbrot mit Putensalami (mit Palmfett) und Frischkäse-Aufstrich, 182 g.
+freshcompany GmbH, Weinstadt. Anteile: 62 % Roggenvollkornbrot, 27 % Truthahnsalami mit
+Palmfett, 11 % Aufstrich auf Frischkäsebasis.
+
+**EAN:** `4032943301506`
+
+| Durchschnittliche Werte     | je 100 g          | je Packung (182 g) |
+|-----------------------------|-------------------|--------------------|
+| Energie                     | 970 kJ / 232 kcal | ~422 kcal          |
+| Fett                        | 8,6 g             | ~15,7 g            |
+| davon gesättigte Fettsäuren | 4,6 g             | ~8,4 g             |
+| Kohlenhydrate               | 27 g              | ~49 g              |
+| davon Zucker                | 3,3 g             | ~6,0 g             |
+| Eiweiß                      | 9,2 g             | ~16,7 g            |
+| Salz                        | 2,1 g             | ~3,8 g             |
+
+### IKEA Veggie-Hotdog (Bistro) {#ikea-veggie-hotdog-30569057}
+
+Gemüsewurst mit Grünkohl, roten Linsen, Quinoa, Karotten und Ingwer im Hotdog-Brötchen, IKEA
+Bistro, 1,00 € – [Produktseite](https://www.ikea.com/de/de/food/salesareas/bistro/PRF13827708/).
+Keine EAN (Bistro-Artikel), IKEA-Artikelnummer 305.690.57. Optional mit Röstzwiebeln und Senf.
+Zutaten (Wurst): Wasser, Grünkohl 14 %, gekochte rote Linsen 14 %, gekochter Quinoa 10 %,
+Röstzwiebeln 9 %, texturiertes Weizenprotein 8 %, Karotten, Tomatenmark, Ingwer, Rapsöl, Salz,
+Kartoffelstärke, Kartoffelflocken, Verdickungsmittel, Gewürze. Brötchen: Weizenmehl, Wasser,
+Zucker, Hefe, Rapsöl, Salz, Weizengluten. Allergene: Sellerie, Gluten; Spuren von Sesam.
+
+| Durchschnittliche Werte (Hotdog mit Brötchen) | je 100 g          |
+|-----------------------------------------------|-------------------|
+| Energie                                       | 860 kJ / 204 kcal |
+| Fett                                          | 4,1 g             |
+| davon gesättigte Fettsäuren                   | 0,4 g             |
+| Kohlenhydrate                                 | 31,4 g            |
+| davon Zucker                                  | 4,3 g             |
+| Ballaststoffe                                 | 2,5 g             |
+| Eiweiß                                        | 9,1 g             |
+| Salz                                          | 1,4 g             |
+
+Das Gewicht eines Hotdogs nennt IKEA nicht; angenommen werden ~115 g (≈ 235 kcal).
+
 ## Getränke
 
 ### Staropramen Premium (0,5 l Flasche) {#ean-8593868110117}
