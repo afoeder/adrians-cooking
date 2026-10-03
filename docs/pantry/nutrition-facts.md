@@ -114,6 +114,30 @@ natürliches Chiliaroma 0,1 %. Herkunft: Atlantik.
 Die Werte beziehen sich auf den abgetropften Fisch; mitgegessenes Öl kommt obendrauf
 (~9 kcal je g).
 
+## Fleisch & Wurst
+
+### Simmenthal Rindfleisch in Aspik (3 × 70 g) {#ean-8001070000015}
+
+Gekochtes Rindfleisch in pflanzlichem Gelee, Simmenthal (Bolton Food S.p.A., Italien),
+3 Dosen à 70 g. Glutenfrei.
+Zutaten: Brühe (Wasser, Honig, Kräuter, natürliche Aromen, Gewürze), gekochtes Rindfleisch 35 %
+(entspricht 49 g magerem Rohfleisch je 70 g), Salz, Marsala, Geliermittel Agar-Agar,
+Verdickungsmittel Johannisbrotkernmehl, Geschmacksverstärker Mononatriumglutamat,
+Konservierungsstoff Natriumnitrit.
+
+**EAN:** `8001070000015` (3er-Packung)
+
+| Durchschnittliche Werte     | je 100 g        | je Dose (70 g) |
+|-----------------------------|-----------------|----------------|
+| Energie                     | 258 kJ / 61 kcal | ~43 kcal       |
+| Fett                        | 1,5 g           | ~1,1 g         |
+| davon gesättigte Fettsäuren | 0,7 g           | ~0,5 g         |
+| Kohlenhydrate               | 0,2 g           | ~0,1 g         |
+| davon Zucker                | 0,2 g           | ~0,1 g         |
+| Ballaststoffe               | 0,5 g           | ~0,4 g         |
+| Eiweiß                      | 11 g            | ~7,7 g         |
+| Salz                        | 1,9 g           | ~1,3 g         |
+
 ## Snacks & belegte Brote
 
 ### Roggenvollkornbrot mit Putensalami (freshcompany) {#ean-4032943301506}
